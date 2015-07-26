@@ -5,9 +5,7 @@ branches:
 install:
   - pip install pelican ghp-import markdown
 script:
-  - make html --debug
-after_success:
-  - bash deploy.sh
+  - make publish travis_github
 env:
   global:
     - secure: B0G5Q5MThU7qdzzHhMOpxIO/gCbTsrcnmH9JWQXaDAZnb8wjWof715AR6R7XN3//rp6VqIFy1phf69niwwpVHW+W7QO3tx6MiGRJVteiaBXgXI60w/nbiZLDR9riKTVS9tu1fUkMjluAJGXexxUmUYAcxex9vo0QeUTHZFnZzcskSR5/P8NOD23Jtiyqqh/e0ceoShKDx0ag2mxBkllOC1oy4ODd/AbrfsFUX7wHZP5kei42ftOSFuGz2Tut/qQ27X3P6hBH3sFi+YcX6fN5vm5fWkkYp2IAhYNxRlH/QOej3GnyNojNAQjX2Nj7hDsnLGrWKoezlqfyf6Ta/CEPiZjA+NZMZcDUVOTLv/S4oCpvps+3f0PP/XudYFAZ22bmnT5aQw9KFe7s9wM+ETOkBb6i7sC4NksERAXgYkciEpvj2Oxp8NaIJFueAt/+XodOOtwVFx1zbpcW+/M8lHJWtLIAQugGq3w74mMj3c0IJUygzo/G+B7OsFmEWRisBTTKxNdQIYIR9GVp19kYueDlGk4D3xaxiJAmUcF3Kwq3PH+Cq0R69+PWkxtu8K0ALdThLxNc7ZIePnX34TbFkMmkZIS77IWnXGCFpPWRIFMSrJbwrLkg+imbJgXC2T2IFTQytV6mWd8z4itbGmnhjuRtqHGyp8u9mBu6bsjbi7XXxUA=
