@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Ling\u1e85ars'
 SITENAME = u'Ling\u1e85ars'
-SITEURL = ''
+SITEURL = u'http://localhost:8000'
 
 PATH = 'content'
 
@@ -13,11 +13,14 @@ TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = u'es'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+USE_FOLDERS_AS_CATEGORY = True
+MAIN_MENU = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -26,8 +29,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/Lingwars'),
+          ('twitter', 'https://twitter.com/lingwars'),
+          ('rss', SITEURL + FEED_ALL_ATOM),
+          )
 
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 50
