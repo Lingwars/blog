@@ -43,7 +43,7 @@ Para añadir un artículo nuevo debes seguir los siguientes pasos:
     
     ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres
     especiales como acentos, eñes,... mejor en minúsculas). Recuerda que el archivo debe tener la 
-    extensión md. Pues a escribir:
+    extensión `.md`. Pues ya sólo te queda ponerte a escribir:
     
     ![Write]({filename}/images/lw-4.png)
    
