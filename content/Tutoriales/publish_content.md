@@ -25,8 +25,8 @@ Para añadir un artículo nuevo debes seguir los siguientes pasos:
     necesitarás para poder realizar las modificaciones.
  
  1. **Hacerte una copia del repositorio:** para ello tienes que acceder a la web donde se encuentra
-    este blog (https://github.com/Lingwars/blog) y hacer clic en el botón `Fork` que aparece en la
-    zona superior derecha:
+    este blog [https://github.com/Lingwars/blog](https://github.com/Lingwars/blog) y hacer clic en el 
+    botón `Fork` que aparece en la zona superior derecha:
     
     ![Fork a repository]({filename}/images/lw-1.png)
     
@@ -42,7 +42,8 @@ Para añadir un artículo nuevo debes seguir los siguientes pasos:
     ![Create new file]({filename}/images/lw-3.png)
     
     ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres
-    especiales como acentos, eñes,... mejor en minúsculas) y a escribir:
+    especiales como acentos, eñes,... mejor en minúsculas). Recuerda que el archivo debe tener la 
+    extensión `.md`. Pues ya sólo te queda ponerte a escribir:
     
     ![Write]({filename}/images/lw-4.png)
    
