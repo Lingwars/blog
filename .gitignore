@@ -57,3 +57,7 @@ docs/_build/
 target/
 
 output/
+.idea
+*.pid
+*~
+
