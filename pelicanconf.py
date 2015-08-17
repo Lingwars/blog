@@ -40,5 +40,6 @@ SUMMARY_MAX_LENGTH = 50
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['autopages']
 
+THEME = 'theme/notmyidea'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
