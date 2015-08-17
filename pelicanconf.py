@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/Lingwars'),
           ('twitter', 'https://twitter.com/lingwars'),
-          ('rss', SITEURL + FEED_ALL_ATOM),
+          ('The team', SITEURL + '/authors.html'),
           )
 
 DEFAULT_PAGINATION = 10
