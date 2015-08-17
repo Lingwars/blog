@@ -37,5 +37,8 @@ SOCIAL = (('github', 'https://github.com/Lingwars'),
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 50
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['autopages']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
