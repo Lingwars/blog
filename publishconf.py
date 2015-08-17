@@ -18,7 +18,12 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+# Social widget
+SOCIAL = (('github', 'https://github.com/Lingwars'),
+          ('twitter', 'https://twitter.com/lingwars'),
+          ('The team', SITEURL + '/authors.html'),
+          )
 
+# Following items are often useful when publishing
 DISQUS_SITENAME = "lingwarsblog"
 GOOGLE_ANALYTICS = "UA-65778835-1"
