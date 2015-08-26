@@ -31,11 +31,15 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/Lingwars'),
           ('twitter', 'https://twitter.com/lingwars'),
-          ('rss', SITEURL + FEED_ALL_ATOM),
+          ('The team', SITEURL + '/authors.html'),
           )
 
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 50
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['autopages']
+
+THEME = 'theme/notmyidea'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

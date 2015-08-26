@@ -1,0 +1,56 @@
+{% extends "index.html" %}
+{% block title %}{{ SITENAME }} - {{ author }}{% endblock %}
+
+{% block content %}
+    {% if author.page %}
+        <aside id="featured" class="body">
+            <article>
+                <h1 class="entry-title">{{ author }}</h1>
+                <footer class="post-info">
+                    {% if author.page.metadata.twitter %}
+                        <p>Twitter: <a href="https://twitter.com/{{ author.page.metadata.twitter }}">{{ author.page.metadata.twitter }}</a></p>
+                    {% endif %}
+                    {% if author.page.metadata.github %}
+                        <p>Github: <a href="https://github.com/{{ author.page.metadata.github}}">{{ author.page.metadata.github}}</a></p>
+                    {% endif %}
+                </footer><!-- /.post-info -->
+                {{ author.page.content }}
+            </article>
+        </aside><!-- /#featured -->
+
+        {% if articles %}
+            <section id="content" class="body">
+            <h1>Articles</h1>
+            <hr />
+            <ol id="posts-list" class="hfeed">
+                {% for article in articles_page.object_list %}
+                    <li><article class="hentry">
+                        <header>
+                            <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+                        </header>
+
+                        <div class="entry-content">
+                            {% include 'article_infos.html' %}
+                            {{ article.summary }}
+                            <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
+                            {% include 'comments.html' %}
+                        </div><!-- /.entry-content -->
+                    </article></li>
+                {% endfor %}
+            </ol><!-- /#posts-list -->
+            {% if articles_page.has_other_pages() %}
+                {% include 'pagination.html' %}
+            {% endif %}
+            </section><!-- /#content -->
+        {% else %}
+            <section id="content" class="body">
+                <h2>Pages</h2>
+                {% for page in PAGES %}
+                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </section>
+        {% endif %}
+    {% else %}
+        {{ super() }}
+    {% endif %}
+{% endblock %}
