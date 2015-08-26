@@ -8,5 +8,5 @@ Path es una variable del sistema que tenemos que configurar un poquito para pode
 
 Ve a Equipo y, debajo de la barra de menús, haz click en "Propiedades de sistema".
 
-![Paso 1]({filename}/images/lw-020.png)
+![Paso 1]({filename}/images/lw-020.jpg)
 
