@@ -4,4 +4,4 @@ Tags: blog
 Author: Javier G. Sogo
 Status: draft
 
-Artículo creado en paralelo a @nimbusaeta
+Artículo creado en paralelo a @nimbusaeta para ver qué pasa con los cambios.
