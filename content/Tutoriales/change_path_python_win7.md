@@ -2,6 +2,7 @@ Title: Modificar el path en Windows 7
 Date: 2015-08-26 21:20
 Tags: Windows 7,Python,instalación
 Author: nimbusaeta
+Status: draft
 
 Path es una variable del sistema que tenemos que configurar un poquito para poder ejecutar Python con comodidad.
 
