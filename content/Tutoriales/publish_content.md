@@ -3,7 +3,7 @@ Date: 2015-07-30 10:20
 Tags: blog
 Author: Javier G. Sogo
 
-Voy a explicar cómo añadir contenidos a este blog, así ya nadie tendrá excusas. El blog está construído utilizando [Pelican](http://docs.getpelican.com/en/3.6.0/) y alojado en [Github](https://github.com/Lingwars/blog), porque somos así de _techies_; de esta forma **cualquiera que quiera contribuir puede enviar sus artículos** a través de un pull-request y, después de pasar por nuestro exigente sistema de revisión y corrección, serán incorporados a la versión online.
+Voy a explicar cómo añadir contenidos a este blog, así ya nadie tendrá excusas. El blog está construido utilizando [Pelican](http://docs.getpelican.com/en/3.6.0/) y alojado en [Github](https://github.com/Lingwars/blog), porque somos así de _techies_; de esta forma **cualquiera que quiera contribuir puede enviar sus artículos** a través de un pull-request y, después de pasar por nuestro exigente sistema de revisión y corrección, serán incorporados a la versión online.
 
 Si ya estás familiarizado con el funcionamiento de Github entonces este tutorial no va a dirigido a ti, aquí vamos a explicar este proceso sin necesidad de que salgas de tu navegador y sin que tengas que utilizar Git en ningún momento.
 
@@ -21,23 +21,23 @@ Para añadir un artículo nuevo debes seguir los siguientes pasos:
     
     el sistema creará una copia del repositorio y lo añadirá a los repositorios de tu usuario. Ahora deberías haber sido transportado a esta copia, en la parte superior aparecerá un texto indicando en qué repositorio estás y de dónde has hecho el _fork_.
     
- 1. **Crear un nuevo archivo para escribir:** cada publicación del blog está en un archivo diferente, así que para crear un nuevo articulo tendrás que ir al directorio `content`. Ahí encontrarás archivos y directorios, los directorios son las categorías del blog, elige aquella en la que mejor encaje lo que vas a escribir:
+ 1. **Crear un nuevo archivo para escribir:** cada publicación del blog está en un archivo diferente, así que para crear un nuevo artículo tendrás que ir al directorio `content`. Ahí encontrarás archivos y directorios; los directorios son las categorías del blog, así que elige aquella en la que mejor encaje lo que vas a escribir:
     
     ![Create new file]({filename}/images/lw-3.png)
     
-    ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres especiales como acentos, eñes,... mejor en minúsculas). Recuerda que el archivo debe tener la extensión `.md`. Pues ya sólo te queda ponerte a escribir:
+    ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres especiales como acentos, eñes... y mejor en minúsculas). Recuerda que el archivo debe tener la extensión `.md`. Pues ya sólo te queda ponerte a escribir:
     
     ![Write]({filename}/images/lw-4.png)
    
- 1. **Formato del texto:** el contenido hay que escribirlo utilizando Markdown, para ellos puedes ayudarte algún editor online como [este](http://dillinger.io/) o [este](https://stackedit.io/editor); aunque una vez que le cojas el truco, verás que es muy fácil.
+ 1. **Formato del texto:** el contenido hay que escribirlo utilizando Markdown, para ello puedes ayudarte de algún editor online como [este](http://dillinger.io/) o [este](https://stackedit.io/editor); aunque una vez que le cojas el truco, verás que es muy fácil.
     
- 1. **Guardar:** ten en cuenta que puedes guardar el archivo cuando quieras y seguir después, si vas a la parte de abajo puedes ver el siguiente botón, pon unos buenos comentarios y pulsa en él:
+ 1. **Guardar:** ten en cuenta que puedes guardar el archivo cuando quieras y seguir después. Si vas a la parte de abajo puedes ver el siguiente botón, pon unos buenos comentarios y pulsa en él:
     
     ![Save]({filename}/images/lw-7.png)
     
     El archivo está guardado y a partir de ahora podremos ayudarte a escribirlo.
     
- 1. **Continuar escribiendo:** para añadir contenidos a un archivo existente tendrás que encontrarlo y navegar hasta él, una vez que lo tengas debes hacer clic en lápiz que indica _editar_:
+ 1. **Continuar escribiendo:** para añadir contenidos a un archivo existente tendrás que encontrarlo y navegar hasta él, una vez que lo tengas debes hacer clic en el lápiz, que indica _editar_:
       
     ![Edit]({filename}/images/lw-8.png)
     
