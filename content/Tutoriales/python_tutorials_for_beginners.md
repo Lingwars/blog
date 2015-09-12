@@ -1,6 +1,6 @@
 Title: Lista de recursos online para aprender Python desde cero  
 Date: 2015-09-12 11:45  
-Tags: tutoriales, recursos, principiante  
+Tags: tutoriales, recursos, principiante, Python  
 Author: taniaka  
 
 Abro este post para que vayamos poniendo aquí información sobre tutoriales, cursos online y otros recursos sobre Python para principiantes.
@@ -18,9 +18,9 @@ Está en inglés con subtítulos en inglés. Algunos videos están subtitulados 
 Es totalmente gratis. Solo tienes que pagar si quieres recibir un certificado y poder contar con la ayuda de un *coach* personal.
 
 
-#### 2. [Learn Python development](http://teamtreehouse.com/tracks/learn-python) en la página de *Treehouse*
+#### 2. [Learn Python development](http://teamtreehouse.com/tracks/learn-python) en la página de *Treehouse*.
 
-El curso tiene el mismo formato que el de Udacity y también permite empezar desde cero pero cubre más temas y puede resultar un poco más difícil de seguir para un principiante. No es que las cosas sean mal explicadas, todo lo contrario, pero el instructor habla muy rápido y presenta las cosas de manera más densa. Por lo tanto, yo recomendaría empezar por el curso de Udacity y luego hacer este para repasar y profundizar lo aprendido.
+El curso tiene el mismo formato que el de Udacity y también permite empezar desde cero pero cubre más temas y puede resultar un poco más difícil de seguir para un principiante. No es que las cosas sean mal explicadas, todo lo contrario, pero el instructor habla muy rápido y presenta las cosas de manera bastante densa. Por lo tanto, yo recomendaría empezar por el curso de Udacity y luego hacer este para repasar y profundizar lo aprendido.
 
 Está en inglés con subtítulos en inglés.
 
