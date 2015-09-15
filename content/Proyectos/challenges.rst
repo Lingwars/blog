@@ -5,9 +5,9 @@ Retos y juegos lingüísticos
 :tags: proyect, python, apicultur
 :author: Javier G. Sogo
 
-Acabamos de poner online la primera versión de un conjunto de
+Acabamos de poner *online* la primera versión de un conjunto de
 desafíos lingüísticos (para nosotros lo serán de programación)
-que queremos sacar adelante. `¿Te atreves?`_.
+que queremos sacar adelante. `¿Te atreves?`_
 
 .. _¿Te atreves?: http://games.lingwars.com
 
@@ -85,7 +85,7 @@ Github para que lo incorporemos. Te voy a explicar cómo hacerlo:
             ~/appweb$ python manage.py runserver
         
   
-    * LLegado aquí deberías ser capaz de acceder a la página en tu navegador
+    * Llegado aquí deberías ser capaz de acceder a la página en tu navegador
       introduciendo la dirección :code:`http://localhost:8000/`
       
 .. _Lingwars/lingwars-games: https://github.com/Lingwars/lingwars-games
@@ -146,7 +146,7 @@ Si estos archivos los pones en un nuevo paquete dentro del directorio :code:`~/g
 el sistema debería ser capaz de detectarlos automáticamente y presentarlos en el listado
 de juegos para que lo pruebes.
 
-Si has llegado hasta aquí, ¡enhorabuena! Manda tu pull-request y estaremos encantados
+Si has llegado hasta aquí, ¡enhorabuena! Manda tu *pull-request* y estaremos encantados
 de incorporarlo a la web para que la gente se enfrete a tu nuevo desafío.
 
 ----
