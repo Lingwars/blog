@@ -2,6 +2,10 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         <meta charset="utf-8" />
+
+        <link rel="icon" href="{{ SITEURL }}/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico" type="image/x-icon"/>
+
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         {% if FEED_ALL_ATOM %}
