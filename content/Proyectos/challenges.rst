@@ -20,7 +20,7 @@ e interaccionar con algunas de las cosas que hacemos.
 
 Los juegos
 ----------
-He intentado diseñar una arquitectura para la web que permita que
+He intentado diseñar una arquitectura para la web que permita
 la incorporación de nuevos juegos como si fueran *plug-ins*, es decir,
 que haya una parte central fija que gestione las funcionalidades del
 sistema y que los juegos se incorporen al sistema mediante clases 
