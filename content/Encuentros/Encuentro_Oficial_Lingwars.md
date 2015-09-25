@@ -24,8 +24,9 @@ Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a
 # Qué vamos a hacer
 
 En principio este es el plan:
- | | 
-------- | -------  | -------
+
+Hora | Parte | Descripción
+----- | ----- | -----
 10:30 | __¿Qué es Lingwars?__ | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
 11:30 | __Presentación de proyectos__ | Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.
 14:00 | __Comida__ | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
