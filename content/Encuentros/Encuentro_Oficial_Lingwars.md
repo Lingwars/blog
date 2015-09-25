@@ -24,14 +24,13 @@ Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a
 # Qué vamos a hacer
 
 En principio este es el plan:
-
-```
-10:30 __¿Qué es Lingwars?__: Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
-11:30 __Presentación de proyectos__: Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.
-14:00 __Comida__: Comeremos en algún sitio cercano, se puede apuntar quien quiera.
-16:00 __Manos a la obra__: Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.
-19:30 __Fin__
-```
+ | | 
+------- | -------  | -------
+10:30 | __¿Qué es Lingwars?__ | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
+11:30 | __Presentación de proyectos__ | Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.
+14:00 | __Comida__ | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
+16:00 | __Manos a la obra__ | Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.
+19:30 | __Fin__ | 
 
 Para la parte de la tarde __queda recomendabilísimo traer un portátil__, aunque si no tienes te podemos dejar un ordenador.
 
