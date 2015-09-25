@@ -1,5 +1,5 @@
 Title: I Encuentro Oficial Lingwars (EOL1)
-Date: 2015-09-24 19:00
+Date: 2015-09-25 19:00
 Tags: convocatorias,EOL1
 Author: nimbusaeta
 
@@ -33,6 +33,8 @@ En principio este es el plan:
 19:30 | __Fin__ | 
 
 Para la parte de la tarde __queda recomendabilísimo traer un portátil__, aunque si no tienes te podemos dejar un ordenador.
+
+Puedes apuntarte al [evento en Facebook](https://www.facebook.com/events/100625420292912/) o al de [Meetup](http://www.meetup.com/es/Lenguando/events/225517649/) (o a los dos, claro).
 
 Como siempre (se está convirtiendo en nuestro lema):
 
