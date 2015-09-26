@@ -1,13 +1,13 @@
-Title: I Encuentro Oficial Lingwars (EOL1)
+Title: I Encuentro Oficial Lingẅars (EOL1)
 Date: 2015-09-25 19:00
 Tags: convocatorias,EOL1
 Author: nimbusaeta
 
-    ![Scripts]({filename}/images/lw-029.jpg)
-
 # Por qué se celebra
 
-En Lingwars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.
+En Lingẅars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.
+
+![Lingẅars at work]({filename}/images/lw-029.jpg)
 
 # Cuándo y dónde tendrá lugar
 
@@ -17,9 +17,9 @@ Hemos elegido el __sábado 3 de octubre__ para tener tiempo para todo esto y ade
 
 Hacemos un llamamiento principalmente a __profesionales de la lengua__ (filólogos, lingüistas, traductores, intérpretes, periodistas, escritores, correctores, editores, profesores, bibliotecarios, terminólogos... la lista es larga y alberga horrores) a quienes les llame la atención esto de la lingüística computacional.
 
-Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingwars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.
+Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingẅars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.
 
-Por supuesto, también necesitamos que se apunten a la fiesta __desarrolladores de software__ con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingwars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.
+Por supuesto, también necesitamos que se apunten a la fiesta __desarrolladores de software__ con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingẅars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.
 
 Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a ver de qué va esto, ¡ni que decir tiene que también eres bienvenido!
 
@@ -29,7 +29,7 @@ En principio este es el plan:
 
 Hora | Parte | Descripción
 ----- | ----- | -----
-10:30 | __¿Qué es Lingwars?__ | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
+10:30 | __¿Qué es Lingẅars?__ | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
 11:30 | __Presentación de proyectos__ | Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.
 14:00 | __Comida__ | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
 16:00 | __Manos a la obra__ | Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.
