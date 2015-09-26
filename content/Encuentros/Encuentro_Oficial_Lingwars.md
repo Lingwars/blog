@@ -3,7 +3,7 @@ Date: 2015-09-25 19:00
 Tags: convocatorias,EOL1
 Author: nimbusaeta
 
-    ![Scripts]({filename}/images/lw-029.jpg)
+![Scripts]({filename}/images/lw-029.jpg)
 
 # Por qué se celebra
 
