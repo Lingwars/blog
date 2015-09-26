@@ -3,11 +3,11 @@ Date: 2015-09-25 19:00
 Tags: convocatorias,EOL1
 Author: nimbusaeta
 
-![Scripts]({filename}/images/lw-029.jpg)
-
 # Por qué se celebra
 
 En Lingwars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.
+
+![Scripts]({filename}/images/lw-029.jpg)
 
 # Cuándo y dónde tendrá lugar
 
