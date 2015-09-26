@@ -7,7 +7,7 @@ Author: nimbusaeta
 
 En Lingwars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.
 
-![Scripts]({filename}/images/lw-029.jpg)
+![Lingẅars at work]({filename}/images/lw-029.jpg)
 
 # Cuándo y dónde tendrá lugar
 
