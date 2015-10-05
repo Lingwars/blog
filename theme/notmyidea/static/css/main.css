@@ -219,6 +219,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		-webkit-border-bottom-left-radius: 5px;
 	}
 
+	#banner nav .subscribe {
+		float: right;
+		display: inline;
+		margin: 0;
+	}
+	#banner nav .subscribe img {
+		height: 20px;
+		padding-top: 5px;
+	}
+
 /*
 	Featured
 *****************/

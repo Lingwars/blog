@@ -38,7 +38,9 @@
                     <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
                 {% endif %}
-                </ul></nav>
+                </ul>
+                        <a class="subscribe" href="#"><img src="theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
