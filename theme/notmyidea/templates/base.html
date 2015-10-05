@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico" type="image/x-icon"/>
 
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -39,7 +40,7 @@
                 {% endfor %}
                 {% endif %}
                 </ul>
-                        <a class="subscribe" href="#"><img src="theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                        <a class="subscribe" id="subscribe" href="#"><img src="theme/images/email-icon-hi.png" alt="Apúntate"/></a>
                 </nav>
         </header><!-- /#banner -->
         {% block content %}
@@ -84,5 +85,63 @@
 
 {% include 'analytics.html' %}
 {% include 'disqus_script.html' %}
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+    <script type='text/javascript' src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+    <script>
+        $(document).on("pagecreate", function () {
+                $("#subscribe").on("click", function () {
+                    // close button
+                    var closeBtn = $('<a href="#" data-rel="back" class="ui-btn-right ui-btn ui-btn-b ui-corner-all ui-btn-icon-notext ui-icon-delete ui-shadow">Close</a>');
+
+                    // text you get from Ajax
+                    var content = `
+                    {% include 'mailchimp.html' %}
+                    `;
+
+                    // Popup body - set width is optional - append button and Ajax msg
+                    var popup = $("<div/>", {
+                        "data-role": "popup"
+                    }).css({
+                        width: $(window).width() / 2.5 + "px",
+                        padding: 5 + "px"
+                    }).append(closeBtn).append(content);
+
+                    // Append it to active page
+                    $.mobile.pageContainer.append(popup);
+
+                    // Create it and add listener to delete it once it's closed
+                    // open it
+                    $("[data-role=popup]").popup({
+                        dismissible: false,
+                        history: false,
+                        theme: "b",
+                        /* or a */
+                        positionTo: "window",
+                        overlayTheme: "b",
+                        /* "b" is recommended for overlay */
+                        transition: "pop",
+                        beforeposition: function () {
+                            alert("beforeposition");
+                            $.mobile.pageContainer.pagecontainer("getActivePage")
+                                .addClass("blur-filter");
+                        },
+                        afterclose: function () {
+                            alert("afterclose");
+                            $(this).remove();
+                            $(".blur-filter").removeClass("blur-filter");
+                        },
+                        afteropen: function () {
+                            alert("afteropen");
+                            /* do something */
+                        }
+                    }).popup("open");
+                });
+            });
+        </script>
 </body>
 </html>

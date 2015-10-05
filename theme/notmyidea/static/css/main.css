@@ -219,16 +219,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		-webkit-border-bottom-left-radius: 5px;
 	}
 
-	#banner nav .subscribe {
-		float: right;
-		display: inline;
-		margin: 0;
-	}
-	#banner nav .subscribe img {
-		height: 20px;
-		padding-top: 5px;
-	}
-
 /*
 	Featured
 *****************/
@@ -466,4 +456,25 @@ article img {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
+}
+
+/* Subscribe by email */
+
+#banner nav .subscribe {
+	float: right;
+	display: inline;
+	margin: 0;
+}
+
+#banner nav .subscribe img {
+	height: 20px;
+	padding-top: 5px;
+}
+
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
