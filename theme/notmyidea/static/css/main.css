@@ -501,6 +501,9 @@ article img {
 	color: #000;
 }
 
+h1 a[class="ui-link"]:hover {
+	color: #000;
+}
 
 .blur-filter {
     -webkit-filter: blur(2px);
