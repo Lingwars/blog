@@ -40,7 +40,7 @@
                 {% endfor %}
                 {% endif %}
                 </ul>
-                        <a class="subscribe" id="subscribe" href="#"><img src="theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                        <a class="subscribe" id="subscribe" href="#"><img src="/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
                 </nav>
         </header><!-- /#banner -->
         {% block content %}
@@ -126,17 +126,14 @@
                         /* "b" is recommended for overlay */
                         transition: "pop",
                         beforeposition: function () {
-                            alert("beforeposition");
                             $.mobile.pageContainer.pagecontainer("getActivePage")
                                 .addClass("blur-filter");
                         },
                         afterclose: function () {
-                            alert("afterclose");
                             $(this).remove();
                             $(".blur-filter").removeClass("blur-filter");
                         },
                         afteropen: function () {
-                            alert("afteropen");
                             /* do something */
                         }
                     }).popup("open");

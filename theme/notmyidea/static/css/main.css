@@ -471,6 +471,17 @@ article img {
 	padding-top: 5px;
 }
 
+#banner nav .ui-link {
+	text-shadow: none;
+}
+
+.ui-page-theme-a a a:visited {
+	color: #C74350;
+	font-weight: 300;
+}
+
+
+
 .blur-filter {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
