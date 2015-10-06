@@ -489,6 +489,17 @@ article img {
 	font-weight: 300;
 }
 
+.entry-title a {
+	color: #000;
+	}
+
+.entry-title a:visited {
+	color: #000;
+	}
+
+.entry-title a:hover {
+	color: #000;
+}
 
 
 .blur-filter {
