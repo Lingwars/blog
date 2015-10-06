@@ -48,3 +48,6 @@ STATIC_PATHS = ['images', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+MAILCHIMP = {'u': '08b4bbc276fe5d9a9b89f7bed',
+             'id': '90dcb9a523'}
