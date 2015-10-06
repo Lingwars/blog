@@ -475,6 +475,10 @@ article img {
 	text-shadow: none;
 }
 
+.ui-page-theme-a a {
+	color: #C74350;
+	font-weight: 300;
+}
 .ui-page-theme-a a a:visited {
 	color: #C74350;
 	font-weight: 300;
