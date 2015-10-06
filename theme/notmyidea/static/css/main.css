@@ -476,11 +476,16 @@ article img {
 }
 
 .ui-page-theme-a a {
+	font-weight: 300;
+}
+
+.ui-page-theme-a a:visited {
 	color: #C74350;
 	font-weight: 300;
 }
-.ui-page-theme-a a a:visited {
-	color: #C74350;
+
+.ui-page-theme-a a:hover {
+	color: #fff;
 	font-weight: 300;
 }
 
