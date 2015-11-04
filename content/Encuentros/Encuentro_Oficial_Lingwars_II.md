@@ -1,5 +1,5 @@
 Title: II Encuentro Oficial Lingẅars (EOL2)
-Date: 2015-11-3 19:00
+Date: 2015-11-4 19:00
 Tags: convocatorias,EOL2
 Author: nimbusaeta
 
