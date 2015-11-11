@@ -21,12 +21,11 @@ Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a
 
 En principio este es el plan, pero si somos pocos podemos improvisar sobre la marcha según lo que nos interese:
 
-Hora | Parte | Descripción
------ | ----- | -----
 10:30 | __¿Qué es Lingẅars?__ | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
-11:30 | __Presentación de proyectos__ | Cada equipo presentará su proyecto. Tenemos buscadores automáticos de billetes de AVE, trabajos con corpus, detectores de laísmos, juegos lingüísticos... Si has estado trabajando en el tuyo y quieres presentarlo, escríbenos para que podamos organizar mejor esta parte.
+11:30 | __Manos a la obra__ | Taller de AntConc. Cacharrearemos con este sencillo programa para analizar corpus. Primero veremos cómo funciona y luego haremos prácticas por equipos y pondremos las conclusiones en común.
 14:00 | __Comida__ | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
-16:00 | __Manos a la obra__ | Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.
+16:00 | __Proyectos nacidos en Lingẅars__ | <ul><li>__Neutrón__: una herramienta para hacer traducciones translectales en español de forma automática. Dicho con otras palabras: que permita adaptar un texto a una variedad específica del español. sin quebraderos de cabeza.</li><li>__Analizador de enclíticos__: un programa que determina si una forma verbal con enclíticos es correcta o incorrecta, y analiza las posibles funciones de los enclíticos.</li><li>__Aracne__: un proyecto que servirá de ejemplo de lo que puede llegar a hacerse con corpus.</li></ul>
+18:00 | __Práctica con corpus__ | Aprenderemos cómo trabajan los ordenadores con corpus (recuperación de información) y montaremos nuestro propio motor de búsqueda.
 19:30 | __Fin__ | O salimos a tomar unas cañas, que estamos en plena Latina.
 
 Para la parte de la tarde __recomendamos seriamente traer un portátil__, aunque si no tienes te podemos dejar un ordenador.
