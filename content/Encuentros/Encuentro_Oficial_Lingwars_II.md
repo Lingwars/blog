@@ -27,9 +27,9 @@ En principio este es el plan, pero si somos pocos podemos improvisar sobre la ma
 11:30 | __Manos a la obra__ | Taller de AntConc. Cacharrearemos con este sencillo programa para analizar corpus. Primero veremos cómo funciona y luego haremos prácticas por equipos y pondremos las conclusiones en común.
 14:00 | __Comida__ | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
 16:00 | __Presentación de proyectos__ | __Neutrón__: una herramienta para hacer traducciones translectales en español de forma automática. Dicho con otras palabras: que permita adaptar un texto a una variedad específica del español, sin quebraderos de cabeza.
- | | __Analizador de enclíticos__: un programa que determina si una forma verbal con enclíticos es correcta o incorrecta, y analiza las posibles funciones de los enclíticos.
- | | __Aracne__: un proyecto que servirá de ejemplo de lo que puede llegar a hacerse con corpus.
-18:00 | __Práctica con corpus__ | Aprenderemos cómo trabajan los ordenadores con corpus (recuperación de información) y montaremos nuestro propio motor de búsqueda.
+| | | __Analizador de enclíticos__: un programa que determina si una forma verbal con enclíticos es correcta o incorrecta, y analiza las posibles funciones de los enclíticos.
+| | | __Aracne__: un proyecto que servirá de ejemplo de lo que puede llegar a hacerse con corpus.
+17:30 | __Práctica con corpus__ | Aprenderemos cómo trabajan los ordenadores con corpus (recuperación de información) y montaremos nuestro propio motor de búsqueda.
 19:30 | __Fin__ | O salimos a tomar unas cañas, que estamos en plena Latina.
 
 Para la parte de la tarde __recomendamos seriamente traer un portátil__, aunque si no tienes te podemos dejar un ordenador.
