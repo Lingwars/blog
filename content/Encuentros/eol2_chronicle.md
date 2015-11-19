@@ -1,5 +1,5 @@
 Title: Crónica del EOL2
-Date: 2015-07-30 10:20
+Date: 2015-11-20 10:20
 Tags: eol, chronicle
 Author: Javier G. Sogo
 
@@ -29,7 +29,7 @@ entre las dos aprendimos lo que es un corpus y cómo manejarlo. En primer lugar 
 * Tipos de corpus.
 
 Una introducción imprescindible para la gente que se acerca por vez primera a este campo, podéis descargar la presentación
-[aquí]({filename}/extra/eol-2-intro_to_corpus.pdf).
+[aquí]({filename}/pdfs/eol-2-intro_to_corpus.pdf).
 
 ![Introducción a la lingüística de corpus]({filename}/images/lw-043.jpg)
 
@@ -41,7 +41,7 @@ más simples como contar palabras hasta estudios de concordancia que permiten id
 pertenece un conjunto de documentos.
 Si quieres hacer pruebas tú mismo puedes instalarte el programa y descargarte el corpus con el que anduvimos cacharreando:
 una selección de artículos de El País recogidos por Tania utilizando [import.io](https://import.io/), ¡algún día nos contará 
-cómo lo hizo! [Corpus El Pais 2015-7 (7,8 Mb)]({filename}/extra/eol-2-corpus-Pais_2015_7.zip).
+cómo lo hizo! [Corpus El Pais 2015-7 (7,8 Mb)]({filename}/pdfs/eol-2-corpus-Pais_2015_7.zip).
 
 
 # Por la tarde
@@ -50,12 +50,12 @@ cómo lo hizo! [Corpus El Pais 2015-7 (7,8 Mb)]({filename}/extra/eol-2-corpus-Pa
 
 Dividimos la tarde en dos secciones, en primer lugar contamos algunos proyectos que están en marcha o en los que participamos:
 
-* [Neutrón (Javi)]({filename}/extra/eol-2-neutron.pdf): una herramienta para ayudar en la neutralización de textos y la
+* [Neutrón (Javi)]({filename}/pdfs/eol-2-neutron.pdf): una herramienta para ayudar en la neutralización de textos y la
 traducción translectal. Está en fase de gestación, pero apunta maneras ;D
-* [Aracne (Leticia y Elena)]({filename}/extra/aracne.pdf): un proyecto de [Fundéu BBVA](http://www.fundeu.es/) para analizar la
+* [Aracne (Leticia y Elena)]({filename}/pdfs/aracne.pdf): un proyecto de [Fundéu BBVA](http://www.fundeu.es/) para analizar la
 evolución del lenguaje periodístico durante el último siglo. En breve tendremos noticias de las conclusiones a las que vayan
 llegando a través de los medios, seguro.
-* [El Enclitizador (Tania y Leticia)]({filename}/extra/eol-2-encliticos.pdf): herramienta que analiza una forma verbal con
+* [El Enclitizador (Tania y Leticia)]({filename}/pdfs/eol-2-encliticos.pdf): herramienta que analiza una forma verbal con
 enclíticos y ofrece información detallada sobre su corrección y la función de cada uno de ellos. Por cierto, buscan a alguien
 con conocimientos de programación que quiera hacer una interfaz: una web, un bot de Telegram,... ¿te animas?
 
