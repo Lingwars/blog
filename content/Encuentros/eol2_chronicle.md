@@ -47,16 +47,33 @@ cómo lo hizo! [Corpus El Pais 2015-7 (7,8 Mb)]({filename}/pdfs/eol-2-corpus-Pai
 # Por la tarde
 
 ## Proyectos
-
 Dividimos la tarde en dos secciones, en primer lugar contamos algunos proyectos que están en marcha o en los que participamos:
 
 * [Neutrón (Javi)]({filename}/pdfs/eol-2-neutron.pdf): una herramienta para ayudar en la neutralización de textos y la
 traducción translectal. Está en fase de gestación, pero apunta maneras ;D
-* [Aracne (Leticia y Elena)]({filename}/pdfs/aracne.pdf): un proyecto de [Fundéu BBVA](http://www.fundeu.es/) para analizar la
+* [Aracne (Leticia y Elena)]({filename}/pdfs/eol-2-aracne.pdf): un proyecto de [Fundéu BBVA](http://www.fundeu.es/) para analizar la
 evolución del lenguaje periodístico durante el último siglo. En breve tendremos noticias de las conclusiones a las que vayan
 llegando a través de los medios, seguro.
 * [El Enclitizador (Tania y Leticia)]({filename}/pdfs/eol-2-encliticos.pdf): herramienta que analiza una forma verbal con
 enclíticos y ofrece información detallada sobre su corrección y la función de cada uno de ellos. Por cierto, buscan a alguien
 con conocimientos de programación que quiera hacer una interfaz: una web, un bot de Telegram,... ¿te animas?
 
+![Variedades principales de español]({filename}/images/lw-044.png)
+
 ## Recuperación de información
+Después la cosa tornó diferente, empezamos a ver ecuaciones proyectadas. **[Javi](https://twitter.com/jgsogo)**
+nos introdujo lo que era la **recuperación de información** y la importancia de poder medir la distancia entre
+dos documentos cualesquiera, un problema muy común que se encuentra en la raíz de los sistemas de búsqueda
+en internet y de los motores de recomendación o el *topic modelling*. Los dos objetivos principales de la
+presentación eran concienciarnos del problema y exponer una métrica muy sencilla (pero potente) para realizar
+estos cálculos: [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf). También puedes ver
+la [presentación]({filename}/pdfs/eol-2-information_retrieval.pdf).
+
+La jornada terminó con un pequeño trozo de código en el que se implementaba un motor de búsqueda muy básico, pero
+que nos permitía realizar *queries* y obtener el documento que estábamos buscando 
+([ver código](https://gist.github.com/jgsogo/61975297ff6ca3f01a71)).
+
+
+# ¡Te esperamos en la próxima!
+
+
