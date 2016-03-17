@@ -7,6 +7,8 @@ Taller de tratamiento de datos digitales
 
 **Organizan:** coLenguando_ y Lingẅars
 
+**Horario:** sábado 9 de abril 10:00-13:00, sábado 16 de abril 10:00-13:00, sábado 23 de abril 10:00-13:00
+
 .. _coLenguando: http://encomienda.colenguando.com/
 
 **Precio:** 20€ (9 horas)
@@ -55,5 +57,5 @@ manejar bien el ordenador a nivel de usuario.
     en función del corpus de trabajo podremos querer mostrarlos en un mapa,
     utilizar series temporal o diferentes diagramas.
 
-**¿Cómo me apunto?** Tendrás que hacerlo a través de eventbritte -> aquí <-. Cualquier
-duda puedes consultarla con nostors vía email.
+**¿Cómo me apunto?** Tendrás que hacerlo a través de eventbrite -> aquí <-. Cualquier
+duda puedes consultarla con nosotros vía email.
