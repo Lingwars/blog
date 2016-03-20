@@ -57,5 +57,7 @@ manejar bien el ordenador a nivel de usuario.
     en función del corpus de trabajo podremos querer mostrarlos en un mapa,
     utilizar series temporal o diferentes diagramas.
 
-**¿Cómo me apunto?** Tendrás que hacerlo a través de eventbrite -> aquí <-. Cualquier
+**¿Cómo me apunto?** Tendrás que hacerlo a través de eventbrite -> aquí_ <-. Cualquier
 duda puedes consultarla con nosotros vía email.
+
+.. _aquí: https://www.eventbrite.es/e/entradas-taller-de-tratamiento-de-textos-digitales-23738461377
