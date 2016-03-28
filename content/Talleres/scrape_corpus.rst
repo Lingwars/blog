@@ -13,6 +13,8 @@ Taller de tratamiento de datos digitales
 
 **Precio:** 20€ (9 horas)
 
+**Dónde:** en coLenguando (Calle Encomienda, 21, 28012 Madrid)
+
 .. figure:: {filename}/images/lw-029.jpg
    :align: center
    :alt: Lingẅars at work
