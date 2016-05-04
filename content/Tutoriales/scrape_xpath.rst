@@ -4,6 +4,7 @@ Scrapeando la web con Python
 :date: 2016-04-13 19:54
 :tags: scraping, xpath, regex
 :slug: scrape-xpath
+:author: Javier G. Sogo
 
 
 Existen varias herramientas muy buenas que permiten *scrapear* la web sin tener
