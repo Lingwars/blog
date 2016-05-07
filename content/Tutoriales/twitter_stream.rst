@@ -273,8 +273,8 @@ tienes muchas ideas para probar, pero puedes empezar por alguna de éstas:
                 try:
                     decoded = json.loads(data)            
                     print(decoded)
-                except:  # Catch it all (very bad practise)
-                    pass
+                except Exception as e:
+                    print("ERROR: {}".format(e))
                 finally:
                     return True  # Keep listening
 
