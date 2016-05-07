@@ -244,6 +244,8 @@ tienes muchas ideas para probar, pero puedes empezar por alguna de éstas:
   
     .. code:: python
         
+        import codecs
+
         [...]
         
         def on_status(self, status):
@@ -251,7 +253,7 @@ tienes muchas ideas para probar, pero puedes empezar por alguna de éstas:
             print(status.text.encode("ascii", errors='replace'))  # Console output may not be UTF-8
             print("-"*10)
             # Append to file
-            with open("tweets.txt", "a") as myfile:
+            with codecs.open("tweets.txt", "a", "utf-8") as myfile:
                 myfile.write(status.text)
     
         [...]
@@ -307,4 +309,3 @@ nombre? Quizá ha llegado el momento de borrarlos si no lo vas a utilizar más o
 revocar el acceso a estos tokens (puedes hacerlo en la misma página donde los creaste
 utilizando el botón *Regenerate consumer key and secret*. Avisado estás.
 
-     
