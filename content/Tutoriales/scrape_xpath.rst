@@ -130,7 +130,7 @@ Con el siguiente script podemos descargarnos el código HTML de cualquier web:
 
     
     if __name__ == '__main__':
-        url = "http://elpais.coms"
+        url = "http://elpais.com"
         r = download(url)
         if r:
             sys.stdout.write(r[:200])
