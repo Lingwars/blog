@@ -1,19 +1,19 @@
 Instalar Python 3 en Mac OS X
 =============================
 
-:date: 2016-05-27 10:00
+:date: 2016-05-27 23:00
 :tags: Mac, OS X, Python, instalación
 :slug: python-mac
 :author: taniaka
 
 ¿Tienes un Mac y quieres empezar a utilizar Python? ¡Muy buena decisión! En este post te explicaremos los primeros pasos que hay que realizar para echarlo a andar.
 
-Existen distintas maneras de abordar la instalación de Python en un Mac. Nosotros te explicaremos la más sencilla y rápida y tal vez más adelante, cuando ya te sientas más seguro, te podrá interesar explorar alguna otra opción, como por ejemplo `Homebrew`_ o `Anaconda`_. 
+Existen distintas maneras de abordar la instalación de Python en un Mac. Nosotros te explicaremos la más sencilla y rápida pero tal vez más adelante, cuando ya te sientas más seguro, te podrá interesar explorar alguna otra opción, como por ejemplo `Homebrew`_ o `Anaconda`_. 
 
 .. _`Homebrew`: http://brew.sh
 .. _`Anaconda`: https://www.continuum.io/why-anaconda
 
-Por defecto, tu Mac viene con Python 2 preinstalado. Sin embargo, nosotros vamos a instalar Python 3. ¿Por qué? Aunque muchos proyectos siguen utilizando Python 2, el futuro está en Python 3 y la `wiki oficial de Python`_ nos dice claramente que *Python 2.x está anticuado* (Python 2.x is legacy). Además, Python 3 nos ofrece más facilidades para gestionar cadenas de texto y ésta es una gran ventaja para nuestra labor lingüística. Así que, ¡a por Python 3!
+Por defecto, tu Mac viene con Python 2 preinstalado. Sin embargo, nosotros vamos a instalar Python 3. ¿Por qué? Aunque muchos proyectos siguen utilizando Python 2, el futuro está en Python 3 y la `wiki oficial de Python`_ nos dice claramente que Python 2.x está anticuado (*Python 2.x is legacy*). Además, Python 3 nos ofrece muchas facilidades para gestionar cadenas de texto y ésta es una gran ventaja para nuestra labor lingüística. Así que, ¡a por Python 3!
 
 .. _`wiki oficial de Python`: https://wiki.python.org/moin/Python2orPython3
 
@@ -70,11 +70,11 @@ Ahora vemos que Python 3.5.1 se ha instalado correctamente. ¡Genial!
 Entorno virtual
 ----------------
 
-Imagínate que estás trabajando sobre tres proyectos escritos en Python. Cada uno de tus proyectos tiene sus propios requisitos en cuanto a las versiones de las librerías de Python (una librería es una especie de paquete que amplía las funciones iniciales de Python). Tal vez la versión de la librería que tienes instalada te va a funcionar en uno de los proyectos pero no va a funcionar en los otros dos.
+Imagínate que estás trabajando en tres proyectos escritos en Python. Cada uno de tus proyectos tiene sus propios requisitos en cuanto a las versiones de las librerías de Python (una librería es una especie de paquete que amplía las funciones iniciales de Python). Tal vez la versión de la librería que tienes instalada te va a funcionar en uno de los proyectos pero no va a funcionar en los otros dos.
 
 La solución a este problema se llama **entorno virtual** (virtual environment). Un entorno virtual es como un espacio cerrado en el que puedes trabajar a tu gusto sin miedo a afectar al mundo exterior y verte afectado por éste. En el caso descrito más arriba simplemente crearíamos tres entornos virtuales, uno por proyecto.
 
-Para hacer tus primeros pasos en Python puedes perfectamente prescindir del entorno virtual. Por otro lado, no es mala idea  acostumbrarse a hacer las cosas bien desde el principio. Por eso, te enseñaremos cómo crear un entorno virtual. Afortunadamente, desde la versión 3.3, Python te lo pone muy fácil ya que viene con una herramienta de gestión de entornos virtuales llamada **pyvenv**.
+Para hacer tus primeros pasos con Python puedes perfectamente prescindir del entorno virtual. Por otro lado, no es mala idea  acostumbrarse a hacer las cosas bien desde el principio. Por eso, te enseñaremos cómo crear un entorno virtual. Afortunadamente, desde la versión 3.3, Python te lo pone muy fácil ya que viene con una herramienta de gestión de entornos virtuales llamada **pyvenv**.
 
 De este modo, la única cosa que tendrás que hacer es escoger un nombre para tu nuevo entorno virtual (por ejemplo *dataenv*, pero podría ser cualquier otro nombre) y escribir:
 
@@ -100,7 +100,7 @@ Por otro lado, como ves no has tenido que precisar que querías crear el entorno
 
 .. _`este tutorial`: http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
-Y, ¿qué piensas que va a pasar ahora si tecleas :bash:`python -- version`? Efectivamente, si has creado tu entorno con Python 3.5.1 ya no tienes que escribir :bash:`python3`: un simple :bash:`python` ya invocará Python 3.5.1. 
+Y, ¿qué piensas que va a pasar ahora si tecleas :bash:`python --version`? Efectivamente, si has creado tu entorno con Python 3.5.1 ya no tienes que escribir :bash:`python3`: un simple :bash:`python` ya invocará Python 3.5.1. 
 
 Cuando quieras salir del entorno virtual, solo tendrás que hacer
 
