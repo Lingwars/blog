@@ -23,7 +23,7 @@ Todas nuestras manipulaciones las haremos desde el Terminal de nuestro Mac. Si n
 
 Para abrirlo, simplemente tienes que teclear la palabra *Terminal* en el Finder o en el Spotlight, y darle un click. Se abrirá una ventana de este estilo:
 
-.. figure:: {filename}/images/mac-python3-1.png
+.. figure:: {filename}/images/python-mac-1.png
    :align: center
    :width: 300
    :alt: ventana del Terminal de Mac.
