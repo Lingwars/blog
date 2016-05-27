@@ -60,30 +60,13 @@ Para ver qué versión de Python 3 tenemos, tendremos que teclear :bash:`python3
 Pip
 ++++
 
-Crear un alias
-++++++++++++++
-
-Si quieres que al teclear *python* a secas se invoque Python 3 en vez de Python 2, lo que puedes hacer es añadir un alias. Este paso es totalmente optativo, así que puedes perfectamente saltártelo, esto no tendrá ninguna incidencia sobre las otras cosas que nos quedan por hacer. Si te atraves, tendrás que hacer un pequeño cambio al archivo .bash_profile. Para hacer este cambio vamos a utilizar **nano**, un sencillo editor de texto para el Terminal. Tendrás que teclear lo siguiente:
-
-.. code:: bash
-    nano ~/.bash_profile
-
-Se abrirá, en el mismo Terminal, un archivo de texto. Navega hasta el final de este archivo y añade la siguiente línea:
-
- .. code:: bash
-    alias python="python3"
-
-Para guardar los cambios y salir de nano, tendrás hacer Ctrl+X seguido de Y y darle a Enter. Luego cierra el Terminal, vuelve a abrirlo y prueba otra vez a teclear :bash:`python -- version`. Si has seguido bien las instrucciones verás que ahora sí que se invoca la versión de Python 3. ¡Genial!
-
-Antes de pasar al siguiente y último paso, una cosa que tal vez deberíamos señalar es que en muchos  
-
 
 Entorno virtual
 ----------------
 
 Imáginate que estás trabajando sobre tres proyectos escritos en Python. Cada uno de tus proyectos tiene sus propios requirimientos en cuanto a las versiones de las librerías de Python (una librería es una especie de módulo que amplia las funciones iniciales de Python). Tal vez la versión de la librería que tienes instalada te va a funcionar en uno de los proyectos pero no va a funcionar en los otros dos.
 
-La solución a este problema se llama **entorno vertual** (virtual environment). Un entorno virtual es como un espacio cerrado en el que puedes trabajar a tu gusto sin miedo a afectar el mundo exterior. En el caso descrito más arriba crearíamos tres entornos virtuales, uno por proyecto.
+La solución a este problema se llama **entorno virtual** (virtual environment). Un entorno virtual es como un espacio cerrado en el que puedes trabajar a tu gusto sin miedo a afectar el mundo exterior. En el caso descrito más arriba crearíamos tres entornos virtuales, uno por proyecto.
 
 Para hacer tus primeros pasos en Python puedes perfectamente prescindir del entorno virtual. Por otro lado, no es mala idea desde principio acostumbrarse a hacer las cosas bien. Por eso, te enseñaremos cómo crear un entorno virtual. Afortunadamente, Python 3 te lo pone muy fácil ya apartir de Python 3.3 ya tienes una herramienta llamada pyvenv preinstalada. De este modo la única cosa que tendrás que hacer es escoger un nombre para tu entorno virtual (supongamos que queremos llamar el entorno "dataenv") y luego teclear lo siguiente en nuestra terminal (todo lo que está antes del $ ya está en el Terminal, no hace falta volver a teclearlo):
 
