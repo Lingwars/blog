@@ -57,9 +57,9 @@ Path es una variable del sistema que tenemos que configurar un poquito para pode
 
 Pip es un gestor de paquetes de Python, y vamos a instalarlo porque va a ahorrarnos muchos pasos a la hora de programar en Python, es más cómodo.
 
- 1. Primero hay que descargar [el fichero get-pip.py](https://bootstrap.pypa.io/get-pip.py).
+ 1. Primero hay que descargar el fichero [get-pip.py](https://bootstrap.pypa.io/get-pip.py) (click derecho en el link y "Guardar como").
  
- 1. Y luego ejecutar en la consola: `python get-pip.py`. Puedes abrir la consola yendo a `Inicio`, y en el cuadro de texto que dice `Buscar programas y archivos...` escribe "cmd" y dale a intro. Te saldrá la consola, donde ya puedes escribir.
+ 1. Y luego ejecutar en la consola (¡recuerda que tendrás que ir hasta el directorio en el que guardaste ese archivo!): `python get-pip.py`. Puedes abrir la consola yendo a `Inicio`, y en el cuadro de texto que dice `Buscar programas y archivos...` escribe "cmd" y dale a intro. Te saldrá la consola, donde ya puedes escribir.
 
 Esto es todo. Si has llegado hasta aquí, ¡felicidades! Ya puedes programar en Python en tu ordenador. Y si te has atascado en algún paso o tienes cualquier otra duda, no dudes en contactar con nosotros.
 
