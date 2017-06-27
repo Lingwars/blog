@@ -3,9 +3,12 @@ branches:
   only:
   - master
 install:
-  - pip install pelican ghp-import markdown
+- pip install pelican ghp-import markdown
 script:
-  - make publish travis_github
+- make publish travis_github
 env:
   global:
   - secure: JAopDbxu8XwtEIuMOC2+Pf7mz8pY8NpJ6IwabhV7LbNydqS+qoqIARAzYQwAXXIDCQf6vVGPdHG3fn/ersPvxx2q0YXU3rgUUBWA08G0wwV5LsCxNjqwTZSjuYNmfGLBeyjPlQzAef5rbvXjJJLSyHPXSd+naKtiZh1NJ+cE5sm6Pt633GmDBVfy4EDKuIO26sWmX0d/QAJ323+rDY1b5MGI4DT8zEIxotn1yhQpCeJbIK7HXZwvIQd1NpcYVIvvJgNJQ9L9ZIvF5DD/yTAK5hp/APa76d81cpM7+bQiraCe1M+05/eM8aUjnIFU8J5w+lWa8J7+uTn3RYmT/fdTGnkf5cDm/XMFWB7QK+jn7oH+GTMkKHUFYZhgJhyI1TBhinYtqh0JUN/2noqm5KjiNRKA0Y4UndUUUzsLoVF16JckXrNjYKG6xbXUPhbmWEvnoi3UL9ejaocjldjK2GakMKaQoepCOedNj+ZjFueA7V6rcIONfFfEzdyAou0jdZTiz/USQ26KD2aQa6PFqKrgTnThWYpAoRnAOmCJcZW3WTmCeCSPFirRVc/dyqcaRASu9+tUHibRS8fMjK+2Ao1/eg5kdrBqOrv3Kr1IYZwkFwvoX22+a0RSXBp3Do0brHJIiscybkmYuyw9PDAgpf0lC4wdS61wuU2+6yoTZhN2BL0=
+before_install:
+- openssl aes-256-cbc -K $encrypted_33682756e16e_key -iv $encrypted_33682756e16e_iv
+  -in deploy-key.enc -out deploy-key -d
