@@ -14,9 +14,9 @@ la librería de PLN más importante para el lenguaje de programación Python. Pa
 (en inglés), 
 una guía muy práctica, fácil de leer y con muchos ejercicios.  
 
-En el grupo no habrá profesores y alumnos. Decidiremos entre todos del calendario que queremos seguir y de las tareas que 
+En el grupo no habrá profesores y alumnos. Decidiremos entre todos el calendario que queremos seguir y las tareas que 
 nos queremos proponer. La idea es ir leyendo el libro de NLTK en casa y reunirnos cada mes para poner en común los resultados 
-de los ejercicios y pensar en el próximo mes. La fecha y el lugar de la primera reunión todavía están por concretar, 
+de los ejercicios y las dudas, y pensar en el próximo mes. La fecha y el lugar de la primera reunión todavía están por concretar, 
 pero estamos pensando en la última semana de septiembre. También dispondremos de un grupo de Telegram para compartir ideas, 
 hacer preguntas y resolver las dudas que tenga cada uno.
 
@@ -31,4 +31,6 @@ Pero no te preocupes, te facilitaremos los recursos necesarios y siempre estarem
 
 ## ¿Cómo me apunto al grupo?
 
-Solo tienes que escribirnos a lingwars@gmail.com y te añadiremos a nuestro grupo de Telegram. 
+Solo tienes que escribirnos a lingwars@gmail.com, contarnos algo sobre ti (somos personitas y ¡queremos conocerte!) y te añadiremos a nuestro grupo de Telegram.
+
+Con la publicación de este post, damos por inaugurado el grupo, ya que en realidad no hace falta tener una fecha límite para empezar a trabajar en algo, ¿verdad? ;)
