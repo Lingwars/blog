@@ -455,7 +455,8 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 article img {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	padding: 5px;
 }
 
 /* Subscribe by email */
