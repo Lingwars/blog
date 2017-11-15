@@ -1,7 +1,4 @@
 twitter: nimbusaeta
+github: nimbusaeta
 
-Lengua, libros, tecnología, cultura clásica, series, juegos... and everything in between.
-Parte de <a href="https://twitter.com/Revista_Hermes">@Revista_Hermes</a>
-<a href="https://twitter.com/proyectoaracne">@proyectoaracne</a>
-<a href="https://twitter.com/MolinodeIdeas">@MolinodeIdeas</a>
-<a href="https://twitter.com/TGtradugriego">@TGtradugriego</a>
+Leticia Martín-Fuertes es licenciada en Filología Clásica por la Universidad Autónoma de Madrid y es lingüista computacional. Coorganiza charlas y talleres en Lingẅars y [R-Ladies Madrid](https://www.meetup.com/es-ES/rladies-madrid/). Le encantan las ciencias y las letras, y no cree que haya que elegir entre una y otra en la vida.
