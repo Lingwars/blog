@@ -13,10 +13,10 @@ Claro que Cristina no estaba sola: la otra pata que hizo posible la visita fue *
 
 La verdad es que todo fueron facilidades desde la Universidad de Valladolid para que no dudáramos en ir a contar nuestras neuras. Acostumbrados como estamos a hablar en cualquier espacio por pequeño que sea, con micro, sin micro, con ruido de otras salas, sin ruido, con calefacción, sin calefacción... el marco de la **Sala Lope de Rueda** se nos hacía imponente y temible, pero en cuanto piensas «Cómo me habría gustado a mí que me hablaran de esto durante la carrera», se te pasa. Y a eso fuimos: a dar a conocer la posibilidad que representa el procesamiento del lenguaje natural para el estudiante de letras y a convencerles de que son necesarios para lograr avanzar en estas tecnologías. Esperamos que al menos esa idea haya cuajado y que si se animan tengan la confianza suficiente para empezar a prepararse (¿por qué no?), si es que se necesita confianza alguna, por ejemplo, uniéndose a nuestro [grupo de autoapredizaje de PLN](http://gaplen.readthedocs.io/es/latest/introduction.html). José Manuel habló de [estilometría medieval]({filename}/pdfs/uva-estilometridieval.pdf), Leti, de [lingüística de corpus]({filename}/pdfs/uva-corpus&friends.pdf), y Javi, de [ontologías]({filename}/pdfs/uva-filologo-estructurado.pdf).
 
-![Introducción a la lingüística de corpus]({filename}/images/uva-01.jpg)
-![Introducción a la lingüística de corpus]({filename}/images/uva-02.jpg)
-![Introducción a la lingüística de corpus]({filename}/images/uva-03.jpg)
-![Introducción a la lingüística de corpus]({filename}/images/uva-04.jpg)
+![José Manuel Fradejas]({filename}/images/uva-01.jpg)
+![Leticia Martín-Fuertes]({filename}/images/uva-02.jpg)
+![Javier García Sogo]({filename}/images/uva-03.jpg)
+![Comida del evento]({filename}/images/uva-04.jpg)
 
 ## Lingẅars en CyLicon Valley
 
@@ -24,11 +24,11 @@ Y ya que visitábamos Valladolid, qué mejor que ~~probar los torreznos~~ aprove
 
 Fuimos exactamente con la misma idea de la mañana: cómo mola el PLN y hacia dónde molaría ir con él si conseguimos atraer al talento filólogo. Accedieron con mucho gusto y parece que también quedaron contentos. De nuevo, os dejamos las diapositivas de [Leti]({filename}/pdfs/cylv-intro-pln.pdf) y [Javi]]({filename}/pdfs/cylv-pln-ontologias.pdf).
 
-![Introducción a la lingüística de corpus]({filename}/images/uva-05.jpg)
-![Introducción a la lingüística de corpus]({filename}/images/uva-06.jpg)
+![Leticia Martín-Fuertes]({filename}/images/uva-05.jpeg)
+![Javier García Sogo]({filename}/images/uva-06.jpg)
 
 ## ... y algo de vida social
 
 Y, cómo no, había que aprovechar para visitar fugazmente Valladolid, unos, y Soria (concretamente la feria [Presura](http://www.repoblacion.es/)), otros, y mantener épicas conversaciones sobre la lingüística y la vida con el puñado de amigos pucelanos que tenemos gracias a las redes :D ¡Gran ciudad y grandes gentes! Gracias por acogernos.
 
-![Introducción a la lingüística de corpus]({filename}/images/uva-07.jpg)
+![Vida social]({filename}/images/uva-07.jpg)
