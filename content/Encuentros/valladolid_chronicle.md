@@ -20,9 +20,9 @@ La verdad es que todo fueron facilidades desde la Universidad de Valladolid para
 
 ## Lingẅars en CyLicon Valley
 
-Y ya que visitábamos Valladolid, qué mejor que ~~probar los torreznos~~ aprovechar la tarde para poner cara a los integrantes de **[CyLicon Valley](https://cyliconvalley.es)** y de paso contarles algo interesante. Para quienes todavía no los conozcan, son una comunidad de emprendedores y técnicos que se dedica a difundir el desarrollo de software en Castilla y León. Son los responsables de esa maravilla que fue la [Lechazoconf](https://lechazoconf.com/) y ya andan preparando el [WeCodeFest](https://wecodefest.com/); parece que no pero dan guerra.
+Y ya que visitábamos Valladolid, qué mejor que aprovechar la tarde para poner cara a los integrantes de **[CyLicon Valley](https://cyliconvalley.es)** y de paso contarles algo interesante. Para quienes todavía no los conozcan, son una comunidad de emprendedores y técnicos que se dedica a difundir el desarrollo de software en Castilla y León. Son los responsables de esa maravilla que fue la [Lechazoconf](https://lechazoconf.com/) y ya andan preparando el [WeCodeFest](https://wecodefest.com/); parece que no pero dan guerra.
 
-Fuimos exactamente con la misma idea de la mañana: cómo mola el PLN y hacia dónde molaría ir con él si conseguimos atraer al talento filólogo. Accedieron con mucho gusto y parece que también quedaron contentos. De nuevo, os dejamos las diapositivas de [Leti]({filename}/pdfs/cylv-intro-pln.pdf) y [Javi]]({filename}/pdfs/cylv-pln-ontologias.pdf).
+Fuimos exactamente con la misma idea de la mañana: cómo mola el PLN y hacia dónde molaría ir con él si conseguimos atraer al talento filólogo. Accedieron con mucho gusto y parece que también quedaron contentos. De nuevo, os dejamos las diapositivas de [Leti]({filename}/pdfs/cylv-intro-pln.pdf) y [Javi]({filename}/pdfs/cylv-pln-ontologias.pdf).
 
 ![Leticia Martín-Fuertes]({filename}/images/uva-05.jpeg)
 ![Javier García Sogo]({filename}/images/uva-06.jpg)
