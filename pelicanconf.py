@@ -44,7 +44,10 @@ THEME = 'theme/notmyidea'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['images', 'extra/favicon.ico']
+STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+MAILCHIMP = {'u': '08b4bbc276fe5d9a9b89f7bed',
+             'id': '90dcb9a523'}

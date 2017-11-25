@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico" type="image/x-icon"/>
 
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/jBox.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -38,7 +39,9 @@
                     <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
                 {% endif %}
-                </ul></nav>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
@@ -82,5 +85,21 @@
 
 {% include 'analytics.html' %}
 {% include 'disqus_script.html' %}
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-1.11.1.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `{% include 'mailchimp.html' %}`
+        });
+    </script>
+
 </body>
 </html>

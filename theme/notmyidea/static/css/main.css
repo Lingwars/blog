@@ -450,3 +450,66 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+
+
+article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+/* Subscribe by email */
+
+#banner nav .subscribe {
+	float: right;
+	display: inline;
+	margin: 0;
+}
+
+#banner nav .subscribe img {
+	height: 20px;
+	padding-top: 5px;
+}
+
+#banner nav .ui-link {
+	text-shadow: none;
+}
+
+.ui-page-theme-a a {
+	font-weight: 300;
+}
+
+.ui-page-theme-a a:visited {
+	color: #C74350;
+	font-weight: 300;
+}
+
+.ui-page-theme-a a:hover {
+	color: #fff;
+	font-weight: 300;
+}
+
+.entry-title a {
+	color: #000;
+	}
+
+.entry-title a:visited {
+	color: #000;
+	}
+
+.entry-title a:hover {
+	color: #000;
+}
+
+h1 a:hover {
+	color: #000;
+}
+
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
