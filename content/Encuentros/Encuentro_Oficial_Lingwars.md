@@ -1,7 +1,7 @@
 Title: I Encuentro Oficial Lingẅars (EOL1)
 Date: 2015-09-25 19:00
 Tags: convocatorias,EOL1
-Author: nimbusaeta
+Author: Leticia Martín-Fuertes
 
 # Por qué se celebra
 

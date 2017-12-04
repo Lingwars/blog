@@ -1,7 +1,7 @@
 Title: Cómo añadir el DLE como motor de búsqueda del navegador  
 Date: 2015-10-25 10:00  
 Tags: tutoriales, recursos, DLE, RAE, diccionarios, navegadores, Google Chrome, Mozilla Firefox
-Author: nimbusaeta  
+Author: Leticia Martín-Fuertes
 
 Ahora que la 23ª edición del Diccionario de la RAE está disponible en línea, he tenido que cambiar la configuración de mi navegador para poder buscar directamente en el diccionario desde la barra de búsqueda. Y ya que lo hago para mí enseño cómo hacerlo ;)
 

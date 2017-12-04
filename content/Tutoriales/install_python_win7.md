@@ -1,7 +1,7 @@
 Title: Instalar Python en Windows 7
 Date: 2015-08-29 21:20
 Tags: Windows 7,Python,instalación,path,pip
-Author: nimbusaeta
+Author: Leticia Martín-Fuertes
 
 Tengo un Windows 7 y después de haber aprendido a instalar Python en este sistema y de haberlo explicado a mucha gente que ha venido a las sesiones de Lingwars, voy a dejarlo por escrito también en este tutorial para que pueda hacerlo todo aquel que quiera participar online. La instalación del programa en realidad es muy sencilla, pero luego hay que toquetear un poquito la configuración del sistema, así que está bien que alguien nos lo explique.
 
