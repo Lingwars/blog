@@ -1,7 +1,7 @@
 Title: Lingwars inicia un grupo de aprendizaje para entusiastas del PLN
 Date: 2017-08-24 19:00
 Tags: PLN, grupo
-Authors: taniaka, nimbusaeta
+Authors: taniaka, Leticia Martín-Fuertes
 
 En Lingwars llevamos dos años organizando charlas y talleres sobre el procesamiento del lenguaje natural (PLN)
 y en este nuevo curso nos gustaría empezar a explorar un formato que seguramente resulte interesante a muchos de vosotros.
