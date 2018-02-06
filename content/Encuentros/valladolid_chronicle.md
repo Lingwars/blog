@@ -1,7 +1,7 @@
 Title: Crónica de la visita vallisoletana
 Date: 2017-11-15 21:20
-Tags: Valladolid, chronicle, CyLicon Valley, UVa
-Author: Leticia Martin-Fuertes
+Tags: Valladolid, chronicle, CyLicon Valley, UVa, social
+Author: Leticia Martín-Fuertes
 
 El 9 de noviembre fue fiesta en Madrid, pero el *core team* de Lingẅars no descansó ni un segundo: ¡estuvimos en Valladolid! Porque Lingẅars no está atado a ningún lenguaje de programación ni a ninguna ciudad, aprovechamos cualquier oportunidad de expandir fronteras y públicos si encaja con nuestras agendas vitales y objetivos.
 

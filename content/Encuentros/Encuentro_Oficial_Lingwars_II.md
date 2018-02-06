@@ -1,7 +1,7 @@
 Title: II Encuentro Oficial Lingẅars (EOL2)
 Date: 2015-11-4 19:00
 Tags: convocatorias,EOL2
-Author: nimbusaeta
+Author: Leticia Martín-Fuertes
 
 El __sábado 14 de noviembre__ volveremos a juntarnos en Lingẅars para ponernos al día sobre los proyectos que ha ido desarrollando cada equipo; también para hablar un poco de recursos, herramientas, los MOOC que algunos seguimos y, vaya, para vernos las caras. Caras viejas y caras nuevas, porque los nuevos son más que bienvenidos. Como siempre, será __en el local de [coLenguando](http://encomienda.colenguando.com) de 10:30 a 19:30__.
 
