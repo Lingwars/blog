@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lingẅars</title><link href="http://lingwars.github.io/blog/" rel="alternate"></link><link href="http://lingwars.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>http://lingwars.github.io/blog/</id><updated>2018-01-23T10:00:00+01:00</updated><entry><title>Primeras reflexiones tras 5 meses de GAPLEN</title><link href="http://lingwars.github.io/blog/primeras-reflexiones-tras-5-meses-de-gaplen.html" rel="alternate"></link><published>2018-01-23T10:00:00+01:00</published><updated>2018-01-23T10:00:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2018-01-23:/blog/primeras-reflexiones-tras-5-meses-de-gaplen.html</id><summary type="html">&lt;p&gt;Ya hace 5 meses que pusimos en marcha el GAPLEN y parece que fue ayer la primera reunión. ¡Cómo pasa el tiempo! Nos hemos estado reuniendo en &lt;a href="http://medialab-prado.es/article/lingwars-grupo-de-aprendizaje-de-pln-o-gaplen"&gt;Medialab Prado&lt;/a&gt; el primer jueves de cada mes sin falta y también hemos hecho unas cuantas quedadas extraoficiales.&lt;/p&gt;
+&lt;p&gt;Llegado este momento creo que …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ya hace 5 meses que pusimos en marcha el GAPLEN y parece que fue ayer la primera reunión. ¡Cómo pasa el tiempo! Nos hemos estado reuniendo en &lt;a href="http://medialab-prado.es/article/lingwars-grupo-de-aprendizaje-de-pln-o-gaplen"&gt;Medialab Prado&lt;/a&gt; el primer jueves de cada mes sin falta y también hemos hecho unas cuantas quedadas extraoficiales.&lt;/p&gt;
+&lt;p&gt;Llegado este momento creo que es bueno compartir con la comunidad de Lingwars y con el mundo entero las impresiones que tengo sobre el grupo de aprendizaje, como asistente y como organizadora:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Es difícil, si no directamente imposible, ir todos al mismo ritmo. Pero ¿acaso es deseable o necesario? Facilita mucho las cosas compartir una base de conocimientos, para decidir los contenidos a preparar; pero si los contenidos se van archivando en un sitio accesible, la gente podrá usarlos en el momento en que los necesite.&lt;/li&gt;
+&lt;li&gt;El concepto de &lt;em&gt;grupo de aprendizaje&lt;/em&gt; sigue siendo raro, estamos mucho más familiarizados con el concepto de &lt;em&gt;curso&lt;/em&gt;. Nos sigue escribiendo gente que se quiere «apuntar al curso». Supongo que es normal y que llevará un tiempo o quizá incluso nunca deje de haber gente a la que le extrañe el concepto.&lt;/li&gt;
+&lt;li&gt;Implicar a la gente en la organización es muy difícil, y tiene que salir de ellos. No vas a convencer a nadie de que participe a un nivel mayor de implicación sin que tengan algún interés personal en ello, y es normal. Así que no vale la pena dirigir demasiado esfuerzo en ese sentido. Simplemente, los organizadores tenemos que ser capaces de identificar cuándo alguien muestra ese interés especial, para canalizarlo bien, y asegurarnos de que &lt;strong&gt;todo el mundo se siente a gusto con la aportación que está haciendo al grupo&lt;/strong&gt;. Quizá ocurra porque «implicarse en la organización» nos parece algo muy comprometido, cuando en realidad se puede hacer al nivel y al ritmo que se quiera (proponer ejercicios, compartir materiales, encargarse de la siguiente charla, avanzar en el libro para fijar los objetivos para el próximo mes, echar una mano en redes sociales o en la web...), y si no, que se lo pregunten a &lt;a href="http://twitter.com/luisanke"&gt;Luis&lt;/a&gt;; o porque, ligado al &lt;a href="https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor"&gt;síndrome del impostor&lt;/a&gt;, pensemos: «Quién soy yo para decirle a esta gente lo que tiene que hacer, ¡si yo no tengo ni idea!». A esto último se me ocurren, al menos, dos buenas respuestas:&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;La comunidad es lo primero siempre; los contenidos y actividades deberían adaptarse a sus deseos y no al revés&lt;/strong&gt;. Dentro de esa comunidad, deberían tener más voz los recién llegados o quienes cuenten con menos conocimientos, y los demás estar para ayudarles. La cuestión es: ¿estamos preparados como alumnos para demandar lo que queremos? ¿El sistema educativo nos ha convertido en alumnos pasivos que están a la espera de lo que les proponen los profes? ¿Se puede hacer algo por cambiar esta dinámica? ¿O simplemente cuando el nivel es muy bajo es imposible saber lo que quieres?&lt;/li&gt;
+&lt;li&gt;¡Los organizadores tampoco somos quiénes para decirle a nadie lo que tiene que hacer! Me gustaría que los participantes piensen en ellos como los que pusieron esto en marcha, y nada más.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Pensábamos que el blog sería un buen campo de cacharreo para empezar a usar git, pero quizá impere más el facilitar lo máximo posible la forma de participar. Por ello estamos pensando crear una publicación en Medium y que todo el que quiera compartir algo dentro de la comunidad solo tenga que adscribir su post a Lingwars.&lt;/li&gt;
+&lt;li&gt;Estoy muy orgullosa de los pasos que vamos dando. Hemos sentido a veces que vamos demasiado lento, y viéndolo en retrospectiva, pienso que es por el agobio de «entretener» a quien ya sabe programar. ¡Pero es que los que ya saben programar no son el objetivo! Así que la velocidad no debería ser un criterio de evaluación: a mayor ritmo, no necesariamente más éxito. Lo que me importa son los intercambios que hay de conocimientos entre unos perfiles y otros, y eso ha sido una constante en estos meses. Me gustaría que, sobre todo, Lingwars sea un sitio donde el que no sabe programar se sienta cómodo aprendiendo; si el que ya sabe se aburre o no se siente cómodo, ¡tiene otros grupos donde ir! Aquí valoraremos tremendamente que nos ayude y le enseñaremos cosas de lengua :)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="PLN"></category><category term="grupo"></category><category term="GAPLEN"></category><category term="reflexiones"></category></entry><entry><title>Crónica de la visita vallisoletana</title><link href="http://lingwars.github.io/blog/cronica-de-la-visita-vallisoletana.html" rel="alternate"></link><published>2017-11-15T21:20:00+01:00</published><updated>2017-11-15T21:20:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2017-11-15:/blog/cronica-de-la-visita-vallisoletana.html</id><summary type="html">&lt;p&gt;El 9 de noviembre fue fiesta en Madrid, pero el &lt;em&gt;core team&lt;/em&gt; de Lingẅars no descansó ni un segundo: ¡estuvimos en Valladolid! Porque Lingẅars no está atado a ningún lenguaje de programación ni a ninguna ciudad, aprovechamos cualquier oportunidad de expandir fronteras y públicos si encaja con nuestras agendas vitales …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El 9 de noviembre fue fiesta en Madrid, pero el &lt;em&gt;core team&lt;/em&gt; de Lingẅars no descansó ni un segundo: ¡estuvimos en Valladolid! Porque Lingẅars no está atado a ningún lenguaje de programación ni a ninguna ciudad, aprovechamos cualquier oportunidad de expandir fronteras y públicos si encaja con nuestras agendas vitales y objetivos.&lt;/p&gt;
+&lt;h2&gt;Lingẅars en la UVa&lt;/h2&gt;
+&lt;p&gt;Todo comenzó con una intrépida profesora de lengua de la Universidad de Valladolid: &lt;strong&gt;&lt;a href="https://twitter.com/cveladelfa"&gt;Cristina Vela&lt;/a&gt;&lt;/strong&gt;. Con la misma pasión que se pega la paliza de ir todos los días de Madrid a Segovia a dar clase, se involucra en organizar unas jornadas en su universidad poniendo de protagonistas a quienes acaban de enseñarle a scrapear en un taller. Siempre hay alguien que te dice «Tenéis que venir a mi sarao» pero convertirlo en realidad conlleva compromiso y esfuerzo. Bastaron un par de intromisiones en la intimidad de su vida para concretar el día y programa y voilà, el jueves pasado por la mañana ocurrió de verdad. Por primera vez, ¡Lingẅars se cuela en una universidad!&lt;/p&gt;
+&lt;p&gt;Claro que Cristina no estaba sola: la otra pata que hizo posible la visita fue &lt;strong&gt;&lt;a href="https://twitter.com/jmfraderue"&gt;José Manuel Fradejas&lt;/a&gt;&lt;/strong&gt;, que lleva haciendo esto de asomarse (y enharinarse) a la tecnología desde la filología mucho más tiempo que nosotros. Es un vivo ejemplo de que no hay que tenerle ningún miedo y, de hecho, te puede hacer mucho bien, y no lo decimos solo por la rigurosidad que, así, imprime a las investigaciones, sino también porque estamos seguros de que por ello vive la vida con más entusiasmo.&lt;/p&gt;
+&lt;p&gt;La verdad es que todo fueron facilidades desde la Universidad de Valladolid para que no dudáramos en ir a contar nuestras neuras. Acostumbrados como estamos a hablar en cualquier espacio por pequeño que sea, con micro, sin micro, con ruido de otras salas, sin ruido, con calefacción, sin calefacción... el marco de la &lt;strong&gt;Sala Lope de Rueda&lt;/strong&gt; se nos hacía imponente y temible, pero en cuanto piensas «Cómo me habría gustado a mí que me hablaran de esto durante la carrera», se te pasa. Y a eso fuimos: a dar a conocer la posibilidad que representa el procesamiento del lenguaje natural para el estudiante de letras y a convencerles de que son necesarios para lograr avanzar en estas tecnologías. Esperamos que al menos esa idea haya cuajado y que si se animan tengan la confianza suficiente para empezar a prepararse (¿por qué no?), si es que se necesita confianza alguna, por ejemplo, uniéndose a nuestro &lt;a href="http://gaplen.readthedocs.io/es/latest/introduction.html"&gt;grupo de autoapredizaje de PLN&lt;/a&gt;. José Manuel habló de &lt;a href="http://lingwars.github.io/blog/pdfs/uva-estilometridieval.pdf"&gt;estilometría medieval&lt;/a&gt;, Leti, de &lt;a href="https://github.com/Lingwars/blog/blob/master/content/pdfs/uva-corpus%26friends.pdf"&gt;lingüística de corpus&lt;/a&gt;, y Javi, de &lt;a href="http://lingwars.github.io/blog/pdfs/uva-filologo-estructurado.pdf"&gt;ontologías&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="José Manuel Fradejas" src="http://lingwars.github.io/blog/images/uva-01.jpg"&gt;
+&lt;img alt="Leticia Martín-Fuertes" src="http://lingwars.github.io/blog/images/uva-02.jpg"&gt;
+&lt;img alt="Javier García Sogo" src="http://lingwars.github.io/blog/images/uva-03.jpg"&gt;
+&lt;img alt="Comida del evento" src="http://lingwars.github.io/blog/images/uva-04.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;Lingẅars en CyLicon Valley&lt;/h2&gt;
+&lt;p&gt;Y ya que visitábamos Valladolid, qué mejor que aprovechar la tarde para poner cara a los integrantes de &lt;strong&gt;&lt;a href="https://cyliconvalley.es"&gt;CyLicon Valley&lt;/a&gt;&lt;/strong&gt; y de paso contarles algo interesante. Para quienes todavía no los conozcan, son una comunidad de emprendedores y técnicos que se dedica a difundir el desarrollo de software en Castilla y León. Son los responsables de esa maravilla que fue la &lt;a href="https://lechazoconf.com/"&gt;Lechazoconf&lt;/a&gt; y ya andan preparando el &lt;a href="https://wecodefest.com/"&gt;WeCodeFest&lt;/a&gt;; parece que no pero dan guerra.&lt;/p&gt;
+&lt;p&gt;Fuimos exactamente con la misma idea de la mañana: cómo mola el PLN y hacia dónde molaría ir con él si conseguimos atraer al talento filólogo. Accedieron con mucho gusto y parece que también quedaron contentos. De nuevo, os dejamos las diapositivas de &lt;a href="http://lingwars.github.io/blog/pdfs/cylv-intro-pln.pdf"&gt;Leti&lt;/a&gt; y &lt;a href="http://lingwars.github.io/blog/pdfs/cylv-pln-ontologias.pdf"&gt;Javi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Leticia Martín-Fuertes" src="http://lingwars.github.io/blog/images/uva-05.jpeg"&gt;
+&lt;img alt="Javier García Sogo" src="http://lingwars.github.io/blog/images/uva-06.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;... y algo de vida social&lt;/h2&gt;
+&lt;p&gt;Y, cómo no, había que aprovechar para visitar fugazmente Valladolid, unos, y Soria (concretamente la feria &lt;a href="http://www.repoblacion.es/"&gt;Presura&lt;/a&gt;), otros, y mantener épicas conversaciones sobre la lingüística y la vida con el puñado de amigos pucelanos que tenemos gracias a las redes :D ¡Gran ciudad y grandes gentes! Gracias por acogernos.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vida social" src="http://lingwars.github.io/blog/images/uva-07.jpg"&gt;&lt;/p&gt;</content><category term="Valladolid"></category><category term="chronicle"></category><category term="CyLicon Valley"></category><category term="UVa"></category><category term="social"></category></entry><entry><title>Lingwars inicia un grupo de aprendizaje para entusiastas del PLN</title><link href="http://lingwars.github.io/blog/lingwars-inicia-un-grupo-de-aprendizaje-para-entusiastas-del-pln.html" rel="alternate"></link><published>2017-08-24T19:00:00+02:00</published><updated>2017-08-24T19:00:00+02:00</updated><author><name>taniaka</name></author><id>tag:lingwars.github.io,2017-08-24:/blog/lingwars-inicia-un-grupo-de-aprendizaje-para-entusiastas-del-pln.html</id><summary type="html">&lt;p&gt;En Lingwars llevamos dos años organizando charlas y talleres sobre el procesamiento del lenguaje natural (PLN)
+y en este nuevo curso nos gustaría empezar a explorar un formato que seguramente resulte interesante a muchos de vosotros.
+Se trata de crear uno o varios grupos de aprendizaje dedicados al PLN.&lt;/p&gt;
+&lt;h2&gt;¿Qué …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;En Lingwars llevamos dos años organizando charlas y talleres sobre el procesamiento del lenguaje natural (PLN)
+y en este nuevo curso nos gustaría empezar a explorar un formato que seguramente resulte interesante a muchos de vosotros.
+Se trata de crear uno o varios grupos de aprendizaje dedicados al PLN.&lt;/p&gt;
+&lt;h2&gt;¿Qué vamos a estudiar? ¿Cómo funcionará el grupo de aprendizaje?&lt;/h2&gt;
+&lt;p&gt;Nuestra propuesta inicial consiste en formar un grupo de personas interesadas en aprender a usar NLTK, 
+la librería de PLN más importante para el lenguaje de programación Python. Para hacerlo seguiremos el &lt;a href="http://www.nltk.org/book/"&gt;libro oficial de NLTK&lt;/a&gt; 
+(en inglés), 
+una guía muy práctica, fácil de leer y con muchos ejercicios.  &lt;/p&gt;
+&lt;p&gt;En el grupo no habrá profesores y alumnos. Decidiremos entre todos el calendario que queremos seguir y las tareas que 
+nos queremos proponer. La idea es ir leyendo el libro de NLTK en casa y reunirnos cada mes para poner en común los resultados 
+de los ejercicios y las dudas, y pensar en el próximo mes. La fecha y el lugar de la primera reunión todavía están por concretar, 
+pero estamos pensando en la última semana de septiembre. También dispondremos de un grupo de Telegram para compartir ideas, 
+hacer preguntas y resolver las dudas que tenga cada uno.&lt;/p&gt;
+&lt;p&gt;Por supuesto, también estamos abiertos a otras líneas de exploración relacionadas con el PLN, y si tienes interés en formar un 
+grupo de aprendizaje sobre otro tema, libro o MOOC, en Lingwars estaremos encantados de acogerlo.&lt;/p&gt;
+&lt;h2&gt;¿Quién puede participar en el grupo? ¿Hay que saber programar en Python?&lt;/h2&gt;
+&lt;p&gt;Todo el mundo es bienvenido y no es imprescindible tener conocimientos previos de programación, ya que empezaremos desde lo más básico. 
+Sin embargo, si nunca has programado, ten en cuenta que en las primeras semanas tendrás que trabajar bastante para ponerte al nivel. 
+Pero no te preocupes, te facilitaremos los recursos necesarios y siempre estaremos ahí para echarte una mano.&lt;/p&gt;
+&lt;h2&gt;¿Cómo me apunto al grupo?&lt;/h2&gt;
+&lt;p&gt;Solo tienes que escribirnos a lingwars@gmail.com, contarnos algo sobre ti (somos personitas y ¡queremos conocerte!) y te añadiremos a nuestro grupo de Telegram.&lt;/p&gt;
+&lt;p&gt;Con la publicación de este post, damos por inaugurado el grupo, ya que en realidad no hace falta tener una fecha límite para empezar a trabajar en algo, ¿verdad? ;)&lt;/p&gt;</content><category term="PLN"></category><category term="grupo"></category></entry><entry><title>Instalar Python 3 en Mac OS X</title><link href="http://lingwars.github.io/blog/python-mac.html" rel="alternate"></link><published>2016-05-27T23:00:00+02:00</published><updated>2016-05-27T23:00:00+02:00</updated><author><name>taniaka</name></author><id>tag:lingwars.github.io,2016-05-27:/blog/python-mac.html</id><summary type="html">&lt;p&gt;¿Tienes un Mac y quieres empezar a utilizar Python? ¡Muy buena decisión! En este post te explicaremos los primeros pasos que hay que realizar para echarlo a andar.&lt;/p&gt;
+&lt;p&gt;Existen distintas maneras de abordar la instalación de Python en un Mac. Nosotros te explicaremos la más sencilla y rápida pero tal …&lt;/p&gt;</summary><content type="html">&lt;p&gt;¿Tienes un Mac y quieres empezar a utilizar Python? ¡Muy buena decisión! En este post te explicaremos los primeros pasos que hay que realizar para echarlo a andar.&lt;/p&gt;
+&lt;p&gt;Existen distintas maneras de abordar la instalación de Python en un Mac. Nosotros te explicaremos la más sencilla y rápida pero tal vez más adelante, cuando ya te sientas más seguro, te podrá interesar explorar alguna otra opción, como por ejemplo &lt;a class="reference external" href="http://brew.sh"&gt;Homebrew&lt;/a&gt; o &lt;a class="reference external" href="https://www.continuum.io/why-anaconda"&gt;Anaconda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Por defecto, tu Mac viene con Python 2 preinstalado. Sin embargo, nosotros vamos a instalar Python 3. ¿Por qué? Aunque muchos proyectos siguen utilizando Python 2, el futuro está en Python 3 y la &lt;a class="reference external" href="https://wiki.python.org/moin/Python2orPython3"&gt;wiki oficial de Python&lt;/a&gt; nos dice claramente que Python 2.x está anticuado (&lt;em&gt;Python 2.x is legacy&lt;/em&gt;). Además, Python 3 nos ofrece muchas facilidades para gestionar cadenas de texto y ésta es una gran ventaja para nuestra labor lingüística. Así que, ¡a por Python 3!&lt;/p&gt;
+&lt;div class="section" id="el-terminal"&gt;
+&lt;h2&gt;El Terminal&lt;/h2&gt;
+&lt;p&gt;Todas nuestras manipulaciones las haremos desde el Terminal de nuestro Mac. Si nunca has usado el Terminal, no te preocupes, es muy sencillo.&lt;/p&gt;
+&lt;p&gt;Para abrirlo, simplemente tienes que teclear la palabra &lt;em&gt;Terminal&lt;/em&gt; en el Finder o en el Spotlight, y darle un click. Se abrirá una ventana de este estilo:&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="ventana del Terminal de Mac." src="http://lingwars.github.io/blog/images/python-mac-1.png" style="width: 300px;" /&gt;
+&lt;/div&gt;
+&lt;p&gt;La primera cosa que haremos será comprobar la versión de Python que tenemos por defecto. Para esto en el Terminal teclearemos:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+Tanias-MacBook-Pro:~ tania$ python --version
+&lt;/pre&gt;
+&lt;p&gt;El símbolo $ y todo lo que le precede ya está en el Terminal y por supuesto no tienes que volver a teclearlo. Solo teclearás lo que viene después del $.&lt;/p&gt;
+&lt;p&gt;Tras darle a Enter, obtendrás la respuesta:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+Python &lt;span class="m"&gt;2&lt;/span&gt;.7.5
+&lt;/pre&gt;
+&lt;p&gt;El resultado es bastante previsible: tenemos Python 2 instalado en nuestro Mac, concretamente la versión 2.7.5.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="instalar-python-3-x-x"&gt;
+&lt;h2&gt;Instalar Python 3.x.x&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;AVISO IMPORTANTE&lt;/strong&gt;: bajo ningún concepto desinstales la versión de Python 2 preinstalada en tu Mac. A lo mejor nunca la vas a utilizar, pero tu sistema operativo sí que la necesita para funcionar con normalidad. Varias versiones de Python pueden coexistir perfectamente en el mismo Mac, así que dejaremos Python 2.x en paz y abriremos la &lt;a class="reference external" href="https://www.python.org/downloads/"&gt;página de descargas de Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ahí, tendremos la posibilidad de elegir entre la última versión de Python 3 y la última versión de Python 2 para Mac OS X (en el momento de escribir este post, 3.5.1 y 2.7.11 respectivamente). Por supuesto, elegiremos la primera opción. Una vez terminada la descarga, pincharemos en el archivo &lt;em&gt;.pkg&lt;/em&gt; descargado y seguiremos los pasos habituales de instalación.&lt;/p&gt;
+&lt;p&gt;Cuando termine la instalación podemos volver al Terminal para comprobar que todo ha ido bien. Volveremos a teclear &lt;code class="bash"&gt;python -- version&lt;/code&gt; y veremos que ... no ha cambiado nada: el Terminal nos sigue diciendo que tenemos Python 2. ¿Qué hemos hecho mal? Nada. Simplemente ya tenemos dos versiones de Python pero dado que Python 2 sigue siendo la versión &lt;em&gt;por defecto&lt;/em&gt;, al escribir &lt;code class="bash"&gt;python&lt;/code&gt; a secas estamos invocando Python 2. Si queremos invocar Python 3 tendremos que escribir &lt;code class="bash"&gt;python3&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+Tanias-MacBook-Pro:~ tania$ python3 --version
+Python &lt;span class="m"&gt;3&lt;/span&gt;.5.1
+&lt;/pre&gt;
+&lt;p&gt;Ahora vemos que Python 3.5.1 se ha instalado correctamente. ¡Genial!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="entorno-virtual"&gt;
+&lt;h2&gt;Entorno virtual&lt;/h2&gt;
+&lt;p&gt;Imagínate que estás trabajando en tres proyectos escritos en Python. Cada uno de tus proyectos tiene sus propios requisitos en cuanto a las versiones de las librerías de Python (una librería es una especie de paquete que amplía las funciones iniciales de Python). Tal vez la versión de la librería que tienes instalada te va a funcionar en uno de los proyectos pero no va a funcionar en los otros dos.&lt;/p&gt;
+&lt;p&gt;La solución a este problema se llama &lt;strong&gt;entorno virtual&lt;/strong&gt; (virtual environment). Un entorno virtual es como un espacio cerrado en el que puedes trabajar a tu gusto sin miedo a afectar al mundo exterior y verte afectado por éste. En el caso descrito más arriba simplemente crearíamos tres entornos virtuales, uno por proyecto.&lt;/p&gt;
+&lt;p&gt;Para hacer tus primeros pasos con Python puedes perfectamente prescindir del entorno virtual. Por otro lado, no es mala idea  acostumbrarse a hacer las cosas bien desde el principio. Por eso, te enseñaremos cómo crear un entorno virtual. Afortunadamente, desde la versión 3.3, Python te lo pone muy fácil ya que viene con una herramienta de gestión de entornos virtuales llamada &lt;strong&gt;pyvenv&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;De este modo, la única cosa que tendrás que hacer es escoger un nombre para tu nuevo entorno virtual (por ejemplo &lt;em&gt;dataenv&lt;/em&gt;, pero podría ser cualquier otro nombre) y escribir:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+Tanias-MacBook-Pro:~ tania$ pyvenv dataenv
+&lt;/pre&gt;
+&lt;p&gt;Este simple comando creará un entorno virtual llamado &lt;em&gt;dataenv&lt;/em&gt;. De hecho, lo podrás comprobar en el Finder, ya que verás que en el directorio con tu nombre de usuario (en mi caso &lt;em&gt;tania&lt;/em&gt;) ha aparecido una nueva carpeta llamada &lt;em&gt;dataenv&lt;/em&gt;. Así de simple.&lt;/p&gt;
+&lt;p&gt;Para penetrar en este mundo hermético que te has creado, simplemente escribirás:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+Tanias-MacBook-Pro:~ tania$ &lt;span class="nb"&gt;source&lt;/span&gt; dataenv/bin/activate
+&lt;/pre&gt;
+&lt;p&gt;Tras darle a Enter, verás que al comienzo de la línea ha aparecido el nombre de tu entorno entre paréntesis:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="o"&gt;(&lt;/span&gt;dataenv&lt;span class="o"&gt;)&lt;/span&gt; Tanias-MacBook-Pro:~ tania$
+&lt;/pre&gt;
+&lt;p&gt;Por otro lado, como ves no has tenido que precisar que querías crear el entorno con Python 3 en vez de con Python 2. La cosa se ha hecho sola porque pyvenv, como ya lo hemos dicho antes, solo existe a partir de la version 3.3. Si quisieras crear un entorno virtual en Python 2 o en una versión de Python 3 anterior a la 3.3, probablemente usarías &lt;em&gt;virtualenv&lt;/em&gt;. No lo vamos a cubrir en este post, pero si te interesa puedes echar un vistazo a &lt;a class="reference external" href="http://docs.python-guide.org/en/latest/dev/virtualenvs/"&gt;este tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Y, ¿qué piensas que va a pasar ahora si tecleas &lt;code class="bash"&gt;python --version&lt;/code&gt;? Efectivamente, si has creado tu entorno con Python 3.5.1 ya no tienes que escribir &lt;code class="bash"&gt;python3&lt;/code&gt;: un simple &lt;code class="bash"&gt;python&lt;/code&gt; ya invocará Python 3.5.1.&lt;/p&gt;
+&lt;p&gt;Cuando quieras salir del entorno virtual, solo tendrás que hacer&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="o"&gt;(&lt;/span&gt;dataenv&lt;span class="o"&gt;)&lt;/span&gt; Tanias-MacBook-Pro:~ tania$ deactivate
+Tanias-MacBook-Pro:~ tania$
+&lt;/pre&gt;
+&lt;p&gt;y verás que los paréntesis con el nombre del entorno habrán desaparecido.&lt;/p&gt;
+&lt;p&gt;Si de momento no le ves mucha utilidad a los entornos virtuales, no te preocupes. Acabarás pillándoles el gusto cuando empieces a escribir tu primeros programas en Python. Y seguramente no tardarás mucho en hacerlo, ¿verdad?&lt;/p&gt;
+&lt;p&gt;Esto era todo para hoy. En el próximo tutorial hablaremos un poco más del Terminal y te explicaremos cómo ejecutar un script de Python.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Mac"></category><category term="OS X"></category><category term="Python"></category><category term="instalación"></category></entry><entry><title>Conexión al stream de Twitter</title><link href="http://lingwars.github.io/blog/twitter-stream.html" rel="alternate"></link><published>2016-05-06T15:20:00+02:00</published><updated>2016-05-06T15:20:00+02:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2016-05-06:/blog/twitter-stream.html</id><summary type="html">&lt;p&gt;En esta ocasión vamos a dar una pinceladas sobre cómo podemos conectarnos a la
+API de Twitter para volcar en nuestro ordenador los &lt;em&gt;tweets&lt;/em&gt; que se van publicando
+sobre algún tema a medida que van apareciendo en la red. Es decir, nos conectaremos
+a la que se conoce como &lt;a class="reference external" href="https://dev.twitter.com/streaming/overview"&gt;Streaming …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;En esta ocasión vamos a dar una pinceladas sobre cómo podemos conectarnos a la
+API de Twitter para volcar en nuestro ordenador los &lt;em&gt;tweets&lt;/em&gt; que se van publicando
+sobre algún tema a medida que van apareciendo en la red. Es decir, nos conectaremos
+a la que se conoce como &lt;a class="reference external" href="https://dev.twitter.com/streaming/overview"&gt;Streaming API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Recibir los &lt;em&gt;tweets&lt;/em&gt; en tiempo real nos permite hacer cosas tan curiosas como
+&lt;a class="reference external" href="http://emojitracker.com/"&gt;emojitracker&lt;/a&gt; que muestra en tiempo real los emoticonos que se están utilizando,
+o también podríamos hacer seguimiento de algún acontecimiento al mismo tiempo que
+sucede mediante análisis de sentimieno, o... ¿nos comentas que se te ocurre en los
+comentarios más abajo?&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="emojitracker: realtime emoji use on twitter." src="http://lingwars.github.io/blog/images/emojitracker.jpg" style="width: 600px;" /&gt;
+&lt;p class="caption"&gt;emojitracker: monitorización en tiempo real del uso de emoticonos en Twitter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="que-necesito"&gt;
+&lt;h2&gt;¿Qué necesito?&lt;/h2&gt;
+&lt;p&gt;Vamos a utilizar Python para este ejemplo (aunque bien podría haberse abordado con
+otro lenguaje de programación) e instalaremos también algunos paquetes adicionales
+que nos van a simplificar la vida.&lt;/p&gt;
+&lt;p&gt;Así que, si aún no lo has hecho, debes &lt;a class="reference external" href="http://lingwars.github.io/blog/instalar-python-en-windows-7.html"&gt;instalarte Python&lt;/a&gt;
+y después estos paquetes adicionales:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+$&amp;gt; pip install tweepy
+&lt;/pre&gt;
+&lt;p&gt;Con la línea anterior instalamos &lt;a class="reference external" href="http://www.tweepy.org/"&gt;tweepy&lt;/a&gt;, una librería que nos va a simplificar sobremanera
+la utilización de la API de Twitter con Python.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="que-es-una-api"&gt;
+&lt;h2&gt;¿Qué es una API?&lt;/h2&gt;
+&lt;p&gt;API es la abreviatura de &lt;em&gt;Application Programming Interface&lt;/em&gt;, es decir, la interfaz que nos
+permite conectarnos programáticamente a una aplicación, lo que podríamos llamar el contrato
+que establece una aplicación con su entorno con una serie de claúsulas del tipo
+&lt;em&gt;&amp;quot;si tú me preguntas de esta manera, yo te respondo de esta otra&amp;quot;&lt;/em&gt;; y gracias a ellas podemos
+hacer programas que colaboren unos con otros.&lt;/p&gt;
+&lt;p&gt;Twitter, como muchas otras aplicaciones online ofrecen una API que nos permite hacer programas
+que utilicen sus datos y también aportar datos a través de otras aplicaciones. Prácticamente
+cualquier aplicación que tengamos en nuestro teléfono móvil se estará comunicando continuamente
+con una servidor en internet para intercambiar datos.&lt;/p&gt;
+&lt;p&gt;En el caso de las APIs de internet algo imprescindible es la identificación de quién está
+haciendo la llamada y qué acciones puede realizar. Como podrás suponer, mi móvil tiene acceso
+a mis datos y el tuyo a los tuyos, y todos queremos que esto sea así; esta vinculación se
+consigue a través de credenciales, parejas de claves públicas/privadas, autenticación,...&lt;/p&gt;
+&lt;p&gt;Ni hoy ni aquí, es el momento ni el lugar para hablar largo de esto, espero que con esta
+brevísima introducción te hayas hecho una mínima idea, pero siempre tendrás internet a mano
+para consultar más.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="obteniendo-las-claves"&gt;
+&lt;h2&gt;1) Obteniendo las claves&lt;/h2&gt;
+&lt;p&gt;Lo primero que vamos a tener que hacer es darnos de alta en Twitter e indicar que queremos
+crear una aplicación como desarrolladores para que nos generen las claves y &lt;em&gt;tokens&lt;/em&gt; de acceso
+que tendremos que utilizar a continuación. Quizá suena más complicado de lo que es:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Necesitas crearte una cuenta en Twitter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Después tendrás que crear una nueva aplicación en &lt;a class="reference external" href="https://apps.twitter.com/"&gt;https://apps.twitter.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Y en la pestaña &lt;cite&gt;Keys and access tokens&lt;/cite&gt; podrás generar un &lt;cite&gt;access_token&lt;/cite&gt;. Ahora
+deberías tener acceso a cuatro numerajos como estos:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;consumer_key&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'qjKzLb55Ddq9uTirHRSLh2fn1'&lt;/span&gt;
+&lt;span class="n"&gt;consumer_secret&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'crUCVcphcM6CM1EhNmQcknLMHV4lIdRIovwF42A8943b7pMghh'&lt;/span&gt;
+&lt;span class="n"&gt;access_token&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'332912007-O2ZZQqICUcRNaImFuuVzyQCstVGo6giphaaJ5Pvu'&lt;/span&gt;
+&lt;span class="n"&gt;access_token_secret&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'I7hTnSJhefdmRZFaHIxeX5gtQkuurYxUV01jOwDI89yoL'&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Ten en mente que cualquiera que acceda a estos datos podrá publicar en Twitter
+usando tu cuenta, y borrar tus tweets... así que trátalos con cuidado y no se
+los dejes a nadie.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="el-esqueleto-del-programa"&gt;
+&lt;h2&gt;2) El esqueleto del programa&lt;/h2&gt;
+&lt;p&gt;Cuando uno programa hay que ser muy ordenado (y utilizar un control de versiones), así
+que vamos a crear el esqueleto de un programa al que después vamos a ir dotando de
+funcionalidad.&lt;/p&gt;
+&lt;p&gt;Crea un directorio en tu ordenador con el nombre que vaya a tener tu programa y dentro
+de él vamos a poner dos archivos:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+secret.py
+run.py
+&lt;/pre&gt;
+&lt;p&gt;En el primero de ellos, &lt;cite&gt;secret.py&lt;/cite&gt;, debes poner tus claves y tokens:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;consumer_key&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'qjKzLb55Ddq9uTirHRSLh2fn1'&lt;/span&gt;
+&lt;span class="n"&gt;consumer_secret&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'crUCVcphcM6CM1EhNmQcknLMHV4lIdRIovwF42A8943b7pMghh'&lt;/span&gt;
+&lt;span class="n"&gt;access_token&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'332912007-O2ZZQqICUcRNaImFuuVzyQCstVGo6giphaaJ5Pvu'&lt;/span&gt;
+&lt;span class="n"&gt;access_token_secret&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'I7hTnSJhefdmRZFaHIxeX5gtQkuurYxUV01jOwDI89yoL'&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;y en el segundo es donde vamos a escribir el código de nuestra aplicación, empecemos
+por lo más sencillo, sólo para ver que funciona:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;tweepy&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;secret&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;consumer_key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consumer_secret&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token_secret&lt;/span&gt;
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;'__main__'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;===== My Application =====&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="c1"&gt;# Here starts my program&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# End&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;c'est fini!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Esta separación es muy útil si queremos compartir nuestro programa con otras personas,
+así podremos pasarles el archivo con el código, &lt;cite&gt;run.py&lt;/cite&gt;, sin necesidad de tener que
+borrar las claves que no queremos compartir. &lt;strong&gt;¡Importante!&lt;/strong&gt; Si lo estás guardando
+con algún sistema de control de versiones acuérdate de indicar que debe ignorar el
+archivo &lt;cite&gt;secret.py&lt;/cite&gt; para que no lo suba a internet.&lt;/p&gt;
+&lt;p&gt;Y ahora la prueba de fuego, vamos a ver si nuestro esqueleto de programa funciona:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Abre una consola de comandos (pantalla negra) y ve hasta el directorio donde estén
+los dos archivos anteriores.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Ejecuta &lt;cite&gt;run.py&lt;/cite&gt; utilizando Python, es decir, tendrás que escribir:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+python run.py
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-programa-que-funcione"&gt;
+&lt;h2&gt;3) Un programa que funcione&lt;/h2&gt;
+&lt;p&gt;Antes de conectarnos al stream de Twitter vamos a comprobar que todo está en su sitio.
+Para ello podemos modificar el archivo &lt;cite&gt;run.py&lt;/cite&gt; con el código que aparece a continuación:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;tweepy&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;secret&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;consumer_key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consumer_secret&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token_secret&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_auth&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;OAuthHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;consumer_key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consumer_secret&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_access_token&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;access_token&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token_secret&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;auth&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;'__main__'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;===== My Application =====&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Get an API item using tweepy&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;get_auth&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;  &lt;span class="c1"&gt;# Retrieve an auth object using the function 'get_auth' above&lt;/span&gt;
+    &lt;span class="n"&gt;api&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;API&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# Build an API object.&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Test it works&lt;/span&gt;
+    &lt;span class="n"&gt;api&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;update_status&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Hola &amp;#64;lingwars! Estoy mandando este tweet desde mi ordenador'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# End&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;c'est fini!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;¡Pruébalo! ¿Qué ha pasado? ¿Nada? ¿Algo? Este momento es crucial, no sigas adelante si
+estás obteniendo algún tipo de error al ejecutar el programa anterior.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conexion-al-stream"&gt;
+&lt;h2&gt;4) Conexión al stream&lt;/h2&gt;
+&lt;p&gt;Y ya por fin, vamos a por el &lt;strong&gt;tiempo real&lt;/strong&gt;. Gracias a la librería &lt;a class="reference external" href="http://www.tweepy.org/"&gt;tweepy&lt;/a&gt; hacer
+esto es tan sencillo como se muestra en el siguiente trozo de código que puedos poner
+en tu archivo &lt;cite&gt;run.py&lt;/cite&gt;:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;tweepy&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;secret&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;consumer_key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consumer_secret&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token_secret&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_auth&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;OAuthHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;consumer_key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consumer_secret&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_access_token&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;access_token&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;access_token_secret&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;auth&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyStreamListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamListener&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_status&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="c1"&gt;# When a tweet is published it arrives here.&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ascii&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;errors&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'replace'&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;  &lt;span class="c1"&gt;# Console output may not be UTF-8&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;'__main__'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;===== My Application =====&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Get an API item using tweepy&lt;/span&gt;
+    &lt;span class="n"&gt;auth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;get_auth&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;  &lt;span class="c1"&gt;# Retrieve an auth object using the function 'get_auth' above&lt;/span&gt;
+    &lt;span class="n"&gt;api&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;API&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# Build an API object.&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Connect to the stream&lt;/span&gt;
+    &lt;span class="n"&gt;myStreamListener&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;MyStreamListener&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;myStream&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Stream&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;api&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;auth&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;listener&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;myStreamListener&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;gt;&amp;gt; Listening to tweets about #python:&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;myStream&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;track&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'python'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# End&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;c'est fini!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Ejecútalo como ya sabes y espera:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+python run.py
+&lt;/pre&gt;
+&lt;p&gt;Como podrás imaginar, Twitter no nos está enviando todos los &lt;em&gt;tweets&lt;/em&gt; que se publican en
+el mundo (eso tiene un precio), pero quizá la muestra sea suficientemente significativa
+para nuestros propósitos.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="y-ahora-que"&gt;
+&lt;h2&gt;¿Y ahora qué?&lt;/h2&gt;
+&lt;p&gt;Puedes jugar con el programa anterior modificando pequeñas partes a tu antojo. Seguro que
+tienes muchas ideas para probar, pero puedes empezar por alguna de éstas:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Guardar los tweets en un archivo de texto para consultarlos después&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;codecs&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_status&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="c1"&gt;# Print&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ascii&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;errors&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'replace'&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;  &lt;span class="c1"&gt;# Console output may not be UTF-8&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="c1"&gt;# Append to file&lt;/span&gt;
+    &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;codecs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;tweets.txt&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;myfile&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;myfile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Cotillea qué otra información viene con cada tweet. Para ello puedes cambiar el &lt;em&gt;listener&lt;/em&gt; por
+algo como lo siguiente:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyStreamListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tweepy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamListener&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_data&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;decoded&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loads&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decoded&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;Exception&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ERROR: {}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;finally&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;  &lt;span class="c1"&gt;# Keep listening&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Fíjate en que hay información muy interesante como el autor, imágenes, hashtags,... y piensa
+que todo eso podrías guardarlo en una base de datos y hacer búsquedas. \o/&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Geoposiciona los &lt;em&gt;tweets&lt;/em&gt;: ¿qué te parece guardar sólo los tweets con información de geolocalización
+y después pintarlos en un mapa? Pues no es complicado, sólo tienes que combinar los dos ejemplos
+anteriores y después utilizar alguna herramienta sencilla para crear mapas como &lt;a class="reference external" href="https://cartodb.com/"&gt;CartoDB&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;¿Y si filtramos para que nos muestre únicamente tweets en español escritos desde España?&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="c1"&gt;# LOCATIONS. Use http://boundingbox.klokantech.com/ for boundingboxes&lt;/span&gt;
+&lt;span class="n"&gt;SPAIN_GEOBOX&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;9.38&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;36.05&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;3.35&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;43.75&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;myStream&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;languages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;es&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;locations&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;SPAIN_GEOBOX&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Aunque también podríamos haber detectado el idioma español utilizando una lista de &lt;cite&gt;stopwords&lt;/cite&gt;, ¿no?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Espero que todo esto haya despertado tu inquietud y te hayas puesto como loco a programar el próximo
+digestor de tweets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="antes-de-acabar"&gt;
+&lt;h2&gt;Antes de acabar&lt;/h2&gt;
+&lt;p&gt;¿Recuerdas que arriba comentábamos que cualquiera que tuviera tu &lt;cite&gt;consumer_secret&lt;/cite&gt;,
+&lt;cite&gt;access_token&lt;/cite&gt; y &lt;cite&gt;access_token_secret&lt;/cite&gt; podría acceder a tu cuenta y publicar en tu
+nombre? Quizá ha llegado el momento de borrarlos si no lo vas a utilizar más o de
+revocar el acceso a estos tokens (puedes hacerlo en la misma página donde los creaste
+utilizando el botón &lt;em&gt;Regenerate consumer key and secret&lt;/em&gt;. Avisado estás.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="taller"></category><category term="twitter"></category><category term="python"></category></entry><entry><title>Scrapeando la web con Python</title><link href="http://lingwars.github.io/blog/scrape-xpath.html" rel="alternate"></link><published>2016-04-13T19:54:00+02:00</published><updated>2016-04-13T19:54:00+02:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2016-04-13:/blog/scrape-xpath.html</id><summary type="html">&lt;p&gt;Existen varias herramientas muy buenas que permiten &lt;em&gt;scrapear&lt;/em&gt; la web sin tener
+conocimientos de programación y sin meterse en cosas raras como XPath o expresiones
+regulares, sin embargo, antes o después ambas se hacen necesarias si queremos que
+la extracción de información sea precisa y eficiente. De hecho las dos …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Existen varias herramientas muy buenas que permiten &lt;em&gt;scrapear&lt;/em&gt; la web sin tener
+conocimientos de programación y sin meterse en cosas raras como XPath o expresiones
+regulares, sin embargo, antes o después ambas se hacen necesarias si queremos que
+la extracción de información sea precisa y eficiente. De hecho las dos herramientas
+que he probado, &lt;a class="reference external" href="https://www.import.io/"&gt;Import.io&lt;/a&gt; y &lt;cite&gt;Portia&lt;/cite&gt; (Scrapinghub) ofrecen la posibilidad
+de incorporar ambas tecnologías a los scrapers que se crean con sus interfaces
+gráficas.&lt;/p&gt;
+&lt;p&gt;Y yo me digo, si ya utilizamos XPath y regex, ¿por qué no abordarlo directamente con
+programación 100%. El objetivo de esta publicación es mostrar un pequeño ejemplo con
+el que vamos a ser capaces de automatizar el proceso de descarga de los artículos de
+una web.&lt;/p&gt;
+&lt;div class="section" id="que-necesito"&gt;
+&lt;h2&gt;¿Qué necesito?&lt;/h2&gt;
+&lt;p&gt;Vamos a utilizar Python para este ejemplo (aunque bien podría haberse abordado con
+cualquier lenguaje de programación) e instalaremos también algunos paquetes adicionales
+que nos van a simplificar la vida, a pesar de que bien podríamos hacerlo con las librerías
+instaladas por defecto con nuestro Python.&lt;/p&gt;
+&lt;p&gt;Así que, si aún no lo has hecho, debes &lt;a class="reference external" href="http://lingwars.github.io/blog/instalar-python-en-windows-7.html"&gt;instalarte Python&lt;/a&gt;
+y después estos paquetes adicionales:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+$&amp;gt; pip install requests
+$&amp;gt; pip install lxml
+&lt;/pre&gt;
+&lt;p&gt;Una brevísima descripción:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.python-requests.org/en/master/"&gt;requests&lt;/a&gt;: una librería estupenda para trabajar con HTTP, una de las imprescindibles en tu mochila ;D&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lxml.de/"&gt;lxml&lt;/a&gt;: es una librería para manejar XML, básica, pero suficientemente potente para lo que haremos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Y ahora que ya tienes todo listo, let's go!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="html-xhtml"&gt;
+&lt;h2&gt;HTML/XHTML&lt;/h2&gt;
+&lt;p&gt;El HTML es el &lt;em&gt;HyperText Markup Language&lt;/em&gt;, es el código con el que se escriben las páginas web.
+Este código es interpretado por el navegador y junto con las hojas de estilo (CSS) y el
+javascript nos permite obtener unas páginas web interactivas y agradables como las que tenemos
+hoy en día.&lt;/p&gt;
+&lt;p&gt;Actualmente el estándar es &lt;strong&gt;HTML5/XHTML5&lt;/strong&gt; que añade algunas etiquetas nuevas de caracter
+semántico y asociadas a funcionalidades, pero no necesitamos entrar en esto, lo que vamos
+a hacer es mucho más sencillo.&lt;/p&gt;
+&lt;p&gt;Un ejemplo de HTML podría ser el siguiente:&lt;/p&gt;
+&lt;pre class="code html literal-block"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="c"&gt;&amp;lt;!-- Comentario: Este título se mostrará en la barra superior del navegador --&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Wikipedia | HTML&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="c"&gt;&amp;lt;!-- Todo lo incluido dentro de la etiqueta 'body' es lo vemos en el navegador --&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Ejemplo de HTML&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;section&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Primera sección&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Y esto es un párrafo con algo en &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;strong&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;negrita&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;strong&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; y poco más.&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Segunda sección&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;En este otro párrafo pongo un &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;https://lingwars.github.io/blog&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;link a Lingwars&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;.&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;En el extracto de código anterior se puede ver la estructura básica de una página web; en
+ella se aprecia la disposición jerárquica de los elementos y las secciones principales.
+Sin embargo, el código de una web de verdad es mucho más largo y farragoso, lo puedes comprobar
+tú mismo abriendo una web cualquiera en tu navegador y utilizando la opción &lt;cite&gt;ver código fuente&lt;/cite&gt;
+que se te mostrará al hacer &lt;em&gt;click&lt;/em&gt; con el botón derecho en cualquier lugar de la página.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Código fuente de un artículo de la web de Lingwars." src="http://lingwars.github.io/blog/images/scrape-xpath-1.png" style="width: 600px;" /&gt;
+&lt;p class="caption"&gt;Código fuente de un artículo de la web de Lingwars.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Puedes leer (recomendado) los artículos de la Wikipedia referentes a &lt;a class="reference external" href="https://es.wikipedia.org/wiki/HTML#C.C3.B3digos_HTML_b.C3.A1sicos"&gt;HTML&lt;/a&gt; y &lt;a class="reference external" href="https://es.wikipedia.org/wiki/HTML5"&gt;HTML5&lt;/a&gt;,
+nosotros ahora vamos a seguir avanzando.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="descargar-la-web"&gt;
+&lt;h2&gt;Descargar la web&lt;/h2&gt;
+&lt;p&gt;El paquete &lt;a class="reference external" href="http://docs.python-requests.org/en/master/"&gt;requests&lt;/a&gt; al que hicimos referencia anteriormente es especialmente bueno en esto.
+Con el siguiente script podemos descargarnos el código HTML de cualquier web:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Returns the HTML source code from the given URL
+        :param url: URL to get the source from.
+    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;status_code&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stderr&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;! Error {} retrieving url {}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;status_code&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;'__main__'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;http://elpais.com&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;[:&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Nothing was retrieved.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;La función &lt;cite&gt;download&lt;/cite&gt; anterior devuelve el contenido HTML de la &lt;cite&gt;url&lt;/cite&gt; que le pasamos como parámetro,
+deberías probar a ejecutar el código anterior con diferentes URLs y puedes comprobar que el texto
+devuelto es el mismo que ves en el navegador al utilizar el botón &lt;cite&gt;ver código fuente&lt;/cite&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="xpath-acceso-a-los-datos"&gt;
+&lt;h2&gt;XPath - Acceso a los datos&lt;/h2&gt;
+&lt;p&gt;El XPath (XML Path Language) es un lenguaje que permite extraer contenido de un documento XML
+de una forma parecida a cómo lo hacen las expresiones regulares sobre el texto. Ambos son
+bastante complejos y la forma más fácil de aprender es a base de prueba y error, y luego ya
+con la práctica cada vez habrá más aciertos.&lt;/p&gt;
+&lt;div class="section" id="pruebas-online"&gt;
+&lt;h3&gt;Pruebas online&lt;/h3&gt;
+&lt;p&gt;Vamos a hacer algunas pruebas sobre el XHTML que mostramos más arriba. A mí me gusta utilizar
+esta aplicación online (&lt;a class="reference external" href="http://codebeautify.org/Xpath-Tester"&gt;XPath Tester&lt;/a&gt;) para probarlo de forma interactiva, pero puedes utilizar cualquier otra
+que te guste o encuentres por internet.&lt;/p&gt;
+&lt;p&gt;Probaremos algunas cadenas XPath típicas para ver qué nos devuelven:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;cite&gt;//a/&amp;#64;href&lt;/cite&gt;: devuelve el atributo &lt;cite&gt;href&lt;/cite&gt; de los nodos cuya etiqueta sea &lt;cite&gt;a&lt;/cite&gt; y que se encuentren en cualquier
+punto del árbol jerárquico (&lt;cite&gt;//&lt;/cite&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;//title/text()&lt;/cite&gt;: devuelve el texto (el contenido que hay entre las etiquetas) de los nodos cuya etiqueta sea
+&lt;cite&gt;title&lt;/cite&gt; y que se encuentren en cualquier punto del árbol.&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;//div[&amp;#64;id='content']//p/text()&lt;/cite&gt;: devuelve el texto de todos los nodos tipo &lt;cite&gt;p&lt;/cite&gt; que estén por debajo del
+nodo &lt;cite&gt;div&lt;/cite&gt; cuyo atributo &lt;cite&gt;id&lt;/cite&gt; es &lt;cite&gt;content&lt;/cite&gt;, en cualquier lugar en que se encuentre este nodo.&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;//div[&amp;#64;id='content']//p//text()&lt;/cite&gt;: prácticamente igual que la anterior, pero con una sutil diferencia. Esta
+cadena XPath devuelve el texto de todos los nodos hijo de todos los nodos tipo &lt;cite&gt;p&lt;/cite&gt; (también el texto del propio
+nodo &lt;cite&gt;p&lt;/cite&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="implementacion-en-python"&gt;
+&lt;h3&gt;Implementación en Python&lt;/h3&gt;
+&lt;p&gt;Por supuesto, estas pruebas las podemos hacer también con Python. Fíjate en el siguiente programa:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;lxml&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Returns the HTML source code from the given URL
+        :param url: URL to get the source from.
+    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;status_code&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stderr&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;! Error {} retrieving url {}&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;status_code&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;'__main__'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=============================&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;== Lingwars - Scrape XPath ==&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=============================&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;http://www.elmundo.es/internacional.html&amp;quot;&lt;/span&gt;
+
+    &lt;span class="n"&gt;page&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;page&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="se"&gt;\n\n&lt;/span&gt;&lt;span class="s2"&gt;1) Download text from {}&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;page&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;[:&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+        &lt;span class="c1"&gt;# Parse the text to XML structures&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="se"&gt;\n\n&lt;/span&gt;&lt;span class="s2"&gt;2) Let's try some XPath expresions:&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;tree&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fromstring&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;page&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="c1"&gt;# Execute xpath over retrieved html content&lt;/span&gt;
+        &lt;span class="n"&gt;xpath_string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'//a/&amp;#64;href'&lt;/span&gt;
+        &lt;span class="n"&gt;results&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;tree&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xpath&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xpath_string&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n\t&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;results&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Nothing was retrieved.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Lo que estamos haciendo es descargarnos la web &lt;cite&gt;http://www.elmundo.es/internacional.html&lt;/cite&gt;,
+parsear el XML y utilizar la cadena XPath &lt;cite&gt;//a/&amp;#64;href&lt;/cite&gt; para recuperar todos las direcciones
+de los enlaces que hay en la página.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ejemplo-con-un-articulo"&gt;
+&lt;h3&gt;Ejemplo con un artículo&lt;/h3&gt;
+&lt;p&gt;Muchas veces querremos obtener los datos de una publicación, sigamos con el periódico El Mundo
+y pensemos en que queremos obtener el autor, la fecha, el contenido y toda la información que
+podamos de un artículo en su web.&lt;/p&gt;
+&lt;p&gt;Utilicemos como ejemplo el que aparece en este link: &lt;cite&gt;http://www.elmundo.es/internacional/2016/04/14/570f7ad946163f045f8b45e4.html&lt;/cite&gt;&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Captura de un artículo del periódico El Mundo." src="http://lingwars.github.io/blog/images/scrape-xpath-2.png" style="width: 600px;" /&gt;
+&lt;p class="caption"&gt;Captura de un artículo del periódico El Mundo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Podemos modificar el programa anterior para que acceda a la URL del artículo y con las
+siguientes cadenas XPath obtener los datos que buscábamos (algunos datos pueden estar
+presentes en varios nodos, podemos elegir cuál es el más sencillo de obtener):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;título: &lt;cite&gt;//article/h1[&amp;#64;itemprop='headline']/text()&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;entradilla: &lt;cite&gt;//article/div[&amp;#64;itemprop='articleBody']/p[&amp;#64;class='summary-lead']//text()&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;autor: &lt;cite&gt;//footer/ul/li[&amp;#64;itemprop='name']//text()&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;localización: &lt;cite&gt;//footer/ul/li[&amp;#64;itemprop='address']//text()&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;datetime: &lt;cite&gt;//article/div[&amp;#64;itemprop='articleBody']/time//text()&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;contenido: &lt;cite&gt;//article/div[&amp;#64;itemprop='articleBody']/p[not(&amp;#64;class='summary-lead')]//text()&lt;/cite&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No continúes sin probar lo anterior. Asegúrate de que entiendes el por qué de cada elemento
+de las cadenas anteriores y si no, aquí estamos para ayudarte.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="automatizar-el-proceso"&gt;
+&lt;h2&gt;Automatizar el proceso&lt;/h2&gt;
+&lt;p&gt;Si te has dado cuenta, los dos ejemplos que hemos mostrado permiten extraer todas las URLs
+de una página y el contenido (título, autor, fecha,...) de la misma, en caso de que existan,
+claro. ¿Qué te parecería juntar ambos en uno? ¿Qué tal si hacemos un crawler que se
+descargue todos los artículos de El Mundo? ¿O que se descargue sólo los de una sección?&lt;/p&gt;
+&lt;p&gt;Podemos utilizar la siguiente estrategia:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Seleccionar un conjunto de páginas de inicio (o una sola).&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;http://www.elmundo.es/internacional.html&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Establecer los patrones de las URLs que debe visitar nuestro crawler para seguir buscando.&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;visit_pattern&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'https?:\/\/(www.)?elmundo.es\/internacional.*'&lt;/span&gt;&lt;span class="p"&gt;),]&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Fijar los patrones de las páginas en las que debe buscar el contenido.&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;content_pattern&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'https?:\/\/(www.)?elmundo.es\/internacional\/(?P&amp;lt;year&amp;gt;\d{4})\/(?P&amp;lt;month&amp;gt;\d{2})\/(?P&amp;lt;day&amp;gt;\d{2})\/(?P&amp;lt;uuid&amp;gt;[\d\w]+).html'&lt;/span&gt;&lt;span class="p"&gt;),]&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Y ahora construir un bucle recursivo en los siguientes pasos:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Buscar todas las URLs de en las páginas de inicio (¡elimina los duplicados!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Para cada una de estas URLs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Si satisface algún &lt;cite&gt;visit_pattern&lt;/cite&gt;, extraer las URLs que encuentre y añadirlas a la lista de URLs por visitar.&lt;/li&gt;
+&lt;li&gt;Si satisface algún &lt;cite&gt;content_pattern&lt;/cite&gt;, scrapear su contenido y guardarlo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¿Te animas a implementarlo? No mires &lt;a class="reference external" href="https://github.com/Lingwars/lingwars/blob/master/lingwars/scrape/example.py"&gt;aquí&lt;/a&gt;
+hasta que no te hayas peleado un poco tratando de hacer el programita.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="scraping"></category><category term="xpath"></category><category term="regex"></category></entry><entry><title>Taller de tratamiento de datos digitales</title><link href="http://lingwars.github.io/blog/taller-de-tratamiento-de-datos-digitales.html" rel="alternate"></link><published>2016-03-16T19:20:00+01:00</published><updated>2016-03-16T19:20:00+01:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2016-03-16:/blog/taller-de-tratamiento-de-datos-digitales.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Organizan:&lt;/strong&gt; &lt;a class="reference external" href="http://encomienda.colenguando.com/"&gt;coLenguando&lt;/a&gt; y Lingẅars&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; sábado 9 de abril 10:00-13:00, sábado 16 de abril 10:00-13:00, sábado 23 de abril 10:00-13:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 20€ (9 horas)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dónde:&lt;/strong&gt; en coLenguando (Calle Encomienda, 21, 28012 Madrid)&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;La web está llena de textos, textos que contienen datos interesantísimos que …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Organizan:&lt;/strong&gt; &lt;a class="reference external" href="http://encomienda.colenguando.com/"&gt;coLenguando&lt;/a&gt; y Lingẅars&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; sábado 9 de abril 10:00-13:00, sábado 16 de abril 10:00-13:00, sábado 23 de abril 10:00-13:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 20€ (9 horas)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dónde:&lt;/strong&gt; en coLenguando (Calle Encomienda, 21, 28012 Madrid)&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;La web está llena de textos, textos que contienen datos interesantísimos que
+podemos explotar utilizando unas sencillas herramientas que están al alcance de todos.
+El objetivo de este taller es conocer y aprender a trabajar con estas herramientas
+para que tú mismo puedas realizar tus investigaciones y sacar conclusiones, ya seas
+periodista, filólogo, traductor, lingüista o curioso; el dato está ahí disponible,
+sólo hay que saber llegar a él.&lt;/p&gt;
+&lt;p&gt;No es necesario tener conocimientos previos de programación, aunque es importante
+manejar bien el ordenador a nivel de usuario.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Material:&lt;/strong&gt; necesitarás traer tu ordenador a los talleres, vamos a aprender cacharreando.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contenido:&lt;/strong&gt; lo hemos dividido en tres talleres para que nos dé tiempo a todo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;Scraping: generación de un corpus a partir de la web.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 9 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;En la primera sesión aprenderemos a descargar los textos que hay en la web de
+una forma automatizada, así como a limpiarlos y pasarlos a un formato que nos
+permitirá analizarlos. Vamos a crear un corpus.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;&lt;strong&gt;Análisis: exploración de un corpus.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 16 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;Utilizaremos herramientas adecuadas para analizar los textos que hemos descargado
+de una forma fácil y rápida. Verás como empiezas a ver cosas interesantes en
+ese gran conjunto de palabras que nos descargamos el día anterior.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;&lt;strong&gt;Insights: visualización de datos.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 23 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;Porque de nada sirve tener los datos si no los mostramos de una manera
+atractiva que permita comunicar la información que hemos encontrado.
+Cada conjunto de datos puede requerir una visualización distinta, así que
+en función del corpus de trabajo podremos querer mostrarlos en un mapa,
+utilizar series temporal o diferentes diagramas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo me apunto?&lt;/strong&gt; Tendrás que hacerlo a través de eventbrite -&amp;gt; &lt;a class="reference external" href="https://www.eventbrite.es/e/entradas-taller-de-tratamiento-de-textos-digitales-23738461377"&gt;aquí&lt;/a&gt; &amp;lt;-. Cualquier
+duda puedes consultarla con nosotros vía email.&lt;/p&gt;
+</content><category term="taller"></category><category term="corpus"></category><category term="antconc"></category><category term="importio"></category><category term="scrape"></category><category term="cartodb"></category><category term="graphtext"></category></entry><entry><title>Crónica del EOL2</title><link href="http://lingwars.github.io/blog/cronica-del-eol2.html" rel="alternate"></link><published>2015-11-20T10:20:00+01:00</published><updated>2015-11-20T10:20:00+01:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2015-11-20:/blog/cronica-del-eol2.html</id><summary type="html">&lt;p&gt;El pasado 14 de noviembre celebramos el II Encuentro Oficial Lingẅars centrado en la lingüística de &lt;em&gt;corpus&lt;/em&gt; (ya habíamos realizado uno,
+pero de ese no escribimos crónica :/). Es el primer encuentro en el que nos centramos en un área concreta y creo que es una
+coincidencia que debemos adoptar como …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El pasado 14 de noviembre celebramos el II Encuentro Oficial Lingẅars centrado en la lingüística de &lt;em&gt;corpus&lt;/em&gt; (ya habíamos realizado uno,
+pero de ese no escribimos crónica :/). Es el primer encuentro en el que nos centramos en un área concreta y creo que es una
+coincidencia que debemos adoptar como constumbre, ya que permite seguir un hilo conductor durante toda la jornada y relacionar
+unas charlas con otras.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spoiler alert.-&lt;/strong&gt; Algunos dicen que el próximo encuentro podría ir sobre algo llamado semántica estructural. ¡Apúntate utilizando
+el sobrecito que hay arriba y serás pertinentemente avisado!&lt;/p&gt;
+&lt;h1&gt;Por la mañana&lt;/h1&gt;
+&lt;p&gt;Comenzamos el día con una introducción al grupo a cargo de &lt;a href="https://twitter.com/ebaste"&gt;Eduardo&lt;/a&gt; así los que vienen de nuevas
+pueden saber a qué nos dedicamos, quiénes somos y qué objetivos tenemos... y de paso vamos autodefiniéndonos, que no es tarea fácil.&lt;/p&gt;
+&lt;h2&gt;Introducción a la lingüística de corpus&lt;/h2&gt;
+&lt;p&gt;A continuación entramos en harina, directos hacia el corpus de la mano de &lt;strong&gt;Tania&lt;/strong&gt; y con la ayuda de &lt;strong&gt;&lt;a href="https://twitter.com/nimbusaeta"&gt;Leticia&lt;/a&gt;&lt;/strong&gt;;
+entre las dos aprendimos lo que es un corpus y cómo manejarlo. En primer lugar nos introdujeros varios conceptos sobre los &lt;em&gt;corpora&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qué son.&lt;/li&gt;
+&lt;li&gt;Por qué usarlos.&lt;/li&gt;
+&lt;li&gt;Criterios para construir un corpus.&lt;/li&gt;
+&lt;li&gt;Corpus anotados.&lt;/li&gt;
+&lt;li&gt;Tipos de corpus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una introducción imprescindible para la gente que se acerca por vez primera a este campo, podéis descargar la presentación
+&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-intro_to_corpus.pdf"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Introducción a la lingüística de corpus" src="http://lingwars.github.io/blog/images/lw-043.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;AntConc&lt;/h2&gt;
+&lt;p&gt;Después &lt;strong&gt;Tania&lt;/strong&gt; nos mostró como utilizar &lt;a href="http://www.laurenceanthony.net/software.html"&gt;AntConc&lt;/a&gt;, una herramienta para
+trabajar con corpus desarrollada por Laurence Anthony. Tania nos guió por la herramienta en un recorrido desde las cosas
+más simples como contar palabras hasta estudios de concordancia que permiten identificar el sustrato cultural al que 
+pertenece un conjunto de documentos.
+Si quieres hacer pruebas tú mismo puedes instalarte el programa y descargarte el corpus con el que anduvimos cacharreando:
+una selección de artículos de El País recogidos por Tania utilizando &lt;a href="https://import.io/"&gt;import.io&lt;/a&gt;, ¡algún día nos contará 
+cómo lo hizo! &lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-corpus-Pais_2015_7.zip"&gt;Corpus El Pais 2015-7 (7,8 Mb)&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Por la tarde&lt;/h1&gt;
+&lt;h2&gt;Proyectos&lt;/h2&gt;
+&lt;p&gt;Dividimos la tarde en dos secciones, en primer lugar contamos algunos proyectos que están en marcha o en los que participamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-neutron.pdf"&gt;Neutrón (Javi)&lt;/a&gt;: una herramienta para ayudar en la neutralización de textos y la
+traducción translectal. Está en fase de gestación, pero apunta maneras ;D&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-aracne.pdf"&gt;Aracne (Leticia y Elena)&lt;/a&gt;: un proyecto de &lt;a href="http://www.fundeu.es/"&gt;Fundéu BBVA&lt;/a&gt; para analizar la
+evolución del lenguaje periodístico durante el último siglo. En breve tendremos noticias de las conclusiones a las que vayan
+llegando a través de los medios, seguro.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-encliticos.pdf"&gt;El Enclitizador (Tania y Leticia)&lt;/a&gt;: herramienta que analiza una forma verbal con
+enclíticos y ofrece información detallada sobre su corrección y la función de cada uno de ellos. Por cierto, buscan a alguien
+con conocimientos de programación que quiera hacer una interfaz: una web, un bot de Telegram,... ¿te animas?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Variedades principales de español" src="http://lingwars.github.io/blog/images/lw-044.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Recuperación de información&lt;/h2&gt;
+&lt;p&gt;Después la cosa tornó diferente, empezamos a ver ecuaciones proyectadas. &lt;strong&gt;&lt;a href="https://twitter.com/jgsogo"&gt;Javi&lt;/a&gt;&lt;/strong&gt;
+nos introdujo lo que era la &lt;strong&gt;recuperación de información&lt;/strong&gt; y la importancia de poder medir la distancia entre
+dos documentos cualesquiera, un problema muy común que se encuentra en la raíz de los sistemas de búsqueda
+en internet y de los motores de recomendación o el &lt;em&gt;topic modelling&lt;/em&gt;. Los dos objetivos principales de la
+presentación eran concienciarnos del problema y exponer una métrica muy sencilla (pero potente) para realizar
+estos cálculos: &lt;a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf"&gt;TF-IDF&lt;/a&gt;. También puedes ver
+la &lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-information_retrieval.pdf"&gt;presentación&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La jornada terminó con un pequeño trozo de código en el que se implementaba un motor de búsqueda muy básico, pero
+que nos permitía realizar &lt;em&gt;queries&lt;/em&gt; y obtener el documento que estábamos buscando 
+(&lt;a href="https://gist.github.com/jgsogo/61975297ff6ca3f01a71"&gt;ver código&lt;/a&gt;).&lt;/p&gt;
+&lt;h1&gt;¡Te esperamos en la próxima!&lt;/h1&gt;</content><category term="eol"></category><category term="chronicle"></category></entry><entry><title>II Encuentro Oficial Lingẅars (EOL2)</title><link href="http://lingwars.github.io/blog/ii-encuentro-oficial-lingwars-eol2.html" rel="alternate"></link><published>2015-11-04T19:00:00+01:00</published><updated>2015-11-04T19:00:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-11-04:/blog/ii-encuentro-oficial-lingwars-eol2.html</id><summary type="html">&lt;p&gt;El &lt;strong&gt;sábado 14 de noviembre&lt;/strong&gt; volveremos a juntarnos en Lingẅars para ponernos al día sobre los proyectos que ha ido desarrollando cada equipo; también para hablar un poco de recursos, herramientas, los MOOC que algunos seguimos y, vaya, para vernos las caras. Caras viejas y caras nuevas, porque los nuevos …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El &lt;strong&gt;sábado 14 de noviembre&lt;/strong&gt; volveremos a juntarnos en Lingẅars para ponernos al día sobre los proyectos que ha ido desarrollando cada equipo; también para hablar un poco de recursos, herramientas, los MOOC que algunos seguimos y, vaya, para vernos las caras. Caras viejas y caras nuevas, porque los nuevos son más que bienvenidos. Como siempre, será &lt;strong&gt;en el local de &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt; de 10:30 a 19:30&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;A quiénes va dirigido&lt;/h1&gt;
+&lt;p&gt;Hacemos un llamamiento principalmente a &lt;strong&gt;profesionales de la lengua&lt;/strong&gt; (filólogos, lingüistas, traductores, intérpretes, periodistas, escritores, correctores, editores, profesores, bibliotecarios, terminólogos... la lista es larga y alberga horrores) a quienes les llame la atención esto de la lingüística computacional.&lt;/p&gt;
+&lt;p&gt;Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingẅars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-041.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Por supuesto, también necesitamos que se apunten a la fiesta &lt;strong&gt;desarrolladores de software&lt;/strong&gt; con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingẅars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.&lt;/p&gt;
+&lt;p&gt;Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a ver de qué va esto, ¡ni que decir tiene que también eres bienvenido!&lt;/p&gt;
+&lt;h1&gt;Programa&lt;/h1&gt;
+&lt;p&gt;En principio este es el plan, pero si somos pocos podemos improvisar sobre la marcha según lo que nos interese:&lt;/p&gt;
+&lt;p&gt;| | 
+----- | ----- | -----
+10:30 | &lt;strong&gt;¿Qué es Lingẅars?&lt;/strong&gt; | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
+11:30 | &lt;strong&gt;Manos a la obra&lt;/strong&gt; | Taller de AntConc. Cacharrearemos con este sencillo programa para analizar corpus. Primero veremos cómo funciona y luego haremos prácticas por equipos y pondremos las conclusiones en común.
+14:00 | &lt;strong&gt;Comida&lt;/strong&gt; | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
+16:00 | &lt;strong&gt;Presentación de proyectos&lt;/strong&gt; | &lt;strong&gt;Neutrón&lt;/strong&gt;: una herramienta para hacer traducciones translectales en español de forma automática. Dicho con otras palabras: que permita adaptar un texto a una variedad específica del español, sin quebraderos de cabeza.
+| | | &lt;strong&gt;Analizador de enclíticos&lt;/strong&gt;: un programa que determina si una forma verbal con enclíticos es correcta o incorrecta, y analiza las posibles funciones de los enclíticos.
+| | | &lt;strong&gt;Aracne&lt;/strong&gt;: un proyecto que servirá de ejemplo de lo que puede llegar a hacerse con corpus.
+17:30 | &lt;strong&gt;Práctica con corpus&lt;/strong&gt; | Aprenderemos cómo trabajan los ordenadores con corpus (recuperación de información) y montaremos nuestro propio motor de búsqueda.
+19:30 | &lt;strong&gt;Fin&lt;/strong&gt; | O salimos a tomar unas cañas, que estamos en plena Latina.&lt;/p&gt;
+&lt;p&gt;Para la parte de la tarde &lt;strong&gt;recomendamos seriamente traer un portátil&lt;/strong&gt;, aunque si no tienes te podemos dejar un ordenador.&lt;/p&gt;
+&lt;p&gt;Puedes apuntarte al &lt;a href="https://www.facebook.com/events/1516190682029552/"&gt;evento en Facebook&lt;/a&gt; o al de &lt;a href="http://www.meetup.com/es/Lenguando/events/226497124/"&gt;Meetup&lt;/a&gt; (o a los dos, claro; esto es por poder organizarnos mejor).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cuanto menos sepas, más provecho vas a sacar; cuanto más sepas, más podrás ayudar a tus compañeros.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¡Nos vemos el sábado 14!&lt;/p&gt;</content><category term="convocatorias"></category><category term="EOL2"></category></entry><entry><title>Cómo añadir el DLE como motor de búsqueda del navegador</title><link href="http://lingwars.github.io/blog/como-anadir-el-dle-como-motor-de-busqueda-del-navegador.html" rel="alternate"></link><published>2015-10-25T10:00:00+01:00</published><updated>2015-10-25T10:00:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-10-25:/blog/como-anadir-el-dle-como-motor-de-busqueda-del-navegador.html</id><summary type="html">&lt;p&gt;Ahora que la 23ª edición del Diccionario de la RAE está disponible en línea, he tenido que cambiar la configuración de mi navegador para poder buscar directamente en el diccionario desde la barra de búsqueda. Y ya que lo hago para mí enseño cómo hacerlo ;)&lt;/p&gt;
+&lt;p&gt;La nueva versión es hipertextual …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ahora que la 23ª edición del Diccionario de la RAE está disponible en línea, he tenido que cambiar la configuración de mi navegador para poder buscar directamente en el diccionario desde la barra de búsqueda. Y ya que lo hago para mí enseño cómo hacerlo ;)&lt;/p&gt;
+&lt;p&gt;La nueva versión es hipertextual (se puede ir a la definición de cualquier palabra pinchando en ella desde otras definiciones), agrupa y muestra variedades ortográficas (si buscas, por ejemplo, &lt;em&gt;chupachús&lt;/em&gt;, te redirige directamente a &lt;em&gt;chupachups&lt;/em&gt;, que es la variante que recomienda, sin tener que hacer otro click), y lematiza mejor (antes, al buscar, por ejemplo, &lt;em&gt;elegantísimamente&lt;/em&gt;, no obtenías ningún resultado; ahora, te sugiere la definición de &lt;em&gt;elegante&lt;/em&gt;). En &lt;a href="http://www.rae.es/sites/default/files/La_vigesimotercera_edicion.pdf"&gt;esta sección de la obra en papel&lt;/a&gt; se explican más novedades de la nueva edición.&lt;/p&gt;
+&lt;p&gt;Aunque estemos acostumbrados a llamarlo DRAE (Diccionario de la Real Academia Española) ahora se prefiere DLE (Diccionario de la Lengua Española), ya que en él han colaborado todas las academias de la &lt;a href="http://www.asale.org/"&gt;ASALE&lt;/a&gt; (Asociación de Academias de la Lengua Española).&lt;/p&gt;
+&lt;h1&gt;Google Chrome&lt;/h1&gt;
+&lt;p&gt;En primer lugar vamos a &lt;code&gt;http://dle.rae.es/&lt;/code&gt; (desde donde se nos redirige automáticamente a &lt;code&gt;http://dle.rae.es/?w=diccionario&lt;/code&gt;, la dirección correspondiente a la palabra &lt;em&gt;diccionario&lt;/em&gt;). &lt;/p&gt;
+&lt;p&gt;En el cuadro de búsqueda, hacemos click con el botón derecho y elegimos de entre las opciones del menú desplegable &lt;code&gt;Añadir como motor de búsqueda...&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Añadir como motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-030.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Nos aparecerá un cuadro como el de la siguiente imagen:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-031.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;El nombre va a servir para encontrarlo después entre los demás motores de búsqueda que tengamos, y aparecerá al buscar en el navegador cuando lo terminemos de configurar. La palabra clave será la cadena de caracteres que tengamos que escribir en la barra de búsqueda del navegador cuando queramos buscar en este motor. Y la URL, aquella a la que el navegador irá cuando usemos la palabra clave.&lt;/p&gt;
+&lt;p&gt;Mi recomendación es poner en &lt;code&gt;Nombre:&lt;/code&gt; algo descriptivo, como "DLE" o "Diccionario de la Lengua Española"; y en &lt;code&gt;Palabra clave:&lt;/code&gt;, algo corto y en minúsculas, como "dle". Lo que aparece en &lt;code&gt;URL:&lt;/code&gt; no solemos tener que editarlo en otros motores, pero no sé por qué en el caso del DLE no aparece la URL correcta. Hay que sustituir lo que sale por defecto por &lt;code&gt;http://dle.rae.es/?w=%s&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-032.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Le damos a &lt;code&gt;Aceptar&lt;/code&gt; ¡y ya está! Cuando escribamos en la barra de direcciones del navegador &lt;code&gt;dle luquete&lt;/code&gt; aparecerá lo siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Búsqueda con palabra clave" src="http://lingwars.github.io/blog/images/lw-033.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Solo tenemos que darle a &lt;code&gt;Intro&lt;/code&gt; y nos llevará a la definición de &lt;em&gt;luquete&lt;/em&gt; :D&lt;/p&gt;
+&lt;h1&gt;Mozilla Firefox&lt;/h1&gt;
+&lt;p&gt;Firefox trata los motores de búsqueda como marcadores. El proceso es parecido pero hay que editar la URL en la configuración de los marcadores.&lt;/p&gt;
+&lt;p&gt;Lo primero que hay que hacer es ir a &lt;code&gt;http://dle.rae.es/&lt;/code&gt;  y en el cuadro de búsqueda, hacer click con el botón derecho. Elegimos de entre las opciones del menú desplegable &lt;code&gt;Añadir una palabra clave para esta búsqueda...&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Añadir una palabra clave para esta búsqueda" src="http://lingwars.github.io/blog/images/lw-034.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Nos aparecerá un cuadro como el de la siguiente imagen:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-035.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Podemos poner el nombre y la palabra clave que queramos. El nombre va a servir para encontrarlo después entre los marcadores, y la palabra clave será la cadena de caracteres que tengamos que escribir en la barra de búsqueda del navegador cuando queramos buscar en este motor.&lt;/p&gt;
+&lt;p&gt;Mi recomendación es poner en &lt;code&gt;Nombre:&lt;/code&gt; algo descriptivo, como "DLE" o "Diccionario de la Lengua Española"; y en &lt;code&gt;Palabra clave:&lt;/code&gt;, algo corto y en minúsculas, como "dle".&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-036.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Le damos a &lt;code&gt;Guardar&lt;/code&gt; y ahora tenemos que editar la URL. Para ello podemos presionar Ctrl+Mayús.+B o pinchar en el botón de la imagen siguiente y después en &lt;code&gt;Mostrar todos los marcadores&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-037.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Nos aparecerá una ventana como la siguiente. En el cuadro de arriba a la derecha podemos buscar con el nombre que le hayamos dado al motor de búsqueda y aparecerá entre todos nuestros marcadores.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-038.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Lo único que tenemos que hacer es sustituir, en el campo &lt;code&gt;Dirección:&lt;/code&gt;, la URL que viene por defecto por &lt;code&gt;http://dle.rae.es/?w=%s&lt;/code&gt;. Luego podemos salir dándole a la X.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-039.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Ahora, con solo escribir en la barra de direcciones del navegador &lt;code&gt;dle dingolondango&lt;/code&gt; nos llevará a la definición de esa curiosa palabra :D&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Búsqueda con palabra clave" src="http://lingwars.github.io/blog/images/lw-040.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;En ambos casos lo que hemos hecho es decir al navegador que cuando usemos esa palabra clave nos lleve a una URL que depende de lo que escribamos inmediatamente después, sustituyendo &lt;code&gt;%s&lt;/code&gt; por lo que sigue a la palabra clave. No es nada ilegal ni raro ni le quitamos tráfico a la RAE ni nada; de hecho, ellos recomiendan algo parecido pero un poco menos cómodo en su &lt;a href="http://dle.rae.es/?t=ayuda.html#sec12&amp;amp;o=h"&gt;Guía de consulta&lt;/a&gt;: aprenderte de memoria la URL.&lt;/p&gt;</content><category term="tutoriales"></category><category term="recursos"></category><category term="DLE"></category><category term="RAE"></category><category term="diccionarios"></category><category term="navegadores"></category><category term="Google Chrome"></category><category term="Mozilla Firefox"></category></entry><entry><title>I Encuentro Oficial Lingẅars (EOL1)</title><link href="http://lingwars.github.io/blog/i-encuentro-oficial-lingwars-eol1.html" rel="alternate"></link><published>2015-09-25T19:00:00+02:00</published><updated>2015-09-25T19:00:00+02:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-09-25:/blog/i-encuentro-oficial-lingwars-eol1.html</id><summary type="html">&lt;h1&gt;Por qué se celebra&lt;/h1&gt;
+&lt;p&gt;En Lingẅars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Por qué se celebra&lt;/h1&gt;
+&lt;p&gt;En Lingẅars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Cuándo y dónde tendrá lugar&lt;/h1&gt;
+&lt;p&gt;Hemos elegido el &lt;strong&gt;sábado 3 de octubre&lt;/strong&gt; para tener tiempo para todo esto y además poder trabajar en equipo. Será, como todos los encuentros más informales que ha habido hasta ahora, &lt;strong&gt;en el local de &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt; de 10:30 a 19:30&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;A quiénes va dirigido&lt;/h1&gt;
+&lt;p&gt;Hacemos un llamamiento principalmente a &lt;strong&gt;profesionales de la lengua&lt;/strong&gt; (filólogos, lingüistas, traductores, intérpretes, periodistas, escritores, correctores, editores, profesores, bibliotecarios, terminólogos... la lista es larga y alberga horrores) a quienes les llame la atención esto de la lingüística computacional.&lt;/p&gt;
+&lt;p&gt;Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingẅars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.&lt;/p&gt;
+&lt;p&gt;Por supuesto, también necesitamos que se apunten a la fiesta &lt;strong&gt;desarrolladores de software&lt;/strong&gt; con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingẅars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.&lt;/p&gt;
+&lt;p&gt;Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a ver de qué va esto, ¡ni que decir tiene que también eres bienvenido!&lt;/p&gt;
+&lt;h1&gt;Qué vamos a hacer&lt;/h1&gt;
+&lt;p&gt;En principio este es el plan:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hora&lt;/th&gt;
+&lt;th&gt;Parte&lt;/th&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;¿Qué es Lingẅars?&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Explicaremos brevemente lo que hacemos a quienes vengan de primeras.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Presentación de proyectos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Comida&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Comeremos en algún sitio cercano, se puede apuntar quien quiera.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Manos a la obra&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Fin&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Para la parte de la tarde &lt;strong&gt;queda recomendabilísimo traer un portátil&lt;/strong&gt;, aunque si no tienes te podemos dejar un ordenador.&lt;/p&gt;
+&lt;p&gt;Puedes apuntarte al &lt;a href="https://www.facebook.com/events/100625420292912/"&gt;evento en Facebook&lt;/a&gt; o al de &lt;a href="http://www.meetup.com/es/Lenguando/events/225517649/"&gt;Meetup&lt;/a&gt; (o a los dos, claro).&lt;/p&gt;
+&lt;p&gt;Como siempre (se está convirtiendo en nuestro lema):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cuanto menos sepas, más provecho vas a sacar; cuanto más sepas, más podrás ayudar a tus compañeros.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¡Nos vemos el sábado 3!&lt;/p&gt;</content><category term="convocatorias"></category><category term="EOL1"></category></entry><entry><title>Retos y juegos lingüísticos</title><link href="http://lingwars.github.io/blog/retos-y-juegos-linguisticos.html" rel="alternate"></link><published>2015-09-13T10:20:00+02:00</published><updated>2015-09-13T10:20:00+02:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2015-09-13:/blog/retos-y-juegos-linguisticos.html</id><summary type="html">&lt;p&gt;Acabamos de poner &lt;em&gt;online&lt;/em&gt; la primera versión de un conjunto de
+desafíos lingüísticos (para nosotros lo serán de programación)
+que queremos sacar adelante. &lt;a class="reference external" href="http://games.lingwars.com"&gt;¿Te atreves?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea de estos juegos/desafíos es que nos sirvan para definir
+pequeños proyectos con los que ir aprendiendo a programar y a
+utilizar las …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acabamos de poner &lt;em&gt;online&lt;/em&gt; la primera versión de un conjunto de
+desafíos lingüísticos (para nosotros lo serán de programación)
+que queremos sacar adelante. &lt;a class="reference external" href="http://games.lingwars.com"&gt;¿Te atreves?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea de estos juegos/desafíos es que nos sirvan para definir
+pequeños proyectos con los que ir aprendiendo a programar y a
+utilizar las APIs y recursos que estén a nuestro alcance. Al mismo
+tiempo servirán para darnos a conocer y que la gente pueda ver
+e interaccionar con algunas de las cosas que hacemos.&lt;/p&gt;
+&lt;div class="section" id="los-juegos"&gt;
+&lt;h2&gt;Los juegos&lt;/h2&gt;
+&lt;p&gt;He intentado diseñar una arquitectura para la web que permita
+la incorporación de nuevos juegos como si fueran &lt;em&gt;plug-ins&lt;/em&gt;, es decir,
+que haya una parte central fija que gestione las funcionalidades del
+sistema y que los juegos se incorporen al sistema mediante clases
+derivadas de una interfaz común &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/affc6c02701dc0c6ae9967182ef5354787c053a5/appweb/engine/utils/game.py#L10"&gt;GameBase&lt;/a&gt;
+que define las funciones que deben implementar.&lt;/p&gt;
+&lt;p&gt;Actualmente hay dos juegos programados de este modo que puedes
+utilizar como base para crear los tuyos propios:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/sum"&gt;Sum&lt;/a&gt;: suma de enteros. Es un ejemplo de juego con un código muy simple
+que muestra al usuario dos números enteros y le pide que los sume.
+Está aquí con la única intención de mostrar el ejemplo mínimo
+que permite incorporar un juego al sistema.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/word2def"&gt;word2def&lt;/a&gt;: de la palabra a la definición. Este juego muestra al usuario una
+palabra y cuatro posibles definiciones entre las que debe escoger
+la correcta. El código de este juego no se limita a la funcionalidad
+básica como en el caso anterior, sino que es una &lt;a class="reference external" href="https://docs.djangoproject.com/en/1.8/ref/applications/"&gt;aplicación de Django&lt;/a&gt;
+que además tiene sus propias tablas en la base de datos donde
+almacena los resultados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estoy seguro de que en breve habrá alguno más.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="como-anadir-nuevos-juegos"&gt;
+&lt;h2&gt;Cómo añadir nuevos juegos&lt;/h2&gt;
+&lt;p&gt;Si tienes alguna idea de juego o desafío que quieres que pongamos en
+el sistema puedes programarlo tú mismo y pedir un pull-request en
+Github para que lo incorporemos. Te voy a explicar cómo hacerlo:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Lo primero que tienes que hacer es preparar el sistema para que
+puedas probar todo en local antes de subirlo a la web. Es muy sencillo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Haz un &lt;strong&gt;fork&lt;/strong&gt; del repositorio &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games"&gt;Lingwars/lingwars-games&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Clónate ese repositorio en tu ordenador.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Crea un archivo &lt;code&gt;secret.py&lt;/code&gt; junto a &lt;code&gt;~/appweb/appweb/settings.py&lt;/code&gt; con tus
+claves de Apicultur.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;ACCESS_TOKEN_STORE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tu access_token&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;ACCESS_TOKEN_IO&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tu access_token&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Creamos la base de datos de pruebas (será una base de datos local sqlite3):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/appweb$ python manage.py migrate
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Y vamos a arrancar el servidor web en local:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/appweb$ python manage.py runserver
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Llegado aquí deberías ser capaz de acceder a la página en tu navegador
+introduciendo la dirección &lt;code&gt;http://localhost:8000/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="arabic" start="2"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Después tendrás que programar el juego. Te recomiendo que empieces por
+un juego sencillo (o no), pero que no necesite utilizar una base de datos
+y que sea también &lt;strong&gt;de seleccionar una opción entre varias&lt;/strong&gt; (si tienes
+interés en crear otro tipo de juego donde la mecánica sea diferente,
+coméntamelo antes para preparar la infraestructura).&lt;/p&gt;
+&lt;p&gt;Todo juego debe cumplir dos requisitos:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Debe implementarse en una clase que derive de GameBase&lt;/li&gt;
+&lt;li&gt;Tiene que existir un objeto &lt;code&gt;game&lt;/code&gt; de dicho juego en la raíz
+del paquete de Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La primera condición significa que tienes que crear una clase, con
+el nombre que quieras, e implementar los métodos &lt;code&gt;make_question&lt;/code&gt;
+y &lt;code&gt;score&lt;/code&gt;, tal y como he hecho aquí con &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/master/games/sum/__init__.py"&gt;SumGame&lt;/a&gt; o como
+aparece a continuación:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyAwesomeGame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;GameBase&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;My Awesome Game&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;author&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Me myself&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;In this game you blablabla&amp;quot;&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;make_question&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;question&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;query&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Question to the user&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;options&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;list&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;of&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;answers&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,]&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;correct&lt;/span&gt; &lt;span class="n"&gt;answer&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# Esto debe ser el índice de la respuesta correcta en la lista.&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;info&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some info to the user&amp;quot;&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;question&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;score&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;user_answer&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="c1"&gt;# Check the `user_answer`, it should be equal to response[&amp;#39;answer&amp;#39;]&lt;/span&gt;
+        &lt;span class="c1"&gt;# :param:`response` contains the same data created in `make_question`&lt;/span&gt;
+        &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;user_answer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;u&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;TypeError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La segunda condición hace referencia a que debe existir una instancia del juego
+en el archivo &lt;code&gt;__init__.py&lt;/code&gt; del paquete. Como ocurre
+&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/0b2efb99e0c811a7ab30c5b2486b0e9bbaaa7a21/games/sum/__init__.py#L42"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Si estos archivos los pones en un nuevo paquete dentro del directorio &lt;code&gt;~/games/&lt;/code&gt;
+el sistema debería ser capaz de detectarlos automáticamente y presentarlos en el listado
+de juegos para que lo pruebes.&lt;/p&gt;
+&lt;p&gt;Si has llegado hasta aquí, ¡enhorabuena! Manda tu &lt;em&gt;pull-request&lt;/em&gt; y estaremos encantados
+de incorporarlo a la web para que la gente se enfrete a tu nuevo desafío.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;En próximos capítulos veremos cómo:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Crear un juego que no sea de opción múltiple&lt;/li&gt;
+&lt;li&gt;Crear juegos que hagan uso de la base de datos (serán aplicaciones de Django)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="proyect"></category><category term="python"></category><category term="apicultur"></category></entry><entry><title>Lista de recursos online para aprender Python desde cero</title><link href="http://lingwars.github.io/blog/lista-de-recursos-online-para-aprender-python-desde-cero.html" rel="alternate"></link><published>2015-09-12T11:45:00+02:00</published><updated>2015-09-12T11:45:00+02:00</updated><author><name>taniaka</name></author><id>tag:lingwars.github.io,2015-09-12:/blog/lista-de-recursos-online-para-aprender-python-desde-cero.html</id><summary type="html">&lt;p&gt;Abro este post para que vayamos poniendo aquí información sobre tutoriales, cursos online y otros recursos sobre Python para principiantes.&lt;/p&gt;
+&lt;p&gt;De momento, solo pongo información de dos recursos. Hay muchos más, por supuesto, pero estos dos son los que he utilizado yo, así que los conozco bien y se los …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Abro este post para que vayamos poniendo aquí información sobre tutoriales, cursos online y otros recursos sobre Python para principiantes.&lt;/p&gt;
+&lt;p&gt;De momento, solo pongo información de dos recursos. Hay muchos más, por supuesto, pero estos dos son los que he utilizado yo, así que los conozco bien y se los podría recomendar a todos los que quieren empezar con Python.&lt;/p&gt;
+&lt;h4&gt;1. &lt;a href="https://www.udacity.com/course/intro-to-computer-science--cs101"&gt;Intro to computer science&lt;/a&gt; en la página de &lt;em&gt;Udacity&lt;/em&gt;.&lt;/h4&gt;
+&lt;p&gt;El curso está dividido en 7 capítulos, cada uno de los cuales se compone de unos 15-20 videos cortos y de una docena de ejercicios. Los ejercicios se pueden hacer en un interpréte online de Python, por lo tanto, en teoría, se puede seguir el curso sin tener Python instalado en el ordenador.
+Empiezas por los conceptos más básicos y en los últimos capítulos, mientras vas aprendiendo, desarrollas un sencillo web crawler. El curso es muy ameno y fácil de seguir. Además, el instructor, Dave Evans, es majísimo y esto también se agradece.&lt;/p&gt;
+&lt;p&gt;Está en inglés con subtítulos en inglés. Algunos videos están subtitulados en español, pero la mayor parte no.&lt;/p&gt;
+&lt;p&gt;Es totalmente gratis. Solo tienes que pagar si quieres recibir un certificado y poder contar con la ayuda de un &lt;em&gt;coach&lt;/em&gt; personal.&lt;/p&gt;
+&lt;h4&gt;2. &lt;a href="http://teamtreehouse.com/tracks/learn-python"&gt;Learn Python development&lt;/a&gt; en la página de &lt;em&gt;Treehouse&lt;/em&gt;.&lt;/h4&gt;
+&lt;p&gt;El curso tiene el mismo formato que el de Udacity y también permite empezar desde cero pero cubre más temas y puede resultar un poco más difícil de seguir para un principiante. No es que las cosas sean mal explicadas, todo lo contrario, pero el instructor habla muy rápido y presenta las cosas de manera bastante densa. Por lo tanto, yo recomendaría empezar por el curso de Udacity y luego hacer este para repasar y profundizar lo aprendido.&lt;/p&gt;
+&lt;p&gt;Está en inglés con subtítulos en inglés.&lt;/p&gt;
+&lt;p&gt;Desafortunadamente, y a diferencia del curso de Udacity este curso no es gratis. Para poder acceder a él hay que pagar una suscripción de 25 dólares al mes que también te da acceso a un montón de &lt;a href="http://teamtreehouse.com/tracks"&gt;otros cursos&lt;/a&gt;. También tienes un periodo de prueba gratis de 14 días y si aprovechas este tiempo al máximo y ya sabes algo de Python debería ser suficiente para realizar todo o casi todo el curso.&lt;/p&gt;</content><category term="tutoriales"></category><category term="recursos"></category><category term="principiante"></category><category term="Python"></category></entry><entry><title>Instalar Python en Windows 7</title><link href="http://lingwars.github.io/blog/instalar-python-en-windows-7.html" rel="alternate"></link><published>2015-08-29T21:20:00+02:00</published><updated>2015-08-29T21:20:00+02:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-08-29:/blog/instalar-python-en-windows-7.html</id><summary type="html">&lt;p&gt;Tengo un Windows 7 y después de haber aprendido a instalar Python en este sistema y de haberlo explicado a mucha gente que ha venido a las sesiones de Lingwars, voy a dejarlo por escrito también en este tutorial para que pueda hacerlo todo aquel que quiera participar online. La …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tengo un Windows 7 y después de haber aprendido a instalar Python en este sistema y de haberlo explicado a mucha gente que ha venido a las sesiones de Lingwars, voy a dejarlo por escrito también en este tutorial para que pueda hacerlo todo aquel que quiera participar online. La instalación del programa en realidad es muy sencilla, pero luego hay que toquetear un poquito la configuración del sistema, así que está bien que alguien nos lo explique.&lt;/p&gt;
+&lt;p&gt;En Windows 8 y en Windows 10 es muy parecido.&lt;/p&gt;
+&lt;h1&gt;Instalar Python&lt;/h1&gt;
+&lt;p&gt;Vamos a la &lt;a href="https://www.python.org/downloads/"&gt;página de descargas de la web oficial de Python&lt;/a&gt; y por defecto nos salen los enlaces para Windows. Descargaremos la versión 2.7.10.&lt;/p&gt;
+&lt;p&gt;Ejecutamos el archivo .msi que nos hemos bajado y seguimos los pasos del asistente para instalar el programa. Para la segunda parte de la instalación &lt;strong&gt;es importante acordarse de la carpeta en que hemos guardado los archivos de Python&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;Configurar path&lt;/h1&gt;
+&lt;p&gt;Path es una variable del sistema que tenemos que configurar un poquito para poder ejecutar Python con comodidad. Vamos a explicar paso a paso cómo hacerlo en Windows 7.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ve a &lt;em&gt;Equipo&lt;/em&gt; y, debajo de la barra de menús, haz click en &lt;em&gt;Propiedades de sistema&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Propiedades de sistema" src="http://lingwars.github.io/blog/images/lw-020.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ahora ve a &lt;em&gt;Configuración avanzada del sistema&lt;/em&gt;, a la izquierda.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Configuración avanzada del sistema" src="http://lingwars.github.io/blog/images/lw-021.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Te saldrá una ventana como la de la siguiente imagen. Ve al botón &lt;code&gt;Variables de entorno...&lt;/code&gt; y haz click sobre él.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Variables de entorno" src="http://lingwars.github.io/blog/images/lw-022.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En la siguiente ventana que te aparece, busca en la parte de abajo &lt;em&gt;Path&lt;/em&gt;. Selecciona la línea y luego haz click en &lt;code&gt;Editar...&lt;/code&gt; (o haz doble click en la fila de &lt;em&gt;Path&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Path" src="http://lingwars.github.io/blog/images/lw-023.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En la siguiente ventana, lo que tenemos que hacer es escribir un par de cosas en el cuadro de abajo, el que dice &lt;em&gt;Valor de la variable&lt;/em&gt;. En este cuadro aparecen las rutas de todos los programas que tenemos instalados. Por eso, no tiene por qué aparecer lo mismo en la imagen de abajo que en tu ordenador. Eso solo significa que probablemente el último programa que yo instalé fue Calibre ;)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Path_editar" src="http://lingwars.github.io/blog/images/lw-024.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tienes que ir al final del texto de ese cuadro y pegar ";" seguido de &lt;strong&gt;la ruta de la carpeta en que hayas instalado Python&lt;/strong&gt;. Esto es importante: puede que también sea "D:\Programas\Python\", pero no tiene por qué.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Path_editar" src="http://lingwars.github.io/blog/images/lw-025.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tienes que averiguar dónde instalaste Python. Para ello, cuando estés en la carpeta correcta, puedes copiar la ruta con el siguiente truco: haz click en la barra superior (donde puedes navegar hacia carpetas anteriores) sobre la parte vacía. Así seleccionarás la ruta de esa carpeta. Fíjate en las imágenes:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Carpeta-Python" src="http://lingwars.github.io/blog/images/lw-027.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Carpeta-Python" src="http://lingwars.github.io/blog/images/lw-028.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ahora solo tienes que copiar y pegar ese texto al final del cuadro &lt;em&gt;Valor de la variable&lt;/em&gt;, que vimos antes (recuerda, seguido de un punto y coma -;-).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Y el último paso es que vuelvas a pegar, detrás de otro punto y coma, esa misma ruta que tienes copiada en el portapapeles más el texto "\Scripts", como se ve en la imagen.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Scripts" src="http://lingwars.github.io/blog/images/lw-026.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Instalar pip&lt;/h1&gt;
+&lt;p&gt;Pip es un gestor de paquetes de Python, y vamos a instalarlo porque va a ahorrarnos muchos pasos a la hora de programar en Python, es más cómodo.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Primero hay que descargar el fichero &lt;a href="https://bootstrap.pypa.io/get-pip.py"&gt;get-pip.py&lt;/a&gt; (click derecho en el link y "Guardar como").&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Y luego ejecutar en la consola (¡recuerda que tendrás que ir hasta el directorio en el que guardaste ese archivo!): &lt;code&gt;python get-pip.py&lt;/code&gt;. Puedes abrir la consola yendo a &lt;code&gt;Inicio&lt;/code&gt;, y en el cuadro de texto que dice &lt;code&gt;Buscar programas y archivos...&lt;/code&gt; escribe "cmd" y dale a intro. Te saldrá la consola, donde ya puedes escribir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esto es todo. Si has llegado hasta aquí, ¡felicidades! Ya puedes programar en Python en tu ordenador. Y si te has atascado en algún paso o tienes cualquier otra duda, no dudes en contactar con nosotros.&lt;/p&gt;</content><category term="Windows 7"></category><category term="Python"></category><category term="instalación"></category><category term="path"></category><category term="pip"></category></entry><entry><title>Crear contenidos en el blog</title><link href="http://lingwars.github.io/blog/crear-contenidos-en-el-blog.html" rel="alternate"></link><published>2015-07-30T10:20:00+02:00</published><updated>2015-07-30T10:20:00+02:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2015-07-30:/blog/crear-contenidos-en-el-blog.html</id><summary type="html">&lt;p&gt;Voy a explicar cómo añadir contenidos a este blog, así ya nadie tendrá excusas. El blog está construido utilizando &lt;a href="http://docs.getpelican.com/en/3.6.0/"&gt;Pelican&lt;/a&gt; y alojado en &lt;a href="https://github.com/Lingwars/blog"&gt;Github&lt;/a&gt;, porque somos así de &lt;em&gt;techies&lt;/em&gt;; de esta forma &lt;strong&gt;cualquiera que quiera contribuir puede enviar sus artículos&lt;/strong&gt; a través de un pull-request y, después de pasar por …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Voy a explicar cómo añadir contenidos a este blog, así ya nadie tendrá excusas. El blog está construido utilizando &lt;a href="http://docs.getpelican.com/en/3.6.0/"&gt;Pelican&lt;/a&gt; y alojado en &lt;a href="https://github.com/Lingwars/blog"&gt;Github&lt;/a&gt;, porque somos así de &lt;em&gt;techies&lt;/em&gt;; de esta forma &lt;strong&gt;cualquiera que quiera contribuir puede enviar sus artículos&lt;/strong&gt; a través de un pull-request y, después de pasar por nuestro exigente sistema de revisión y corrección, serán incorporados a la versión online.&lt;/p&gt;
+&lt;p&gt;Si ya estás familiarizado con el funcionamiento de Github entonces este tutorial no va a dirigido a ti, aquí vamos a explicar este proceso sin necesidad de que salgas de tu navegador y sin que tengas que utilizar Git en ningún momento.&lt;/p&gt;
+&lt;p&gt;Primero te indicamos cómo añadir un nuevo artículo y, después, está la explicación sobre cómo corregir un artículo existente.&lt;/p&gt;
+&lt;h1&gt;Añadir un nuevo artículo&lt;/h1&gt;
+&lt;p&gt;Para añadir un artículo nuevo debes seguir los siguientes pasos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crear un usuario en Github:&lt;/strong&gt; el usuario no es necesario para ver y navegar por la web, pero lo necesitarás para poder realizar las modificaciones.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hacerte una copia del repositorio:&lt;/strong&gt; para ello tienes que acceder a la web donde se encuentra este blog &lt;a href="https://github.com/Lingwars/blog"&gt;https://github.com/Lingwars/blog&lt;/a&gt; y hacer clic en el botón &lt;code&gt;Fork&lt;/code&gt; que aparece en la zona superior derecha:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Fork a repository" src="http://lingwars.github.io/blog/images/lw-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;el sistema creará una copia del repositorio y lo añadirá a los repositorios de tu usuario. Ahora deberías haber sido transportado a esta copia, en la parte superior aparecerá un texto indicando en qué repositorio estás y de dónde has hecho el &lt;em&gt;fork&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crear un nuevo archivo para escribir:&lt;/strong&gt; cada publicación del blog está en un archivo diferente, así que para crear un nuevo artículo tendrás que ir al directorio &lt;code&gt;content&lt;/code&gt;. Ahí encontrarás archivos y directorios; los directorios son las categorías del blog, así que elige aquella en la que mejor encaje lo que vas a escribir:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create new file" src="http://lingwars.github.io/blog/images/lw-3.png"&gt;&lt;/p&gt;
+&lt;p&gt;ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres especiales como acentos, eñes... y mejor en minúsculas). Recuerda que el archivo debe tener la extensión &lt;code&gt;.md&lt;/code&gt;. Pues ya sólo te queda ponerte a escribir:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Write" src="http://lingwars.github.io/blog/images/lw-4.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Formato del texto:&lt;/strong&gt; el contenido hay que escribirlo utilizando Markdown, para ello puedes ayudarte de algún editor online como &lt;a href="http://dillinger.io/"&gt;este&lt;/a&gt; o &lt;a href="https://stackedit.io/editor"&gt;este&lt;/a&gt;; aunque una vez que le cojas el truco, verás que es muy fácil.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Guardar:&lt;/strong&gt; ten en cuenta que puedes guardar el archivo cuando quieras y seguir después. Si vas a la parte de abajo puedes ver el siguiente botón, pon unos buenos comentarios y pulsa en él:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Save" src="http://lingwars.github.io/blog/images/lw-7.png"&gt;&lt;/p&gt;
+&lt;p&gt;El archivo está guardado y a partir de ahora podremos ayudarte a escribirlo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuar escribiendo:&lt;/strong&gt; para añadir contenidos a un archivo existente tendrás que encontrarlo y navegar hasta él, una vez que lo tengas debes hacer clic en el lápiz, que indica &lt;em&gt;editar&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Edit" src="http://lingwars.github.io/blog/images/lw-8.png"&gt;&lt;/p&gt;
+&lt;p&gt;añade lo que consideres oportuno y repite el ciclo "Guardar", "Continuar escribiendo" tantas veces como necesites.&lt;/p&gt;
+&lt;p&gt;Una vez que estés satisfecho con el contenido del artículo, que consideres que lo has terminado, debes hacer un pull-request para pedirnos que lo incorporemos al blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pedir un pull-request:&lt;/strong&gt; para pedir un pull-request sólo tienes que darle al texto que está a la derecha y que dice &lt;em&gt;Pull request&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Pull request" src="http://lingwars.github.io/blog/images/lw-9.png"&gt;&lt;/p&gt;
+&lt;p&gt;El sistema te muestra todos los cambios que has realizado y te pide que confirmes tu intención:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Confirm pull request" src="http://lingwars.github.io/blog/images/lw-10.png"&gt;&lt;/p&gt;
+&lt;p&gt;Una vez más te exigirá un mensaje y una descripción antes de poder darle finalmente al botón verde &lt;code&gt;Create pull request&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¡Y ya está! Ahora puedes ver la lista de artículos pendientes de incorporación en esta
+URL (&lt;a href="https://github.com/Lingwars/blog/pulls"&gt;https://github.com/Lingwars/blog/pulls&lt;/a&gt;) y meternos prisa si se nos acumulan.&lt;/p&gt;
+&lt;h1&gt;Corregir un artículo existente&lt;/h1&gt;
+&lt;p&gt;Si lo que quieres es corregir un artículo o añadir más contenido a uno existente entonces tendrás que encontrarlo en el repositorio (&lt;a href="https://github.com/Lingwars/blog"&gt;https://github.com/Lingwars/blog&lt;/a&gt;), navegar hasta él dentro del directorio &lt;code&gt;content&lt;/code&gt; y abrirlo haciendo clic. A continuación:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Abrir para editar:&lt;/strong&gt; en la parte de la derecha tienes el icono del lápiz que indica &lt;em&gt;editar&lt;/em&gt;, al hacer clic en él se mostrará el contenido del archivo en texto plano.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Edit" src="http://lingwars.github.io/blog/images/lw-8.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Editar el contenido&lt;/strong&gt;: edita el contenido que consideres oportuno y, cuando hayas terminado, en la parte inferior de la página puedes proponer el cambio &lt;em&gt;Propose file change&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Propose changes" src="http://lingwars.github.io/blog/images/lw-11.png"&gt;&lt;/p&gt;
+&lt;p&gt;El sistema te muestra todos los cambios que has realizado y te pide que confirmes tu intención:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Confirm pull request" src="http://lingwars.github.io/blog/images/lw-10.png"&gt;&lt;/p&gt;
+&lt;p&gt;Una vez más te exigirá un mensaje y una descripción antes de poder darle finalmente al botón verde &lt;code&gt;Create pull request&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¡Y ya está! Ahora puedes ver la lista de artículos pendientes de incorporación en esta
+URL (&lt;a href="https://github.com/Lingwars/blog/pulls"&gt;https://github.com/Lingwars/blog/pulls&lt;/a&gt;) y meternos prisa si se nos acumulan.&lt;/p&gt;
+&lt;p&gt;Muchas gracias por colaborar.&lt;/p&gt;
+&lt;p&gt;PD.- Si no te aclaras con todo esto también puedes mandarnos el archivo escrito con tu editor de texto preferido y ya nos encargamos nosotros de incorporarlo al blog.&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>22-07-2015</title><link href="http://lingwars.github.io/blog/22-07-2015.html" rel="alternate"></link><published>2015-07-23T10:20:00+02:00</published><updated>2015-07-23T10:20:00+02:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-07-23:/blog/22-07-2015.html</id><summary type="html">&lt;p&gt;El 22-07-2015 a las 18:00 se celebró el primer encuentro de Lingwars en &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt;. Se trataba ante todo de conocernos para ver cuáles eran las expectativas y posibilidades de cada uno.&lt;/p&gt;
+&lt;h1&gt;Desarrollo de la sesión&lt;/h1&gt;
+&lt;p&gt;Así que lo primero fue presentarse exponiendo nuestra formación, experiencia y relación con la …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El 22-07-2015 a las 18:00 se celebró el primer encuentro de Lingwars en &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt;. Se trataba ante todo de conocernos para ver cuáles eran las expectativas y posibilidades de cada uno.&lt;/p&gt;
+&lt;h1&gt;Desarrollo de la sesión&lt;/h1&gt;
+&lt;p&gt;Así que lo primero fue presentarse exponiendo nuestra formación, experiencia y relación con la lingüística computacional (si es que había alguna más allá del interés). Fuimos alrededor de doce personas, la mayoría filólogos que no habíamos programado nunca nada.&lt;/p&gt;
+&lt;p&gt;Después &lt;a href="https://twitter.com/jgsogo"&gt;Javier&lt;/a&gt; nos hizo una pequeña presentación de Python y las API de Apicultur:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vimos las tripas del contador de sustantivos creado por Javier, que utiliza la API lematizadora de Apicultur&lt;/li&gt;
+&lt;li&gt;Ejecutamos el contador de sustantivos, e hicimos y ejecutamos un contador de verbos y otro de sustantivos comunes, basados en el primero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Al final &lt;a href="https://twitter.com/ebaste"&gt;Edu&lt;/a&gt; sopló las velitas de su minitarta de cumpleaños, que es justo ese día ;)&lt;/p&gt;
+&lt;h1&gt;Cuestiones debatidas&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Lingüística computacional que usa solo estadística vs. lingüística computacional que usa la lengua desde el principio&lt;/li&gt;
+&lt;li&gt;¿Lingüística = lingüística computacional?&lt;/li&gt;
+&lt;li&gt;¿Qué es una API?&lt;/li&gt;
+&lt;li&gt;¿Hay APIs de código abierto?&lt;/li&gt;
+&lt;li&gt;Dónde encontrar APIs lingüísticas:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://store.apicultur.com"&gt;Apicultur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.nltk.org"&gt;NLTK&lt;/a&gt; (Python)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nlp.lsi.upc.edu/freeling"&gt;Freeling&lt;/a&gt; (C++)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;¿Cómo sabemos qué órdenes dar a la API para hacerle llamadas? Las APIs deben estar convenientemente documentadas&lt;/li&gt;
+&lt;li&gt;¿Cómo sabe el lematizador qué palabra es sin un contexto? Lematizador morfológico vs. lematizador sintáctico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Ideas sobre posibles proyectos&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;detectar el nivel socioeconómico de una persona por sus publicaciones en RRSS&lt;/li&gt;
+&lt;li&gt;detectar el sexo de una persona por los escritos que produce&lt;/li&gt;
+&lt;li&gt;clasificar libros de Amazon en niveles de dificultad para estudiantes de lenguas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Frecuencia y naturaleza de próximas sesiones&lt;/h1&gt;
+&lt;p&gt;Hablamos de quedar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;entre semana, quien quiera, para trabajar en coLenguando&lt;/li&gt;
+&lt;li&gt;una vez al mes para presentar proyectos y analizar el avance del trabajo&lt;/li&gt;
+&lt;li&gt;una vez al trimestre en fin de semana durante todo un día, en una especie de hackatón&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Nombre del grupo de trabajo&lt;/h1&gt;
+&lt;p&gt;Propusimos como nombre &lt;strong&gt;LingWars&lt;/strong&gt;: &lt;em&gt;lingua&lt;/em&gt; ('lengua' en latín) + &lt;em&gt;ars&lt;/em&gt; ('técnica') y además &lt;em&gt;Wars&lt;/em&gt;, porque nos sentimos guerreros con muchas ganas de aprender y trabajar ^^&lt;/p&gt;</content><category term="ideas"></category><category term="social"></category><category term="Python"></category><category term="Apicultur"></category><category term="NLTK"></category><category term="Freeling"></category></entry></feed>

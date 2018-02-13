@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Instalar Python en Windows 7</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li class="active"><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://lingwars.github.io/blog/instalar-python-en-windows-7.html" rel="bookmark"
+           title="Permalink to Instalar Python en Windows 7">Instalar Python en Windows 7</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-08-29T21:20:00+02:00">
+                Published: Sat 29 August 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/leticia-martin-fuertes.html">Leticia Martín-Fuertes</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/windows-7.html">Windows 7</a> <a href="http://lingwars.github.io/blog/tag/python.html">Python</a> <a href="http://lingwars.github.io/blog/tag/instalacion.html">instalación</a> <a href="http://lingwars.github.io/blog/tag/path.html">path</a> <a href="http://lingwars.github.io/blog/tag/pip.html">pip</a> </p>
+</footer><!-- /.post-info -->      <p>Tengo un Windows 7 y después de haber aprendido a instalar Python en este sistema y de haberlo explicado a mucha gente que ha venido a las sesiones de Lingwars, voy a dejarlo por escrito también en este tutorial para que pueda hacerlo todo aquel que quiera participar online. La instalación del programa en realidad es muy sencilla, pero luego hay que toquetear un poquito la configuración del sistema, así que está bien que alguien nos lo explique.</p>
+<p>En Windows 8 y en Windows 10 es muy parecido.</p>
+<h1>Instalar Python</h1>
+<p>Vamos a la <a href="https://www.python.org/downloads/">página de descargas de la web oficial de Python</a> y por defecto nos salen los enlaces para Windows. Descargaremos la versión 2.7.10.</p>
+<p>Ejecutamos el archivo .msi que nos hemos bajado y seguimos los pasos del asistente para instalar el programa. Para la segunda parte de la instalación <strong>es importante acordarse de la carpeta en que hemos guardado los archivos de Python</strong>.</p>
+<h1>Configurar path</h1>
+<p>Path es una variable del sistema que tenemos que configurar un poquito para poder ejecutar Python con comodidad. Vamos a explicar paso a paso cómo hacerlo en Windows 7.</p>
+<ol>
+<li>
+<p>Ve a <em>Equipo</em> y, debajo de la barra de menús, haz click en <em>Propiedades de sistema</em>.</p>
+<p><img alt="Propiedades de sistema" src="http://lingwars.github.io/blog/images/lw-020.jpg"></p>
+</li>
+<li>
+<p>Ahora ve a <em>Configuración avanzada del sistema</em>, a la izquierda.</p>
+<p><img alt="Configuración avanzada del sistema" src="http://lingwars.github.io/blog/images/lw-021.jpg"></p>
+</li>
+<li>
+<p>Te saldrá una ventana como la de la siguiente imagen. Ve al botón <code>Variables de entorno...</code> y haz click sobre él.</p>
+<p><img alt="Variables de entorno" src="http://lingwars.github.io/blog/images/lw-022.jpg"></p>
+</li>
+<li>
+<p>En la siguiente ventana que te aparece, busca en la parte de abajo <em>Path</em>. Selecciona la línea y luego haz click en <code>Editar...</code> (o haz doble click en la fila de <em>Path</em>).</p>
+<p><img alt="Path" src="http://lingwars.github.io/blog/images/lw-023.jpg"></p>
+</li>
+<li>
+<p>En la siguiente ventana, lo que tenemos que hacer es escribir un par de cosas en el cuadro de abajo, el que dice <em>Valor de la variable</em>. En este cuadro aparecen las rutas de todos los programas que tenemos instalados. Por eso, no tiene por qué aparecer lo mismo en la imagen de abajo que en tu ordenador. Eso solo significa que probablemente el último programa que yo instalé fue Calibre ;)</p>
+<p><img alt="Path_editar" src="http://lingwars.github.io/blog/images/lw-024.jpg"></p>
+</li>
+<li>
+<p>Tienes que ir al final del texto de ese cuadro y pegar ";" seguido de <strong>la ruta de la carpeta en que hayas instalado Python</strong>. Esto es importante: puede que también sea "D:\Programas\Python\", pero no tiene por qué.</p>
+<p><img alt="Path_editar" src="http://lingwars.github.io/blog/images/lw-025.jpg"></p>
+</li>
+<li>
+<p>Tienes que averiguar dónde instalaste Python. Para ello, cuando estés en la carpeta correcta, puedes copiar la ruta con el siguiente truco: haz click en la barra superior (donde puedes navegar hacia carpetas anteriores) sobre la parte vacía. Así seleccionarás la ruta de esa carpeta. Fíjate en las imágenes:</p>
+<p><img alt="Carpeta-Python" src="http://lingwars.github.io/blog/images/lw-027.jpg"></p>
+<p><img alt="Carpeta-Python" src="http://lingwars.github.io/blog/images/lw-028.jpg"></p>
+</li>
+<li>
+<p>Ahora solo tienes que copiar y pegar ese texto al final del cuadro <em>Valor de la variable</em>, que vimos antes (recuerda, seguido de un punto y coma -;-).</p>
+</li>
+<li>
+<p>Y el último paso es que vuelvas a pegar, detrás de otro punto y coma, esa misma ruta que tienes copiada en el portapapeles más el texto "\Scripts", como se ve en la imagen.</p>
+<p><img alt="Scripts" src="http://lingwars.github.io/blog/images/lw-026.jpg"></p>
+</li>
+</ol>
+<h1>Instalar pip</h1>
+<p>Pip es un gestor de paquetes de Python, y vamos a instalarlo porque va a ahorrarnos muchos pasos a la hora de programar en Python, es más cómodo.</p>
+<ol>
+<li>
+<p>Primero hay que descargar el fichero <a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a> (click derecho en el link y "Guardar como").</p>
+</li>
+<li>
+<p>Y luego ejecutar en la consola (¡recuerda que tendrás que ir hasta el directorio en el que guardaste ese archivo!): <code>python get-pip.py</code>. Puedes abrir la consola yendo a <code>Inicio</code>, y en el cuadro de texto que dice <code>Buscar programas y archivos...</code> escribe "cmd" y dale a intro. Te saldrá la consola, donde ya puedes escribir.</p>
+</li>
+</ol>
+<p>Esto es todo. Si has llegado hasta aquí, ¡felicidades! Ya puedes programar en Python en tu ordenador. Y si te has atascado en algún paso o tienes cualquier otra duda, no dudes en contactar con nosotros.</p>
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'lingwarsblog';
+        var disqus_identifier = 'instalar-python-en-windows-7.html';
+        var disqus_url = 'http://lingwars.github.io/blog/instalar-python-en-windows-7.html';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//lingwarsblog.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>

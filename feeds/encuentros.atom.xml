@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lingẅars - Encuentros</title><link href="http://lingwars.github.io/blog/" rel="alternate"></link><link href="http://lingwars.github.io/blog/feeds/encuentros.atom.xml" rel="self"></link><id>http://lingwars.github.io/blog/</id><updated>2017-11-15T21:20:00+01:00</updated><entry><title>Crónica de la visita vallisoletana</title><link href="http://lingwars.github.io/blog/cronica-de-la-visita-vallisoletana.html" rel="alternate"></link><published>2017-11-15T21:20:00+01:00</published><updated>2017-11-15T21:20:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2017-11-15:/blog/cronica-de-la-visita-vallisoletana.html</id><summary type="html">&lt;p&gt;El 9 de noviembre fue fiesta en Madrid, pero el &lt;em&gt;core team&lt;/em&gt; de Lingẅars no descansó ni un segundo: ¡estuvimos en Valladolid! Porque Lingẅars no está atado a ningún lenguaje de programación ni a ninguna ciudad, aprovechamos cualquier oportunidad de expandir fronteras y públicos si encaja con nuestras agendas vitales …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El 9 de noviembre fue fiesta en Madrid, pero el &lt;em&gt;core team&lt;/em&gt; de Lingẅars no descansó ni un segundo: ¡estuvimos en Valladolid! Porque Lingẅars no está atado a ningún lenguaje de programación ni a ninguna ciudad, aprovechamos cualquier oportunidad de expandir fronteras y públicos si encaja con nuestras agendas vitales y objetivos.&lt;/p&gt;
+&lt;h2&gt;Lingẅars en la UVa&lt;/h2&gt;
+&lt;p&gt;Todo comenzó con una intrépida profesora de lengua de la Universidad de Valladolid: &lt;strong&gt;&lt;a href="https://twitter.com/cveladelfa"&gt;Cristina Vela&lt;/a&gt;&lt;/strong&gt;. Con la misma pasión que se pega la paliza de ir todos los días de Madrid a Segovia a dar clase, se involucra en organizar unas jornadas en su universidad poniendo de protagonistas a quienes acaban de enseñarle a scrapear en un taller. Siempre hay alguien que te dice «Tenéis que venir a mi sarao» pero convertirlo en realidad conlleva compromiso y esfuerzo. Bastaron un par de intromisiones en la intimidad de su vida para concretar el día y programa y voilà, el jueves pasado por la mañana ocurrió de verdad. Por primera vez, ¡Lingẅars se cuela en una universidad!&lt;/p&gt;
+&lt;p&gt;Claro que Cristina no estaba sola: la otra pata que hizo posible la visita fue &lt;strong&gt;&lt;a href="https://twitter.com/jmfraderue"&gt;José Manuel Fradejas&lt;/a&gt;&lt;/strong&gt;, que lleva haciendo esto de asomarse (y enharinarse) a la tecnología desde la filología mucho más tiempo que nosotros. Es un vivo ejemplo de que no hay que tenerle ningún miedo y, de hecho, te puede hacer mucho bien, y no lo decimos solo por la rigurosidad que, así, imprime a las investigaciones, sino también porque estamos seguros de que por ello vive la vida con más entusiasmo.&lt;/p&gt;
+&lt;p&gt;La verdad es que todo fueron facilidades desde la Universidad de Valladolid para que no dudáramos en ir a contar nuestras neuras. Acostumbrados como estamos a hablar en cualquier espacio por pequeño que sea, con micro, sin micro, con ruido de otras salas, sin ruido, con calefacción, sin calefacción... el marco de la &lt;strong&gt;Sala Lope de Rueda&lt;/strong&gt; se nos hacía imponente y temible, pero en cuanto piensas «Cómo me habría gustado a mí que me hablaran de esto durante la carrera», se te pasa. Y a eso fuimos: a dar a conocer la posibilidad que representa el procesamiento del lenguaje natural para el estudiante de letras y a convencerles de que son necesarios para lograr avanzar en estas tecnologías. Esperamos que al menos esa idea haya cuajado y que si se animan tengan la confianza suficiente para empezar a prepararse (¿por qué no?), si es que se necesita confianza alguna, por ejemplo, uniéndose a nuestro &lt;a href="http://gaplen.readthedocs.io/es/latest/introduction.html"&gt;grupo de autoapredizaje de PLN&lt;/a&gt;. José Manuel habló de &lt;a href="http://lingwars.github.io/blog/pdfs/uva-estilometridieval.pdf"&gt;estilometría medieval&lt;/a&gt;, Leti, de &lt;a href="https://github.com/Lingwars/blog/blob/master/content/pdfs/uva-corpus%26friends.pdf"&gt;lingüística de corpus&lt;/a&gt;, y Javi, de &lt;a href="http://lingwars.github.io/blog/pdfs/uva-filologo-estructurado.pdf"&gt;ontologías&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="José Manuel Fradejas" src="http://lingwars.github.io/blog/images/uva-01.jpg"&gt;
+&lt;img alt="Leticia Martín-Fuertes" src="http://lingwars.github.io/blog/images/uva-02.jpg"&gt;
+&lt;img alt="Javier García Sogo" src="http://lingwars.github.io/blog/images/uva-03.jpg"&gt;
+&lt;img alt="Comida del evento" src="http://lingwars.github.io/blog/images/uva-04.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;Lingẅars en CyLicon Valley&lt;/h2&gt;
+&lt;p&gt;Y ya que visitábamos Valladolid, qué mejor que aprovechar la tarde para poner cara a los integrantes de &lt;strong&gt;&lt;a href="https://cyliconvalley.es"&gt;CyLicon Valley&lt;/a&gt;&lt;/strong&gt; y de paso contarles algo interesante. Para quienes todavía no los conozcan, son una comunidad de emprendedores y técnicos que se dedica a difundir el desarrollo de software en Castilla y León. Son los responsables de esa maravilla que fue la &lt;a href="https://lechazoconf.com/"&gt;Lechazoconf&lt;/a&gt; y ya andan preparando el &lt;a href="https://wecodefest.com/"&gt;WeCodeFest&lt;/a&gt;; parece que no pero dan guerra.&lt;/p&gt;
+&lt;p&gt;Fuimos exactamente con la misma idea de la mañana: cómo mola el PLN y hacia dónde molaría ir con él si conseguimos atraer al talento filólogo. Accedieron con mucho gusto y parece que también quedaron contentos. De nuevo, os dejamos las diapositivas de &lt;a href="http://lingwars.github.io/blog/pdfs/cylv-intro-pln.pdf"&gt;Leti&lt;/a&gt; y &lt;a href="http://lingwars.github.io/blog/pdfs/cylv-pln-ontologias.pdf"&gt;Javi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Leticia Martín-Fuertes" src="http://lingwars.github.io/blog/images/uva-05.jpeg"&gt;
+&lt;img alt="Javier García Sogo" src="http://lingwars.github.io/blog/images/uva-06.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;... y algo de vida social&lt;/h2&gt;
+&lt;p&gt;Y, cómo no, había que aprovechar para visitar fugazmente Valladolid, unos, y Soria (concretamente la feria &lt;a href="http://www.repoblacion.es/"&gt;Presura&lt;/a&gt;), otros, y mantener épicas conversaciones sobre la lingüística y la vida con el puñado de amigos pucelanos que tenemos gracias a las redes :D ¡Gran ciudad y grandes gentes! Gracias por acogernos.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vida social" src="http://lingwars.github.io/blog/images/uva-07.jpg"&gt;&lt;/p&gt;</content><category term="Valladolid"></category><category term="chronicle"></category><category term="CyLicon Valley"></category><category term="UVa"></category><category term="social"></category></entry><entry><title>Crónica del EOL2</title><link href="http://lingwars.github.io/blog/cronica-del-eol2.html" rel="alternate"></link><published>2015-11-20T10:20:00+01:00</published><updated>2015-11-20T10:20:00+01:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2015-11-20:/blog/cronica-del-eol2.html</id><summary type="html">&lt;p&gt;El pasado 14 de noviembre celebramos el II Encuentro Oficial Lingẅars centrado en la lingüística de &lt;em&gt;corpus&lt;/em&gt; (ya habíamos realizado uno,
+pero de ese no escribimos crónica :/). Es el primer encuentro en el que nos centramos en un área concreta y creo que es una
+coincidencia que debemos adoptar como …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El pasado 14 de noviembre celebramos el II Encuentro Oficial Lingẅars centrado en la lingüística de &lt;em&gt;corpus&lt;/em&gt; (ya habíamos realizado uno,
+pero de ese no escribimos crónica :/). Es el primer encuentro en el que nos centramos en un área concreta y creo que es una
+coincidencia que debemos adoptar como constumbre, ya que permite seguir un hilo conductor durante toda la jornada y relacionar
+unas charlas con otras.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spoiler alert.-&lt;/strong&gt; Algunos dicen que el próximo encuentro podría ir sobre algo llamado semántica estructural. ¡Apúntate utilizando
+el sobrecito que hay arriba y serás pertinentemente avisado!&lt;/p&gt;
+&lt;h1&gt;Por la mañana&lt;/h1&gt;
+&lt;p&gt;Comenzamos el día con una introducción al grupo a cargo de &lt;a href="https://twitter.com/ebaste"&gt;Eduardo&lt;/a&gt; así los que vienen de nuevas
+pueden saber a qué nos dedicamos, quiénes somos y qué objetivos tenemos... y de paso vamos autodefiniéndonos, que no es tarea fácil.&lt;/p&gt;
+&lt;h2&gt;Introducción a la lingüística de corpus&lt;/h2&gt;
+&lt;p&gt;A continuación entramos en harina, directos hacia el corpus de la mano de &lt;strong&gt;Tania&lt;/strong&gt; y con la ayuda de &lt;strong&gt;&lt;a href="https://twitter.com/nimbusaeta"&gt;Leticia&lt;/a&gt;&lt;/strong&gt;;
+entre las dos aprendimos lo que es un corpus y cómo manejarlo. En primer lugar nos introdujeros varios conceptos sobre los &lt;em&gt;corpora&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qué son.&lt;/li&gt;
+&lt;li&gt;Por qué usarlos.&lt;/li&gt;
+&lt;li&gt;Criterios para construir un corpus.&lt;/li&gt;
+&lt;li&gt;Corpus anotados.&lt;/li&gt;
+&lt;li&gt;Tipos de corpus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una introducción imprescindible para la gente que se acerca por vez primera a este campo, podéis descargar la presentación
+&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-intro_to_corpus.pdf"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Introducción a la lingüística de corpus" src="http://lingwars.github.io/blog/images/lw-043.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;AntConc&lt;/h2&gt;
+&lt;p&gt;Después &lt;strong&gt;Tania&lt;/strong&gt; nos mostró como utilizar &lt;a href="http://www.laurenceanthony.net/software.html"&gt;AntConc&lt;/a&gt;, una herramienta para
+trabajar con corpus desarrollada por Laurence Anthony. Tania nos guió por la herramienta en un recorrido desde las cosas
+más simples como contar palabras hasta estudios de concordancia que permiten identificar el sustrato cultural al que 
+pertenece un conjunto de documentos.
+Si quieres hacer pruebas tú mismo puedes instalarte el programa y descargarte el corpus con el que anduvimos cacharreando:
+una selección de artículos de El País recogidos por Tania utilizando &lt;a href="https://import.io/"&gt;import.io&lt;/a&gt;, ¡algún día nos contará 
+cómo lo hizo! &lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-corpus-Pais_2015_7.zip"&gt;Corpus El Pais 2015-7 (7,8 Mb)&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Por la tarde&lt;/h1&gt;
+&lt;h2&gt;Proyectos&lt;/h2&gt;
+&lt;p&gt;Dividimos la tarde en dos secciones, en primer lugar contamos algunos proyectos que están en marcha o en los que participamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-neutron.pdf"&gt;Neutrón (Javi)&lt;/a&gt;: una herramienta para ayudar en la neutralización de textos y la
+traducción translectal. Está en fase de gestación, pero apunta maneras ;D&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-aracne.pdf"&gt;Aracne (Leticia y Elena)&lt;/a&gt;: un proyecto de &lt;a href="http://www.fundeu.es/"&gt;Fundéu BBVA&lt;/a&gt; para analizar la
+evolución del lenguaje periodístico durante el último siglo. En breve tendremos noticias de las conclusiones a las que vayan
+llegando a través de los medios, seguro.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-encliticos.pdf"&gt;El Enclitizador (Tania y Leticia)&lt;/a&gt;: herramienta que analiza una forma verbal con
+enclíticos y ofrece información detallada sobre su corrección y la función de cada uno de ellos. Por cierto, buscan a alguien
+con conocimientos de programación que quiera hacer una interfaz: una web, un bot de Telegram,... ¿te animas?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Variedades principales de español" src="http://lingwars.github.io/blog/images/lw-044.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Recuperación de información&lt;/h2&gt;
+&lt;p&gt;Después la cosa tornó diferente, empezamos a ver ecuaciones proyectadas. &lt;strong&gt;&lt;a href="https://twitter.com/jgsogo"&gt;Javi&lt;/a&gt;&lt;/strong&gt;
+nos introdujo lo que era la &lt;strong&gt;recuperación de información&lt;/strong&gt; y la importancia de poder medir la distancia entre
+dos documentos cualesquiera, un problema muy común que se encuentra en la raíz de los sistemas de búsqueda
+en internet y de los motores de recomendación o el &lt;em&gt;topic modelling&lt;/em&gt;. Los dos objetivos principales de la
+presentación eran concienciarnos del problema y exponer una métrica muy sencilla (pero potente) para realizar
+estos cálculos: &lt;a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf"&gt;TF-IDF&lt;/a&gt;. También puedes ver
+la &lt;a href="http://lingwars.github.io/blog/pdfs/eol-2-information_retrieval.pdf"&gt;presentación&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La jornada terminó con un pequeño trozo de código en el que se implementaba un motor de búsqueda muy básico, pero
+que nos permitía realizar &lt;em&gt;queries&lt;/em&gt; y obtener el documento que estábamos buscando 
+(&lt;a href="https://gist.github.com/jgsogo/61975297ff6ca3f01a71"&gt;ver código&lt;/a&gt;).&lt;/p&gt;
+&lt;h1&gt;¡Te esperamos en la próxima!&lt;/h1&gt;</content><category term="eol"></category><category term="chronicle"></category></entry><entry><title>II Encuentro Oficial Lingẅars (EOL2)</title><link href="http://lingwars.github.io/blog/ii-encuentro-oficial-lingwars-eol2.html" rel="alternate"></link><published>2015-11-04T19:00:00+01:00</published><updated>2015-11-04T19:00:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-11-04:/blog/ii-encuentro-oficial-lingwars-eol2.html</id><summary type="html">&lt;p&gt;El &lt;strong&gt;sábado 14 de noviembre&lt;/strong&gt; volveremos a juntarnos en Lingẅars para ponernos al día sobre los proyectos que ha ido desarrollando cada equipo; también para hablar un poco de recursos, herramientas, los MOOC que algunos seguimos y, vaya, para vernos las caras. Caras viejas y caras nuevas, porque los nuevos …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El &lt;strong&gt;sábado 14 de noviembre&lt;/strong&gt; volveremos a juntarnos en Lingẅars para ponernos al día sobre los proyectos que ha ido desarrollando cada equipo; también para hablar un poco de recursos, herramientas, los MOOC que algunos seguimos y, vaya, para vernos las caras. Caras viejas y caras nuevas, porque los nuevos son más que bienvenidos. Como siempre, será &lt;strong&gt;en el local de &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt; de 10:30 a 19:30&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;A quiénes va dirigido&lt;/h1&gt;
+&lt;p&gt;Hacemos un llamamiento principalmente a &lt;strong&gt;profesionales de la lengua&lt;/strong&gt; (filólogos, lingüistas, traductores, intérpretes, periodistas, escritores, correctores, editores, profesores, bibliotecarios, terminólogos... la lista es larga y alberga horrores) a quienes les llame la atención esto de la lingüística computacional.&lt;/p&gt;
+&lt;p&gt;Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingẅars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-041.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Por supuesto, también necesitamos que se apunten a la fiesta &lt;strong&gt;desarrolladores de software&lt;/strong&gt; con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingẅars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.&lt;/p&gt;
+&lt;p&gt;Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a ver de qué va esto, ¡ni que decir tiene que también eres bienvenido!&lt;/p&gt;
+&lt;h1&gt;Programa&lt;/h1&gt;
+&lt;p&gt;En principio este es el plan, pero si somos pocos podemos improvisar sobre la marcha según lo que nos interese:&lt;/p&gt;
+&lt;p&gt;| | 
+----- | ----- | -----
+10:30 | &lt;strong&gt;¿Qué es Lingẅars?&lt;/strong&gt; | Explicaremos brevemente lo que hacemos a quienes vengan de primeras.
+11:30 | &lt;strong&gt;Manos a la obra&lt;/strong&gt; | Taller de AntConc. Cacharrearemos con este sencillo programa para analizar corpus. Primero veremos cómo funciona y luego haremos prácticas por equipos y pondremos las conclusiones en común.
+14:00 | &lt;strong&gt;Comida&lt;/strong&gt; | Comeremos en algún sitio cercano, se puede apuntar quien quiera.
+16:00 | &lt;strong&gt;Presentación de proyectos&lt;/strong&gt; | &lt;strong&gt;Neutrón&lt;/strong&gt;: una herramienta para hacer traducciones translectales en español de forma automática. Dicho con otras palabras: que permita adaptar un texto a una variedad específica del español, sin quebraderos de cabeza.
+| | | &lt;strong&gt;Analizador de enclíticos&lt;/strong&gt;: un programa que determina si una forma verbal con enclíticos es correcta o incorrecta, y analiza las posibles funciones de los enclíticos.
+| | | &lt;strong&gt;Aracne&lt;/strong&gt;: un proyecto que servirá de ejemplo de lo que puede llegar a hacerse con corpus.
+17:30 | &lt;strong&gt;Práctica con corpus&lt;/strong&gt; | Aprenderemos cómo trabajan los ordenadores con corpus (recuperación de información) y montaremos nuestro propio motor de búsqueda.
+19:30 | &lt;strong&gt;Fin&lt;/strong&gt; | O salimos a tomar unas cañas, que estamos en plena Latina.&lt;/p&gt;
+&lt;p&gt;Para la parte de la tarde &lt;strong&gt;recomendamos seriamente traer un portátil&lt;/strong&gt;, aunque si no tienes te podemos dejar un ordenador.&lt;/p&gt;
+&lt;p&gt;Puedes apuntarte al &lt;a href="https://www.facebook.com/events/1516190682029552/"&gt;evento en Facebook&lt;/a&gt; o al de &lt;a href="http://www.meetup.com/es/Lenguando/events/226497124/"&gt;Meetup&lt;/a&gt; (o a los dos, claro; esto es por poder organizarnos mejor).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cuanto menos sepas, más provecho vas a sacar; cuanto más sepas, más podrás ayudar a tus compañeros.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¡Nos vemos el sábado 14!&lt;/p&gt;</content><category term="convocatorias"></category><category term="EOL2"></category></entry><entry><title>I Encuentro Oficial Lingẅars (EOL1)</title><link href="http://lingwars.github.io/blog/i-encuentro-oficial-lingwars-eol1.html" rel="alternate"></link><published>2015-09-25T19:00:00+02:00</published><updated>2015-09-25T19:00:00+02:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-09-25:/blog/i-encuentro-oficial-lingwars-eol1.html</id><summary type="html">&lt;h1&gt;Por qué se celebra&lt;/h1&gt;
+&lt;p&gt;En Lingẅars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Por qué se celebra&lt;/h1&gt;
+&lt;p&gt;En Lingẅars llevamos ya un par de meses trabajando en proyectos de lingüística computacional y es un buen momento para compartirlos. Sería interesante saber en qué estado se encuentran, cómo se han hecho, si se puede ayudar en algo a los desarrolladores o a los lingüistas... o simplemente conocerlos para inspirarnos y movernos a hacer otros proyectos.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Cuándo y dónde tendrá lugar&lt;/h1&gt;
+&lt;p&gt;Hemos elegido el &lt;strong&gt;sábado 3 de octubre&lt;/strong&gt; para tener tiempo para todo esto y además poder trabajar en equipo. Será, como todos los encuentros más informales que ha habido hasta ahora, &lt;strong&gt;en el local de &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt; de 10:30 a 19:30&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;A quiénes va dirigido&lt;/h1&gt;
+&lt;p&gt;Hacemos un llamamiento principalmente a &lt;strong&gt;profesionales de la lengua&lt;/strong&gt; (filólogos, lingüistas, traductores, intérpretes, periodistas, escritores, correctores, editores, profesores, bibliotecarios, terminólogos... la lista es larga y alberga horrores) a quienes les llame la atención esto de la lingüística computacional.&lt;/p&gt;
+&lt;p&gt;Queremos quitarles el miedo a crear sus propios programas; creemos que el miedo es una sensación muy desagradable. Nuestro objetivo es hacerlo fácil y divertido: lo bueno de Lingẅars es que ya hay personas, dedicadas normalmente a la lengua, que han aprendido a programar. Así que habrá por ahí gente para guiarte que conoce tus dificultades, porque también las ha vivido.&lt;/p&gt;
+&lt;p&gt;Por supuesto, también necesitamos que se apunten a la fiesta &lt;strong&gt;desarrolladores de software&lt;/strong&gt; con interés en este tipo de proyectos. A vosotros no hay que quitaros ningún miedo a programar, lo que hay que hacer es daros las bases lingüísticas, las reglas gramaticales y ortográficas por las que se rige el lenguaje para que podáis jugar con él. Y en Lingẅars encontraréis gente que sabe mucho de lengua dispuesta a ayudar.&lt;/p&gt;
+&lt;p&gt;Finalmente, si no encajas en ninguno de estos dos grupos pero te apetece venir a ver de qué va esto, ¡ni que decir tiene que también eres bienvenido!&lt;/p&gt;
+&lt;h1&gt;Qué vamos a hacer&lt;/h1&gt;
+&lt;p&gt;En principio este es el plan:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hora&lt;/th&gt;
+&lt;th&gt;Parte&lt;/th&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;¿Qué es Lingẅars?&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Explicaremos brevemente lo que hacemos a quienes vengan de primeras.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Presentación de proyectos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cada equipo presentará su proyecto en 20-30 min. Si quieres presentar el tuyo, escríbenos para que podamos organizar mejor esta parte.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Comida&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Comeremos en algún sitio cercano, se puede apuntar quien quiera.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Manos a la obra&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cacharrearemos con Python. Haremos una división por niveles. Empezaremos de cero enseñando a programar, pero quien ya sepa puede trabajar en proyectos existentes o empezar el propio. Y siempre todos contaremos con la ayuda de los demás.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19:30&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Fin&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Para la parte de la tarde &lt;strong&gt;queda recomendabilísimo traer un portátil&lt;/strong&gt;, aunque si no tienes te podemos dejar un ordenador.&lt;/p&gt;
+&lt;p&gt;Puedes apuntarte al &lt;a href="https://www.facebook.com/events/100625420292912/"&gt;evento en Facebook&lt;/a&gt; o al de &lt;a href="http://www.meetup.com/es/Lenguando/events/225517649/"&gt;Meetup&lt;/a&gt; (o a los dos, claro).&lt;/p&gt;
+&lt;p&gt;Como siempre (se está convirtiendo en nuestro lema):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cuanto menos sepas, más provecho vas a sacar; cuanto más sepas, más podrás ayudar a tus compañeros.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¡Nos vemos el sábado 3!&lt;/p&gt;</content><category term="convocatorias"></category><category term="EOL1"></category></entry><entry><title>22-07-2015</title><link href="http://lingwars.github.io/blog/22-07-2015.html" rel="alternate"></link><published>2015-07-23T10:20:00+02:00</published><updated>2015-07-23T10:20:00+02:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2015-07-23:/blog/22-07-2015.html</id><summary type="html">&lt;p&gt;El 22-07-2015 a las 18:00 se celebró el primer encuentro de Lingwars en &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt;. Se trataba ante todo de conocernos para ver cuáles eran las expectativas y posibilidades de cada uno.&lt;/p&gt;
+&lt;h1&gt;Desarrollo de la sesión&lt;/h1&gt;
+&lt;p&gt;Así que lo primero fue presentarse exponiendo nuestra formación, experiencia y relación con la …&lt;/p&gt;</summary><content type="html">&lt;p&gt;El 22-07-2015 a las 18:00 se celebró el primer encuentro de Lingwars en &lt;a href="http://encomienda.colenguando.com"&gt;coLenguando&lt;/a&gt;. Se trataba ante todo de conocernos para ver cuáles eran las expectativas y posibilidades de cada uno.&lt;/p&gt;
+&lt;h1&gt;Desarrollo de la sesión&lt;/h1&gt;
+&lt;p&gt;Así que lo primero fue presentarse exponiendo nuestra formación, experiencia y relación con la lingüística computacional (si es que había alguna más allá del interés). Fuimos alrededor de doce personas, la mayoría filólogos que no habíamos programado nunca nada.&lt;/p&gt;
+&lt;p&gt;Después &lt;a href="https://twitter.com/jgsogo"&gt;Javier&lt;/a&gt; nos hizo una pequeña presentación de Python y las API de Apicultur:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vimos las tripas del contador de sustantivos creado por Javier, que utiliza la API lematizadora de Apicultur&lt;/li&gt;
+&lt;li&gt;Ejecutamos el contador de sustantivos, e hicimos y ejecutamos un contador de verbos y otro de sustantivos comunes, basados en el primero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Al final &lt;a href="https://twitter.com/ebaste"&gt;Edu&lt;/a&gt; sopló las velitas de su minitarta de cumpleaños, que es justo ese día ;)&lt;/p&gt;
+&lt;h1&gt;Cuestiones debatidas&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Lingüística computacional que usa solo estadística vs. lingüística computacional que usa la lengua desde el principio&lt;/li&gt;
+&lt;li&gt;¿Lingüística = lingüística computacional?&lt;/li&gt;
+&lt;li&gt;¿Qué es una API?&lt;/li&gt;
+&lt;li&gt;¿Hay APIs de código abierto?&lt;/li&gt;
+&lt;li&gt;Dónde encontrar APIs lingüísticas:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://store.apicultur.com"&gt;Apicultur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.nltk.org"&gt;NLTK&lt;/a&gt; (Python)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nlp.lsi.upc.edu/freeling"&gt;Freeling&lt;/a&gt; (C++)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;¿Cómo sabemos qué órdenes dar a la API para hacerle llamadas? Las APIs deben estar convenientemente documentadas&lt;/li&gt;
+&lt;li&gt;¿Cómo sabe el lematizador qué palabra es sin un contexto? Lematizador morfológico vs. lematizador sintáctico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Ideas sobre posibles proyectos&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;detectar el nivel socioeconómico de una persona por sus publicaciones en RRSS&lt;/li&gt;
+&lt;li&gt;detectar el sexo de una persona por los escritos que produce&lt;/li&gt;
+&lt;li&gt;clasificar libros de Amazon en niveles de dificultad para estudiantes de lenguas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Frecuencia y naturaleza de próximas sesiones&lt;/h1&gt;
+&lt;p&gt;Hablamos de quedar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;entre semana, quien quiera, para trabajar en coLenguando&lt;/li&gt;
+&lt;li&gt;una vez al mes para presentar proyectos y analizar el avance del trabajo&lt;/li&gt;
+&lt;li&gt;una vez al trimestre en fin de semana durante todo un día, en una especie de hackatón&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Nombre del grupo de trabajo&lt;/h1&gt;
+&lt;p&gt;Propusimos como nombre &lt;strong&gt;LingWars&lt;/strong&gt;: &lt;em&gt;lingua&lt;/em&gt; ('lengua' en latín) + &lt;em&gt;ars&lt;/em&gt; ('técnica') y además &lt;em&gt;Wars&lt;/em&gt;, porque nos sentimos guerreros con muchas ganas de aprender y trabajar ^^&lt;/p&gt;</content><category term="ideas"></category><category term="social"></category><category term="Python"></category><category term="Apicultur"></category><category term="NLTK"></category><category term="Freeling"></category></entry></feed>

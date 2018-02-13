@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lingẅars - Proyectos</title><link href="http://lingwars.github.io/blog/" rel="alternate"></link><link href="http://lingwars.github.io/blog/feeds/proyectos.atom.xml" rel="self"></link><id>http://lingwars.github.io/blog/</id><updated>2018-01-23T10:00:00+01:00</updated><entry><title>Primeras reflexiones tras 5 meses de GAPLEN</title><link href="http://lingwars.github.io/blog/primeras-reflexiones-tras-5-meses-de-gaplen.html" rel="alternate"></link><published>2018-01-23T10:00:00+01:00</published><updated>2018-01-23T10:00:00+01:00</updated><author><name>Leticia Martín-Fuertes</name></author><id>tag:lingwars.github.io,2018-01-23:/blog/primeras-reflexiones-tras-5-meses-de-gaplen.html</id><summary type="html">&lt;p&gt;Ya hace 5 meses que pusimos en marcha el GAPLEN y parece que fue ayer la primera reunión. ¡Cómo pasa el tiempo! Nos hemos estado reuniendo en &lt;a href="http://medialab-prado.es/article/lingwars-grupo-de-aprendizaje-de-pln-o-gaplen"&gt;Medialab Prado&lt;/a&gt; el primer jueves de cada mes sin falta y también hemos hecho unas cuantas quedadas extraoficiales.&lt;/p&gt;
+&lt;p&gt;Llegado este momento creo que …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ya hace 5 meses que pusimos en marcha el GAPLEN y parece que fue ayer la primera reunión. ¡Cómo pasa el tiempo! Nos hemos estado reuniendo en &lt;a href="http://medialab-prado.es/article/lingwars-grupo-de-aprendizaje-de-pln-o-gaplen"&gt;Medialab Prado&lt;/a&gt; el primer jueves de cada mes sin falta y también hemos hecho unas cuantas quedadas extraoficiales.&lt;/p&gt;
+&lt;p&gt;Llegado este momento creo que es bueno compartir con la comunidad de Lingwars y con el mundo entero las impresiones que tengo sobre el grupo de aprendizaje, como asistente y como organizadora:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Es difícil, si no directamente imposible, ir todos al mismo ritmo. Pero ¿acaso es deseable o necesario? Facilita mucho las cosas compartir una base de conocimientos, para decidir los contenidos a preparar; pero si los contenidos se van archivando en un sitio accesible, la gente podrá usarlos en el momento en que los necesite.&lt;/li&gt;
+&lt;li&gt;El concepto de &lt;em&gt;grupo de aprendizaje&lt;/em&gt; sigue siendo raro, estamos mucho más familiarizados con el concepto de &lt;em&gt;curso&lt;/em&gt;. Nos sigue escribiendo gente que se quiere «apuntar al curso». Supongo que es normal y que llevará un tiempo o quizá incluso nunca deje de haber gente a la que le extrañe el concepto.&lt;/li&gt;
+&lt;li&gt;Implicar a la gente en la organización es muy difícil, y tiene que salir de ellos. No vas a convencer a nadie de que participe a un nivel mayor de implicación sin que tengan algún interés personal en ello, y es normal. Así que no vale la pena dirigir demasiado esfuerzo en ese sentido. Simplemente, los organizadores tenemos que ser capaces de identificar cuándo alguien muestra ese interés especial, para canalizarlo bien, y asegurarnos de que &lt;strong&gt;todo el mundo se siente a gusto con la aportación que está haciendo al grupo&lt;/strong&gt;. Quizá ocurra porque «implicarse en la organización» nos parece algo muy comprometido, cuando en realidad se puede hacer al nivel y al ritmo que se quiera (proponer ejercicios, compartir materiales, encargarse de la siguiente charla, avanzar en el libro para fijar los objetivos para el próximo mes, echar una mano en redes sociales o en la web...), y si no, que se lo pregunten a &lt;a href="http://twitter.com/luisanke"&gt;Luis&lt;/a&gt;; o porque, ligado al &lt;a href="https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor"&gt;síndrome del impostor&lt;/a&gt;, pensemos: «Quién soy yo para decirle a esta gente lo que tiene que hacer, ¡si yo no tengo ni idea!». A esto último se me ocurren, al menos, dos buenas respuestas:&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;La comunidad es lo primero siempre; los contenidos y actividades deberían adaptarse a sus deseos y no al revés&lt;/strong&gt;. Dentro de esa comunidad, deberían tener más voz los recién llegados o quienes cuenten con menos conocimientos, y los demás estar para ayudarles. La cuestión es: ¿estamos preparados como alumnos para demandar lo que queremos? ¿El sistema educativo nos ha convertido en alumnos pasivos que están a la espera de lo que les proponen los profes? ¿Se puede hacer algo por cambiar esta dinámica? ¿O simplemente cuando el nivel es muy bajo es imposible saber lo que quieres?&lt;/li&gt;
+&lt;li&gt;¡Los organizadores tampoco somos quiénes para decirle a nadie lo que tiene que hacer! Me gustaría que los participantes piensen en ellos como los que pusieron esto en marcha, y nada más.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Pensábamos que el blog sería un buen campo de cacharreo para empezar a usar git, pero quizá impere más el facilitar lo máximo posible la forma de participar. Por ello estamos pensando crear una publicación en Medium y que todo el que quiera compartir algo dentro de la comunidad solo tenga que adscribir su post a Lingwars.&lt;/li&gt;
+&lt;li&gt;Estoy muy orgullosa de los pasos que vamos dando. Hemos sentido a veces que vamos demasiado lento, y viéndolo en retrospectiva, pienso que es por el agobio de «entretener» a quien ya sabe programar. ¡Pero es que los que ya saben programar no son el objetivo! Así que la velocidad no debería ser un criterio de evaluación: a mayor ritmo, no necesariamente más éxito. Lo que me importa son los intercambios que hay de conocimientos entre unos perfiles y otros, y eso ha sido una constante en estos meses. Me gustaría que, sobre todo, Lingwars sea un sitio donde el que no sabe programar se sienta cómodo aprendiendo; si el que ya sabe se aburre o no se siente cómodo, ¡tiene otros grupos donde ir! Aquí valoraremos tremendamente que nos ayude y le enseñaremos cosas de lengua :)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="PLN"></category><category term="grupo"></category><category term="GAPLEN"></category><category term="reflexiones"></category></entry><entry><title>Lingwars inicia un grupo de aprendizaje para entusiastas del PLN</title><link href="http://lingwars.github.io/blog/lingwars-inicia-un-grupo-de-aprendizaje-para-entusiastas-del-pln.html" rel="alternate"></link><published>2017-08-24T19:00:00+02:00</published><updated>2017-08-24T19:00:00+02:00</updated><author><name>taniaka</name></author><id>tag:lingwars.github.io,2017-08-24:/blog/lingwars-inicia-un-grupo-de-aprendizaje-para-entusiastas-del-pln.html</id><summary type="html">&lt;p&gt;En Lingwars llevamos dos años organizando charlas y talleres sobre el procesamiento del lenguaje natural (PLN)
+y en este nuevo curso nos gustaría empezar a explorar un formato que seguramente resulte interesante a muchos de vosotros.
+Se trata de crear uno o varios grupos de aprendizaje dedicados al PLN.&lt;/p&gt;
+&lt;h2&gt;¿Qué …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;En Lingwars llevamos dos años organizando charlas y talleres sobre el procesamiento del lenguaje natural (PLN)
+y en este nuevo curso nos gustaría empezar a explorar un formato que seguramente resulte interesante a muchos de vosotros.
+Se trata de crear uno o varios grupos de aprendizaje dedicados al PLN.&lt;/p&gt;
+&lt;h2&gt;¿Qué vamos a estudiar? ¿Cómo funcionará el grupo de aprendizaje?&lt;/h2&gt;
+&lt;p&gt;Nuestra propuesta inicial consiste en formar un grupo de personas interesadas en aprender a usar NLTK, 
+la librería de PLN más importante para el lenguaje de programación Python. Para hacerlo seguiremos el &lt;a href="http://www.nltk.org/book/"&gt;libro oficial de NLTK&lt;/a&gt; 
+(en inglés), 
+una guía muy práctica, fácil de leer y con muchos ejercicios.  &lt;/p&gt;
+&lt;p&gt;En el grupo no habrá profesores y alumnos. Decidiremos entre todos el calendario que queremos seguir y las tareas que 
+nos queremos proponer. La idea es ir leyendo el libro de NLTK en casa y reunirnos cada mes para poner en común los resultados 
+de los ejercicios y las dudas, y pensar en el próximo mes. La fecha y el lugar de la primera reunión todavía están por concretar, 
+pero estamos pensando en la última semana de septiembre. También dispondremos de un grupo de Telegram para compartir ideas, 
+hacer preguntas y resolver las dudas que tenga cada uno.&lt;/p&gt;
+&lt;p&gt;Por supuesto, también estamos abiertos a otras líneas de exploración relacionadas con el PLN, y si tienes interés en formar un 
+grupo de aprendizaje sobre otro tema, libro o MOOC, en Lingwars estaremos encantados de acogerlo.&lt;/p&gt;
+&lt;h2&gt;¿Quién puede participar en el grupo? ¿Hay que saber programar en Python?&lt;/h2&gt;
+&lt;p&gt;Todo el mundo es bienvenido y no es imprescindible tener conocimientos previos de programación, ya que empezaremos desde lo más básico. 
+Sin embargo, si nunca has programado, ten en cuenta que en las primeras semanas tendrás que trabajar bastante para ponerte al nivel. 
+Pero no te preocupes, te facilitaremos los recursos necesarios y siempre estaremos ahí para echarte una mano.&lt;/p&gt;
+&lt;h2&gt;¿Cómo me apunto al grupo?&lt;/h2&gt;
+&lt;p&gt;Solo tienes que escribirnos a lingwars@gmail.com, contarnos algo sobre ti (somos personitas y ¡queremos conocerte!) y te añadiremos a nuestro grupo de Telegram.&lt;/p&gt;
+&lt;p&gt;Con la publicación de este post, damos por inaugurado el grupo, ya que en realidad no hace falta tener una fecha límite para empezar a trabajar en algo, ¿verdad? ;)&lt;/p&gt;</content><category term="PLN"></category><category term="grupo"></category></entry><entry><title>Retos y juegos lingüísticos</title><link href="http://lingwars.github.io/blog/retos-y-juegos-linguisticos.html" rel="alternate"></link><published>2015-09-13T10:20:00+02:00</published><updated>2015-09-13T10:20:00+02:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2015-09-13:/blog/retos-y-juegos-linguisticos.html</id><summary type="html">&lt;p&gt;Acabamos de poner &lt;em&gt;online&lt;/em&gt; la primera versión de un conjunto de
+desafíos lingüísticos (para nosotros lo serán de programación)
+que queremos sacar adelante. &lt;a class="reference external" href="http://games.lingwars.com"&gt;¿Te atreves?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea de estos juegos/desafíos es que nos sirvan para definir
+pequeños proyectos con los que ir aprendiendo a programar y a
+utilizar las …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acabamos de poner &lt;em&gt;online&lt;/em&gt; la primera versión de un conjunto de
+desafíos lingüísticos (para nosotros lo serán de programación)
+que queremos sacar adelante. &lt;a class="reference external" href="http://games.lingwars.com"&gt;¿Te atreves?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea de estos juegos/desafíos es que nos sirvan para definir
+pequeños proyectos con los que ir aprendiendo a programar y a
+utilizar las APIs y recursos que estén a nuestro alcance. Al mismo
+tiempo servirán para darnos a conocer y que la gente pueda ver
+e interaccionar con algunas de las cosas que hacemos.&lt;/p&gt;
+&lt;div class="section" id="los-juegos"&gt;
+&lt;h2&gt;Los juegos&lt;/h2&gt;
+&lt;p&gt;He intentado diseñar una arquitectura para la web que permita
+la incorporación de nuevos juegos como si fueran &lt;em&gt;plug-ins&lt;/em&gt;, es decir,
+que haya una parte central fija que gestione las funcionalidades del
+sistema y que los juegos se incorporen al sistema mediante clases
+derivadas de una interfaz común &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/affc6c02701dc0c6ae9967182ef5354787c053a5/appweb/engine/utils/game.py#L10"&gt;GameBase&lt;/a&gt;
+que define las funciones que deben implementar.&lt;/p&gt;
+&lt;p&gt;Actualmente hay dos juegos programados de este modo que puedes
+utilizar como base para crear los tuyos propios:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/sum"&gt;Sum&lt;/a&gt;: suma de enteros. Es un ejemplo de juego con un código muy simple
+que muestra al usuario dos números enteros y le pide que los sume.
+Está aquí con la única intención de mostrar el ejemplo mínimo
+que permite incorporar un juego al sistema.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/word2def"&gt;word2def&lt;/a&gt;: de la palabra a la definición. Este juego muestra al usuario una
+palabra y cuatro posibles definiciones entre las que debe escoger
+la correcta. El código de este juego no se limita a la funcionalidad
+básica como en el caso anterior, sino que es una &lt;a class="reference external" href="https://docs.djangoproject.com/en/1.8/ref/applications/"&gt;aplicación de Django&lt;/a&gt;
+que además tiene sus propias tablas en la base de datos donde
+almacena los resultados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estoy seguro de que en breve habrá alguno más.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="como-anadir-nuevos-juegos"&gt;
+&lt;h2&gt;Cómo añadir nuevos juegos&lt;/h2&gt;
+&lt;p&gt;Si tienes alguna idea de juego o desafío que quieres que pongamos en
+el sistema puedes programarlo tú mismo y pedir un pull-request en
+Github para que lo incorporemos. Te voy a explicar cómo hacerlo:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Lo primero que tienes que hacer es preparar el sistema para que
+puedas probar todo en local antes de subirlo a la web. Es muy sencillo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Haz un &lt;strong&gt;fork&lt;/strong&gt; del repositorio &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games"&gt;Lingwars/lingwars-games&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Clónate ese repositorio en tu ordenador.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Crea un archivo &lt;code&gt;secret.py&lt;/code&gt; junto a &lt;code&gt;~/appweb/appweb/settings.py&lt;/code&gt; con tus
+claves de Apicultur.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;ACCESS_TOKEN_STORE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tu access_token&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;ACCESS_TOKEN_IO&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tu access_token&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Creamos la base de datos de pruebas (será una base de datos local sqlite3):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/appweb$ python manage.py migrate
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Y vamos a arrancar el servidor web en local:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/appweb$ python manage.py runserver
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Llegado aquí deberías ser capaz de acceder a la página en tu navegador
+introduciendo la dirección &lt;code&gt;http://localhost:8000/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="arabic" start="2"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Después tendrás que programar el juego. Te recomiendo que empieces por
+un juego sencillo (o no), pero que no necesite utilizar una base de datos
+y que sea también &lt;strong&gt;de seleccionar una opción entre varias&lt;/strong&gt; (si tienes
+interés en crear otro tipo de juego donde la mecánica sea diferente,
+coméntamelo antes para preparar la infraestructura).&lt;/p&gt;
+&lt;p&gt;Todo juego debe cumplir dos requisitos:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Debe implementarse en una clase que derive de GameBase&lt;/li&gt;
+&lt;li&gt;Tiene que existir un objeto &lt;code&gt;game&lt;/code&gt; de dicho juego en la raíz
+del paquete de Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La primera condición significa que tienes que crear una clase, con
+el nombre que quieras, e implementar los métodos &lt;code&gt;make_question&lt;/code&gt;
+y &lt;code&gt;score&lt;/code&gt;, tal y como he hecho aquí con &lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/master/games/sum/__init__.py"&gt;SumGame&lt;/a&gt; o como
+aparece a continuación:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyAwesomeGame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;GameBase&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;My Awesome Game&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;author&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Me myself&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;In this game you blablabla&amp;quot;&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;make_question&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;question&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;query&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Question to the user&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;options&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;list&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;of&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;answers&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,]&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;correct&lt;/span&gt; &lt;span class="n"&gt;answer&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# Esto debe ser el índice de la respuesta correcta en la lista.&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;info&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some info to the user&amp;quot;&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;question&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;score&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;user_answer&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="c1"&gt;# Check the `user_answer`, it should be equal to response[&amp;#39;answer&amp;#39;]&lt;/span&gt;
+        &lt;span class="c1"&gt;# :param:`response` contains the same data created in `make_question`&lt;/span&gt;
+        &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;user_answer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;u&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;TypeError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;answer&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La segunda condición hace referencia a que debe existir una instancia del juego
+en el archivo &lt;code&gt;__init__.py&lt;/code&gt; del paquete. Como ocurre
+&lt;a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/0b2efb99e0c811a7ab30c5b2486b0e9bbaaa7a21/games/sum/__init__.py#L42"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Si estos archivos los pones en un nuevo paquete dentro del directorio &lt;code&gt;~/games/&lt;/code&gt;
+el sistema debería ser capaz de detectarlos automáticamente y presentarlos en el listado
+de juegos para que lo pruebes.&lt;/p&gt;
+&lt;p&gt;Si has llegado hasta aquí, ¡enhorabuena! Manda tu &lt;em&gt;pull-request&lt;/em&gt; y estaremos encantados
+de incorporarlo a la web para que la gente se enfrete a tu nuevo desafío.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;En próximos capítulos veremos cómo:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Crear un juego que no sea de opción múltiple&lt;/li&gt;
+&lt;li&gt;Crear juegos que hagan uso de la base de datos (serán aplicaciones de Django)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="proyect"></category><category term="python"></category><category term="apicultur"></category></entry></feed>

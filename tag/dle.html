@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Lingẅars - DLE</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://lingwars.github.io/blog/como-anadir-el-dle-como-motor-de-busqueda-del-navegador.html">Cómo añadir el DLE como motor de búsqueda del navegador</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-10-25T10:00:00+01:00">
+                Published: Sun 25 October 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/leticia-martin-fuertes.html">Leticia Martín-Fuertes</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/tutoriales.html">tutoriales</a> <a href="http://lingwars.github.io/blog/tag/recursos.html">recursos</a> <a href="http://lingwars.github.io/blog/tag/dle.html">DLE</a> <a href="http://lingwars.github.io/blog/tag/rae.html">RAE</a> <a href="http://lingwars.github.io/blog/tag/diccionarios.html">diccionarios</a> <a href="http://lingwars.github.io/blog/tag/navegadores.html">navegadores</a> <a href="http://lingwars.github.io/blog/tag/google-chrome.html">Google Chrome</a> <a href="http://lingwars.github.io/blog/tag/mozilla-firefox.html">Mozilla Firefox</a> </p>
+</footer><!-- /.post-info --><p>Ahora que la 23ª edición del Diccionario de la RAE está disponible en línea, he tenido que cambiar la configuración de mi navegador para poder buscar directamente en el diccionario desde la barra de búsqueda. Y ya que lo hago para mí enseño cómo hacerlo ;)</p>
+<p>La nueva versión es hipertextual (se puede ir a la definición de cualquier palabra pinchando en ella desde otras definiciones), agrupa y muestra variedades ortográficas (si buscas, por ejemplo, <em>chupachús</em>, te redirige directamente a <em>chupachups</em>, que es la variante que recomienda, sin tener que hacer otro click), y lematiza mejor (antes, al buscar, por ejemplo, <em>elegantísimamente</em>, no obtenías ningún resultado; ahora, te sugiere la definición de <em>elegante</em>). En <a href="http://www.rae.es/sites/default/files/La_vigesimotercera_edicion.pdf">esta sección de la obra en papel</a> se explican más novedades de la nueva edición.</p>
+<p>Aunque estemos acostumbrados a llamarlo DRAE (Diccionario de la Real Academia Española) ahora se prefiere DLE (Diccionario de la Lengua Española), ya que en él han colaborado todas las academias de la <a href="http://www.asale.org/">ASALE</a> (Asociación de Academias de la Lengua Española).</p>
+<h1>Google Chrome</h1>
+<p>En primer lugar vamos a <code>http://dle.rae.es/</code> (desde donde se nos redirige automáticamente a <code>http://dle.rae.es/?w=diccionario</code>, la dirección correspondiente a la palabra <em>diccionario</em>). </p>
+<p>En el cuadro de búsqueda, hacemos click con el botón derecho y elegimos de entre las opciones del menú desplegable <code>Añadir como motor de búsqueda...</code>.</p>
+<p><img alt="Añadir como motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-030.jpg"></p>
+<p>Nos aparecerá un cuadro como el de la siguiente imagen:</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-031.jpg"></p>
+<p>El nombre va a servir para encontrarlo después entre los demás motores de búsqueda que tengamos, y aparecerá al buscar en el navegador cuando lo terminemos de configurar. La palabra clave será la cadena de caracteres que tengamos que escribir en la barra de búsqueda del navegador cuando queramos buscar en este motor. Y la URL, aquella a la que el navegador irá cuando usemos la palabra clave.</p>
+<p>Mi recomendación es poner en <code>Nombre:</code> algo descriptivo, como "DLE" o "Diccionario de la Lengua Española"; y en <code>Palabra clave:</code>, algo corto y en minúsculas, como "dle". Lo que aparece en <code>URL:</code> no solemos tener que editarlo en otros motores, pero no sé por qué en el caso del DLE no aparece la URL correcta. Hay que sustituir lo que sale por defecto por <code>http://dle.rae.es/?w=%s</code>.</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-032.jpg"></p>
+<p>Le damos a <code>Aceptar</code> ¡y ya está! Cuando escribamos en la barra de direcciones del navegador <code>dle luquete</code> aparecerá lo siguiente:</p>
+<p><img alt="Búsqueda con palabra clave" src="http://lingwars.github.io/blog/images/lw-033.jpg"></p>
+<p>Solo tenemos que darle a <code>Intro</code> y nos llevará a la definición de <em>luquete</em> :D</p>
+<h1>Mozilla Firefox</h1>
+<p>Firefox trata los motores de búsqueda como marcadores. El proceso es parecido pero hay que editar la URL en la configuración de los marcadores.</p>
+<p>Lo primero que hay que hacer es ir a <code>http://dle.rae.es/</code>  y en el cuadro de búsqueda, hacer click con el botón derecho. Elegimos de entre las opciones del menú desplegable <code>Añadir una palabra clave para esta búsqueda...</code>.</p>
+<p><img alt="Añadir una palabra clave para esta búsqueda" src="http://lingwars.github.io/blog/images/lw-034.jpg"></p>
+<p>Nos aparecerá un cuadro como el de la siguiente imagen:</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-035.jpg"></p>
+<p>Podemos poner el nombre y la palabra clave que queramos. El nombre va a servir para encontrarlo después entre los marcadores, y la palabra clave será la cadena de caracteres que tengamos que escribir en la barra de búsqueda del navegador cuando queramos buscar en este motor.</p>
+<p>Mi recomendación es poner en <code>Nombre:</code> algo descriptivo, como "DLE" o "Diccionario de la Lengua Española"; y en <code>Palabra clave:</code>, algo corto y en minúsculas, como "dle".</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-036.jpg"></p>
+<p>Le damos a <code>Guardar</code> y ahora tenemos que editar la URL. Para ello podemos presionar Ctrl+Mayús.+B o pinchar en el botón de la imagen siguiente y después en <code>Mostrar todos los marcadores</code>.</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-037.jpg"></p>
+<p>Nos aparecerá una ventana como la siguiente. En el cuadro de arriba a la derecha podemos buscar con el nombre que le hayamos dado al motor de búsqueda y aparecerá entre todos nuestros marcadores.</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-038.jpg"></p>
+<p>Lo único que tenemos que hacer es sustituir, en el campo <code>Dirección:</code>, la URL que viene por defecto por <code>http://dle.rae.es/?w=%s</code>. Luego podemos salir dándole a la X.</p>
+<p><img alt="Editar motor de búsqueda" src="http://lingwars.github.io/blog/images/lw-039.jpg"></p>
+<p>Ahora, con solo escribir en la barra de direcciones del navegador <code>dle dingolondango</code> nos llevará a la definición de esa curiosa palabra :D</p>
+<p><img alt="Búsqueda con palabra clave" src="http://lingwars.github.io/blog/images/lw-040.jpg"></p>
+<p>En ambos casos lo que hemos hecho es decir al navegador que cuando usemos esa palabra clave nos lleve a una URL que depende de lo que escribamos inmediatamente después, sustituyendo <code>%s</code> por lo que sigue a la palabra clave. No es nada ilegal ni raro ni le quitamos tráfico a la RAE ni nada; de hecho, ellos recomiendan algo parecido pero un poco menos cómodo en su <a href="http://dle.rae.es/?t=ayuda.html#sec12&amp;o=h">Guía de consulta</a>: aprenderte de memoria la URL.</p><p>There are <a href="http://lingwars.github.io/blog/como-anadir-el-dle-como-motor-de-busqueda-del-navegador.html#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>

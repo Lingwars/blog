@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lingẅars - Talleres</title><link href="http://lingwars.github.io/blog/" rel="alternate"></link><link href="http://lingwars.github.io/blog/feeds/talleres.atom.xml" rel="self"></link><id>http://lingwars.github.io/blog/</id><updated>2016-03-16T19:20:00+01:00</updated><entry><title>Taller de tratamiento de datos digitales</title><link href="http://lingwars.github.io/blog/taller-de-tratamiento-de-datos-digitales.html" rel="alternate"></link><published>2016-03-16T19:20:00+01:00</published><updated>2016-03-16T19:20:00+01:00</updated><author><name>Javier G. Sogo</name></author><id>tag:lingwars.github.io,2016-03-16:/blog/taller-de-tratamiento-de-datos-digitales.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Organizan:&lt;/strong&gt; &lt;a class="reference external" href="http://encomienda.colenguando.com/"&gt;coLenguando&lt;/a&gt; y Lingẅars&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; sábado 9 de abril 10:00-13:00, sábado 16 de abril 10:00-13:00, sábado 23 de abril 10:00-13:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 20€ (9 horas)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dónde:&lt;/strong&gt; en coLenguando (Calle Encomienda, 21, 28012 Madrid)&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;La web está llena de textos, textos que contienen datos interesantísimos que …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Organizan:&lt;/strong&gt; &lt;a class="reference external" href="http://encomienda.colenguando.com/"&gt;coLenguando&lt;/a&gt; y Lingẅars&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; sábado 9 de abril 10:00-13:00, sábado 16 de abril 10:00-13:00, sábado 23 de abril 10:00-13:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 20€ (9 horas)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dónde:&lt;/strong&gt; en coLenguando (Calle Encomienda, 21, 28012 Madrid)&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Lingẅars at work" src="http://lingwars.github.io/blog/images/lw-029.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;La web está llena de textos, textos que contienen datos interesantísimos que
+podemos explotar utilizando unas sencillas herramientas que están al alcance de todos.
+El objetivo de este taller es conocer y aprender a trabajar con estas herramientas
+para que tú mismo puedas realizar tus investigaciones y sacar conclusiones, ya seas
+periodista, filólogo, traductor, lingüista o curioso; el dato está ahí disponible,
+sólo hay que saber llegar a él.&lt;/p&gt;
+&lt;p&gt;No es necesario tener conocimientos previos de programación, aunque es importante
+manejar bien el ordenador a nivel de usuario.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Material:&lt;/strong&gt; necesitarás traer tu ordenador a los talleres, vamos a aprender cacharreando.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contenido:&lt;/strong&gt; lo hemos dividido en tres talleres para que nos dé tiempo a todo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;Scraping: generación de un corpus a partir de la web.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 9 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;En la primera sesión aprenderemos a descargar los textos que hay en la web de
+una forma automatizada, así como a limpiarlos y pasarlos a un formato que nos
+permitirá analizarlos. Vamos a crear un corpus.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;&lt;strong&gt;Análisis: exploración de un corpus.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 16 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;Utilizaremos herramientas adecuadas para analizar los textos que hemos descargado
+de una forma fácil y rápida. Verás como empiezas a ver cosas interesantes en
+ese gran conjunto de palabras que nos descargamos el día anterior.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;&lt;strong&gt;Insights: visualización de datos.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fecha: sábado, 23 de abril de 2016 de 10:00 a 13:00&lt;/p&gt;
+&lt;p&gt;Porque de nada sirve tener los datos si no los mostramos de una manera
+atractiva que permita comunicar la información que hemos encontrado.
+Cada conjunto de datos puede requerir una visualización distinta, así que
+en función del corpus de trabajo podremos querer mostrarlos en un mapa,
+utilizar series temporal o diferentes diagramas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo me apunto?&lt;/strong&gt; Tendrás que hacerlo a través de eventbrite -&amp;gt; &lt;a class="reference external" href="https://www.eventbrite.es/e/entradas-taller-de-tratamiento-de-textos-digitales-23738461377"&gt;aquí&lt;/a&gt; &amp;lt;-. Cualquier
+duda puedes consultarla con nosotros vía email.&lt;/p&gt;
+</content><category term="taller"></category><category term="corpus"></category><category term="antconc"></category><category term="importio"></category><category term="scrape"></category><category term="cartodb"></category><category term="graphtext"></category></entry></feed>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Lingẅars - scraping</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://lingwars.github.io/blog/scrape-xpath.html">Scrapeando la web con Python</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-04-13T19:54:00+02:00">
+                Published: Wed 13 April 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/javier-g-sogo.html">Javier G. Sogo</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/scraping.html">scraping</a> <a href="http://lingwars.github.io/blog/tag/xpath.html">xpath</a> <a href="http://lingwars.github.io/blog/tag/regex.html">regex</a> </p>
+</footer><!-- /.post-info --><p>Existen varias herramientas muy buenas que permiten <em>scrapear</em> la web sin tener
+conocimientos de programación y sin meterse en cosas raras como XPath o expresiones
+regulares, sin embargo, antes o después ambas se hacen necesarias si queremos que
+la extracción de información sea precisa y eficiente. De hecho las dos herramientas
+que he probado, <a class="reference external" href="https://www.import.io/">Import.io</a> y <cite>Portia</cite> (Scrapinghub) ofrecen la posibilidad
+de incorporar ambas tecnologías a los scrapers que se crean con sus interfaces
+gráficas.</p>
+<p>Y yo me digo, si ya utilizamos XPath y regex, ¿por qué no abordarlo directamente con
+programación 100%. El objetivo de esta publicación es mostrar un pequeño ejemplo con
+el que vamos a ser capaces de automatizar el proceso de descarga de los artículos de
+una web.</p>
+<div class="section" id="que-necesito">
+<h2>¿Qué necesito?</h2>
+<p>Vamos a utilizar Python para este ejemplo (aunque bien podría haberse abordado con
+cualquier lenguaje de programación) e instalaremos también algunos paquetes adicionales
+que nos van a simplificar la vida, a pesar de que bien podríamos hacerlo con las librerías
+instaladas por defecto con nuestro Python.</p>
+<p>Así que, si aún no lo has hecho, debes <a class="reference external" href="http://lingwars.github.io/blog/instalar-python-en-windows-7.html">instalarte Python</a>
+y después estos paquetes adicionales:</p>
+<pre class="code bash literal-block">
+$&gt; pip install requests
+$&gt; pip install lxml
+</pre>
+<p>Una brevísima descripción:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="reference external" href="http://docs.python-requests.org/en/master/">requests</a>: una librería estupenda para trabajar con HTTP, una de las imprescindibles en tu mochila ;D</li>
+<li><a class="reference external" href="http://lxml.de/">lxml</a>: es una librería para manejar XML, básica, pero suficientemente potente para lo que haremos.</li>
+</ul>
+</blockquote>
+<p>Y ahora que ya tienes todo listo, let's go!</p>
+</div>
+<div class="section" id="html-xhtml">
+<h2>HTML/XHTML</h2>
+<p>El HTML es el <em>HyperText Markup Language</em>, es el código con el que se escriben las páginas web.
+Este código es interpretado por el navegador y junto con las hojas de estilo (CSS) y el
+javascript nos permite obtener unas páginas web interactivas y agradables como las que tenemos
+hoy en día.</p>
+<p>Actualmente el estándar es <strong>HTML5/XHTML5</strong> que añade algunas etiquetas nuevas de caracter
+semántico y asociadas a funcionalidades, pero no necesitamos entrar en esto, lo que vamos
+a hacer es mucho más sencillo.</p>
+<p>Un ejemplo de HTML podría ser el siguiente:</p>
+<pre class="code html literal-block">
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+        <span class="c">&lt;!-- Comentario: Este título se mostrará en la barra superior del navegador --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Wikipedia | HTML<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+        <span class="c">&lt;!-- Todo lo incluido dentro de la etiqueta 'body' es lo vemos en el navegador --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;content&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Ejemplo de HTML<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;section&quot;</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Primera sección<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Y esto es un párrafo con algo en <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>negrita<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> y poco más.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Segunda sección<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>En este otro párrafo pongo un <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://lingwars.github.io/blog&quot;</span><span class="p">&gt;</span>link a Lingwars<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre>
+<p>En el extracto de código anterior se puede ver la estructura básica de una página web; en
+ella se aprecia la disposición jerárquica de los elementos y las secciones principales.
+Sin embargo, el código de una web de verdad es mucho más largo y farragoso, lo puedes comprobar
+tú mismo abriendo una web cualquiera en tu navegador y utilizando la opción <cite>ver código fuente</cite>
+que se te mostrará al hacer <em>click</em> con el botón derecho en cualquier lugar de la página.</p>
+<div class="figure align-center">
+<img alt="Código fuente de un artículo de la web de Lingwars." src="http://lingwars.github.io/blog/images/scrape-xpath-1.png" style="width: 600px;" />
+<p class="caption">Código fuente de un artículo de la web de Lingwars.</p>
+</div>
+<p>Puedes leer (recomendado) los artículos de la Wikipedia referentes a <a class="reference external" href="https://es.wikipedia.org/wiki/HTML#C.C3.B3digos_HTML_b.C3.A1sicos">HTML</a> y <a class="reference external" href="https://es.wikipedia.org/wiki/HTML5">HTML5</a>,
+nosotros ahora vamos a seguir avanzando.</p>
+</div>
+<div class="section" id="descargar-la-web">
+<h2>Descargar la web</h2>
+<p>El paquete <a class="reference external" href="http://docs.python-requests.org/en/master/">requests</a> al que hicimos referencia anteriormente es especialmente bueno en esto.
+Con el siguiente script podemos descargarnos el código HTML de cualquier web:</p>
+<pre class="code python literal-block">
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">def</span> <span class="nf">download</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns the HTML source code from the given URL
+        :param url: URL to get the source from.
+    &quot;&quot;&quot;</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">status_code</span> <span class="o">!=</span> <span class="mi">200</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;! Error {} retrieving url {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+    <span class="k">return</span> <span class="n">r</span><span class="o">.</span><span class="n">text</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://elpais.com&quot;</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">download</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">r</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">r</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Nothing was retrieved.&quot;</span><span class="p">)</span>
+</pre>
+<p>La función <cite>download</cite> anterior devuelve el contenido HTML de la <cite>url</cite> que le pasamos como parámetro,
+deberías probar a ejecutar el código anterior con diferentes URLs y puedes comprobar que el texto
+devuelto es el mismo que ves en el navegador al utilizar el botón <cite>ver código fuente</cite>.</p>
+</div>
+<div class="section" id="xpath-acceso-a-los-datos">
+<h2>XPath - Acceso a los datos</h2>
+<p>El XPath (XML Path Language) es un lenguaje que permite extraer contenido de un documento XML
+de una forma parecida a cómo lo hacen las expresiones regulares sobre el texto. Ambos son
+bastante complejos y la forma más fácil de aprender es a base de prueba y error, y luego ya
+con la práctica cada vez habrá más aciertos.</p>
+<div class="section" id="pruebas-online">
+<h3>Pruebas online</h3>
+<p>Vamos a hacer algunas pruebas sobre el XHTML que mostramos más arriba. A mí me gusta utilizar
+esta aplicación online (<a class="reference external" href="http://codebeautify.org/Xpath-Tester">XPath Tester</a>) para probarlo de forma interactiva, pero puedes utilizar cualquier otra
+que te guste o encuentres por internet.</p>
+<p>Probaremos algunas cadenas XPath típicas para ver qué nos devuelven:</p>
+<blockquote>
+<ul class="simple">
+<li><cite>//a/&#64;href</cite>: devuelve el atributo <cite>href</cite> de los nodos cuya etiqueta sea <cite>a</cite> y que se encuentren en cualquier
+punto del árbol jerárquico (<cite>//</cite>).</li>
+<li><cite>//title/text()</cite>: devuelve el texto (el contenido que hay entre las etiquetas) de los nodos cuya etiqueta sea
+<cite>title</cite> y que se encuentren en cualquier punto del árbol.</li>
+<li><cite>//div[&#64;id='content']//p/text()</cite>: devuelve el texto de todos los nodos tipo <cite>p</cite> que estén por debajo del
+nodo <cite>div</cite> cuyo atributo <cite>id</cite> es <cite>content</cite>, en cualquier lugar en que se encuentre este nodo.</li>
+<li><cite>//div[&#64;id='content']//p//text()</cite>: prácticamente igual que la anterior, pero con una sutil diferencia. Esta
+cadena XPath devuelve el texto de todos los nodos hijo de todos los nodos tipo <cite>p</cite> (también el texto del propio
+nodo <cite>p</cite>).</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="implementacion-en-python">
+<h3>Implementación en Python</h3>
+<p>Por supuesto, estas pruebas las podemos hacer también con Python. Fíjate en el siguiente programa:</p>
+<pre class="code python literal-block">
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">html</span>
+
+
+<span class="k">def</span> <span class="nf">download</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns the HTML source code from the given URL
+        :param url: URL to get the source from.
+    &quot;&quot;&quot;</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">status_code</span> <span class="o">!=</span> <span class="mi">200</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;! Error {} retrieving url {}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+    <span class="k">return</span> <span class="n">r</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;=============================</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;== Lingwars - Scrape XPath ==</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;=============================</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://www.elmundo.es/internacional.html&quot;</span>
+
+    <span class="n">page</span> <span class="o">=</span> <span class="n">download</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">page</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">1) Download text from {}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">text</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span>
+
+        <span class="c1"># Parse the text to XML structures</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">2) Let's try some XPath expresions:&quot;</span><span class="p">)</span>
+        <span class="n">tree</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+
+        <span class="c1"># Execute xpath over retrieved html content</span>
+        <span class="n">xpath_string</span> <span class="o">=</span> <span class="s1">'//a/&#64;href'</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="n">xpath_string</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">'</span><span class="se">\n\t</span><span class="s1">'</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">results</span><span class="p">))</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Nothing was retrieved.&quot;</span><span class="p">)</span>
+</pre>
+<p>Lo que estamos haciendo es descargarnos la web <cite>http://www.elmundo.es/internacional.html</cite>,
+parsear el XML y utilizar la cadena XPath <cite>//a/&#64;href</cite> para recuperar todos las direcciones
+de los enlaces que hay en la página.</p>
+</div>
+<div class="section" id="ejemplo-con-un-articulo">
+<h3>Ejemplo con un artículo</h3>
+<p>Muchas veces querremos obtener los datos de una publicación, sigamos con el periódico El Mundo
+y pensemos en que queremos obtener el autor, la fecha, el contenido y toda la información que
+podamos de un artículo en su web.</p>
+<p>Utilicemos como ejemplo el que aparece en este link: <cite>http://www.elmundo.es/internacional/2016/04/14/570f7ad946163f045f8b45e4.html</cite></p>
+<div class="figure align-center">
+<img alt="Captura de un artículo del periódico El Mundo." src="http://lingwars.github.io/blog/images/scrape-xpath-2.png" style="width: 600px;" />
+<p class="caption">Captura de un artículo del periódico El Mundo.</p>
+</div>
+<p>Podemos modificar el programa anterior para que acceda a la URL del artículo y con las
+siguientes cadenas XPath obtener los datos que buscábamos (algunos datos pueden estar
+presentes en varios nodos, podemos elegir cuál es el más sencillo de obtener):</p>
+<blockquote>
+<ul class="simple">
+<li>título: <cite>//article/h1[&#64;itemprop='headline']/text()</cite></li>
+<li>entradilla: <cite>//article/div[&#64;itemprop='articleBody']/p[&#64;class='summary-lead']//text()</cite></li>
+<li>autor: <cite>//footer/ul/li[&#64;itemprop='name']//text()</cite></li>
+<li>localización: <cite>//footer/ul/li[&#64;itemprop='address']//text()</cite></li>
+<li>datetime: <cite>//article/div[&#64;itemprop='articleBody']/time//text()</cite></li>
+<li>contenido: <cite>//article/div[&#64;itemprop='articleBody']/p[not(&#64;class='summary-lead')]//text()</cite></li>
+</ul>
+</blockquote>
+<p>No continúes sin probar lo anterior. Asegúrate de que entiendes el por qué de cada elemento
+de las cadenas anteriores y si no, aquí estamos para ayudarte.</p>
+</div>
+</div>
+<div class="section" id="automatizar-el-proceso">
+<h2>Automatizar el proceso</h2>
+<p>Si te has dado cuenta, los dos ejemplos que hemos mostrado permiten extraer todas las URLs
+de una página y el contenido (título, autor, fecha,...) de la misma, en caso de que existan,
+claro. ¿Qué te parecería juntar ambos en uno? ¿Qué tal si hacemos un crawler que se
+descargue todos los artículos de El Mundo? ¿O que se descargue sólo los de una sección?</p>
+<p>Podemos utilizar la siguiente estrategia:</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">Seleccionar un conjunto de páginas de inicio (o una sola).</p>
+<pre class="code python literal-block">
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://www.elmundo.es/internacional.html&quot;</span>
+</pre>
+</li>
+<li><p class="first">Establecer los patrones de las URLs que debe visitar nuestro crawler para seguir buscando.</p>
+<pre class="code python literal-block">
+<span class="n">visit_pattern</span> <span class="o">=</span> <span class="p">[</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s1">'https?:\/\/(www.)?elmundo.es\/internacional.*'</span><span class="p">),]</span>
+</pre>
+</li>
+<li><p class="first">Fijar los patrones de las páginas en las que debe buscar el contenido.</p>
+<pre class="code python literal-block">
+<span class="n">content_pattern</span> <span class="o">=</span> <span class="p">[</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s1">'https?:\/\/(www.)?elmundo.es\/internacional\/(?P&lt;year&gt;\d{4})\/(?P&lt;month&gt;\d{2})\/(?P&lt;day&gt;\d{2})\/(?P&lt;uuid&gt;[\d\w]+).html'</span><span class="p">),]</span>
+</pre>
+</li>
+<li><p class="first">Y ahora construir un bucle recursivo en los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Buscar todas las URLs de en las páginas de inicio (¡elimina los duplicados!)</p>
+</li>
+<li><p class="first">Para cada una de estas URLs:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>Si satisface algún <cite>visit_pattern</cite>, extraer las URLs que encuentre y añadirlas a la lista de URLs por visitar.</li>
+<li>Si satisface algún <cite>content_pattern</cite>, scrapear su contenido y guardarlo.</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<p>¿Te animas a implementarlo? No mires <a class="reference external" href="https://github.com/Lingwars/lingwars/blob/master/lingwars/scrape/example.py">aquí</a>
+hasta que no te hayas peleado un poco tratando de hacer el programita.</p>
+</div>
+<p>There are <a href="http://lingwars.github.io/blog/scrape-xpath.html#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>

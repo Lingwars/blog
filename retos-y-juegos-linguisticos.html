@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Retos y juegos lingüísticos</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li class="active"><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://lingwars.github.io/blog/retos-y-juegos-linguisticos.html" rel="bookmark"
+           title="Permalink to Retos y juegos lingüísticos">Retos y juegos lingüísticos</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-09-13T10:20:00+02:00">
+                Published: Sun 13 September 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/javier-g-sogo.html">Javier G. Sogo</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/proyect.html">proyect</a> <a href="http://lingwars.github.io/blog/tag/python.html">python</a> <a href="http://lingwars.github.io/blog/tag/apicultur.html">apicultur</a> </p>
+</footer><!-- /.post-info -->      <p>Acabamos de poner <em>online</em> la primera versión de un conjunto de
+desafíos lingüísticos (para nosotros lo serán de programación)
+que queremos sacar adelante. <a class="reference external" href="http://games.lingwars.com">¿Te atreves?</a></p>
+<p>La idea de estos juegos/desafíos es que nos sirvan para definir
+pequeños proyectos con los que ir aprendiendo a programar y a
+utilizar las APIs y recursos que estén a nuestro alcance. Al mismo
+tiempo servirán para darnos a conocer y que la gente pueda ver
+e interaccionar con algunas de las cosas que hacemos.</p>
+<div class="section" id="los-juegos">
+<h2>Los juegos</h2>
+<p>He intentado diseñar una arquitectura para la web que permita
+la incorporación de nuevos juegos como si fueran <em>plug-ins</em>, es decir,
+que haya una parte central fija que gestione las funcionalidades del
+sistema y que los juegos se incorporen al sistema mediante clases
+derivadas de una interfaz común <a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/affc6c02701dc0c6ae9967182ef5354787c053a5/appweb/engine/utils/game.py#L10">GameBase</a>
+que define las funciones que deben implementar.</p>
+<p>Actualmente hay dos juegos programados de este modo que puedes
+utilizar como base para crear los tuyos propios:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/sum">Sum</a>: suma de enteros. Es un ejemplo de juego con un código muy simple
+que muestra al usuario dos números enteros y le pide que los sume.
+Está aquí con la única intención de mostrar el ejemplo mínimo
+que permite incorporar un juego al sistema.</li>
+<li><a class="reference external" href="https://github.com/Lingwars/lingwars-games/tree/affc6c02701dc0c6ae9967182ef5354787c053a5/games/word2def">word2def</a>: de la palabra a la definición. Este juego muestra al usuario una
+palabra y cuatro posibles definiciones entre las que debe escoger
+la correcta. El código de este juego no se limita a la funcionalidad
+básica como en el caso anterior, sino que es una <a class="reference external" href="https://docs.djangoproject.com/en/1.8/ref/applications/">aplicación de Django</a>
+que además tiene sus propias tablas en la base de datos donde
+almacena los resultados.</li>
+</ul>
+<p>Estoy seguro de que en breve habrá alguno más.</p>
+</div>
+<div class="section" id="como-anadir-nuevos-juegos">
+<h2>Cómo añadir nuevos juegos</h2>
+<p>Si tienes alguna idea de juego o desafío que quieres que pongamos en
+el sistema puedes programarlo tú mismo y pedir un pull-request en
+Github para que lo incorporemos. Te voy a explicar cómo hacerlo:</p>
+<ol class="arabic">
+<li><p class="first">Lo primero que tienes que hacer es preparar el sistema para que
+puedas probar todo en local antes de subirlo a la web. Es muy sencillo:</p>
+<blockquote>
+<ul>
+<li><p class="first">Haz un <strong>fork</strong> del repositorio <a class="reference external" href="https://github.com/Lingwars/lingwars-games">Lingwars/lingwars-games</a></p>
+</li>
+<li><p class="first">Clónate ese repositorio en tu ordenador.</p>
+</li>
+<li><p class="first">Crea un archivo <code>secret.py</code> junto a <code>~/appweb/appweb/settings.py</code> con tus
+claves de Apicultur.</p>
+<blockquote>
+<div class="highlight"><pre><span></span><span class="n">ACCESS_TOKEN_STORE</span> <span class="o">=</span> <span class="s2">&quot;tu access_token&quot;</span>
+<span class="n">ACCESS_TOKEN_IO</span> <span class="o">=</span> <span class="s2">&quot;tu access_token&quot;</span>
+</pre></div>
+</blockquote>
+</li>
+<li><p class="first">Creamos la base de datos de pruebas (será una base de datos local sqlite3):</p>
+<blockquote>
+<div class="highlight"><pre><span></span>~/appweb$ python manage.py migrate
+</pre></div>
+</blockquote>
+</li>
+<li><p class="first">Y vamos a arrancar el servidor web en local:</p>
+<blockquote>
+<div class="highlight"><pre><span></span>~/appweb$ python manage.py runserver
+</pre></div>
+</blockquote>
+</li>
+<li><p class="first">Llegado aquí deberías ser capaz de acceder a la página en tu navegador
+introduciendo la dirección <code>http://localhost:8000/</code></p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<ol class="arabic" start="2">
+<li><p class="first">Después tendrás que programar el juego. Te recomiendo que empieces por
+un juego sencillo (o no), pero que no necesite utilizar una base de datos
+y que sea también <strong>de seleccionar una opción entre varias</strong> (si tienes
+interés en crear otro tipo de juego donde la mecánica sea diferente,
+coméntamelo antes para preparar la infraestructura).</p>
+<p>Todo juego debe cumplir dos requisitos:</p>
+<blockquote>
+<ul class="simple">
+<li>Debe implementarse en una clase que derive de GameBase</li>
+<li>Tiene que existir un objeto <code>game</code> de dicho juego en la raíz
+del paquete de Python.</li>
+</ul>
+</blockquote>
+<p>La primera condición significa que tienes que crear una clase, con
+el nombre que quieras, e implementar los métodos <code>make_question</code>
+y <code>score</code>, tal y como he hecho aquí con <a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/master/games/sum/__init__.py">SumGame</a> o como
+aparece a continuación:</p>
+<blockquote>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyAwesomeGame</span><span class="p">(</span><span class="n">GameBase</span><span class="p">):</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;My Awesome Game&#39;</span>
+    <span class="n">author</span> <span class="o">=</span> <span class="s1">&#39;Me myself&#39;</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;In this game you blablabla&quot;</span>
+
+    <span class="k">def</span> <span class="nf">make_question</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">question</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;query&#39;</span><span class="p">:</span> <span class="s2">&quot;Question to the user&quot;</span><span class="p">,</span>
+            <span class="s1">&#39;options&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;list&quot;</span><span class="p">,</span> <span class="s2">&quot;of&quot;</span><span class="p">,</span> <span class="s2">&quot;answers&quot;</span><span class="p">,]</span>
+            <span class="p">}</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;answer&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">index</span> <span class="n">of</span> <span class="n">correct</span> <span class="n">answer</span><span class="o">&gt;</span><span class="p">,</span>  <span class="c1"># Esto debe ser el índice de la respuesta correcta en la lista.</span>
+            <span class="s1">&#39;info&#39;</span><span class="p">:</span> <span class="s2">&quot;Some info to the user&quot;</span>
+            <span class="p">}</span>
+        <span class="k">return</span> <span class="n">question</span><span class="p">,</span> <span class="n">response</span>
+
+    <span class="k">def</span> <span class="nf">score</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">user_answer</span><span class="p">):</span>
+        <span class="c1"># Check the `user_answer`, it should be equal to response[&#39;answer&#39;]</span>
+        <span class="c1"># :param:`response` contains the same data created in `make_question`</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">user_answer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;answer&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">u</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">u</span> <span class="o">==</span> <span class="n">response</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;answer&#39;</span><span class="p">)</span> <span class="k">else</span> <span class="mi">0</span>
+</pre></div>
+</blockquote>
+<p>La segunda condición hace referencia a que debe existir una instancia del juego
+en el archivo <code>__init__.py</code> del paquete. Como ocurre
+<a class="reference external" href="https://github.com/Lingwars/lingwars-games/blob/0b2efb99e0c811a7ab30c5b2486b0e9bbaaa7a21/games/sum/__init__.py#L42">aquí</a>.</p>
+</li>
+</ol>
+<p>Si estos archivos los pones en un nuevo paquete dentro del directorio <code>~/games/</code>
+el sistema debería ser capaz de detectarlos automáticamente y presentarlos en el listado
+de juegos para que lo pruebes.</p>
+<p>Si has llegado hasta aquí, ¡enhorabuena! Manda tu <em>pull-request</em> y estaremos encantados
+de incorporarlo a la web para que la gente se enfrete a tu nuevo desafío.</p>
+<hr class="docutils" />
+<p>En próximos capítulos veremos cómo:</p>
+<ul class="simple">
+<li>Crear un juego que no sea de opción múltiple</li>
+<li>Crear juegos que hagan uso de la base de datos (serán aplicaciones de Django)</li>
+</ul>
+</div>
+
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'lingwarsblog';
+        var disqus_identifier = 'retos-y-juegos-linguisticos.html';
+        var disqus_url = 'http://lingwars.github.io/blog/retos-y-juegos-linguisticos.html';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//lingwarsblog.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>

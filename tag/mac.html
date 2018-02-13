@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Lingẅars - Mac</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://lingwars.github.io/blog/python-mac.html">Instalar Python 3 en Mac OS X</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-05-27T23:00:00+02:00">
+                Published: Fri 27 May 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/taniaka.html">taniaka</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/mac.html">Mac</a> <a href="http://lingwars.github.io/blog/tag/os-x.html">OS X</a> <a href="http://lingwars.github.io/blog/tag/python.html">Python</a> <a href="http://lingwars.github.io/blog/tag/instalacion.html">instalación</a> </p>
+</footer><!-- /.post-info --><p>¿Tienes un Mac y quieres empezar a utilizar Python? ¡Muy buena decisión! En este post te explicaremos los primeros pasos que hay que realizar para echarlo a andar.</p>
+<p>Existen distintas maneras de abordar la instalación de Python en un Mac. Nosotros te explicaremos la más sencilla y rápida pero tal vez más adelante, cuando ya te sientas más seguro, te podrá interesar explorar alguna otra opción, como por ejemplo <a class="reference external" href="http://brew.sh">Homebrew</a> o <a class="reference external" href="https://www.continuum.io/why-anaconda">Anaconda</a>.</p>
+<p>Por defecto, tu Mac viene con Python 2 preinstalado. Sin embargo, nosotros vamos a instalar Python 3. ¿Por qué? Aunque muchos proyectos siguen utilizando Python 2, el futuro está en Python 3 y la <a class="reference external" href="https://wiki.python.org/moin/Python2orPython3">wiki oficial de Python</a> nos dice claramente que Python 2.x está anticuado (<em>Python 2.x is legacy</em>). Además, Python 3 nos ofrece muchas facilidades para gestionar cadenas de texto y ésta es una gran ventaja para nuestra labor lingüística. Así que, ¡a por Python 3!</p>
+<div class="section" id="el-terminal">
+<h2>El Terminal</h2>
+<p>Todas nuestras manipulaciones las haremos desde el Terminal de nuestro Mac. Si nunca has usado el Terminal, no te preocupes, es muy sencillo.</p>
+<p>Para abrirlo, simplemente tienes que teclear la palabra <em>Terminal</em> en el Finder o en el Spotlight, y darle un click. Se abrirá una ventana de este estilo:</p>
+<div class="figure align-center">
+<img alt="ventana del Terminal de Mac." src="http://lingwars.github.io/blog/images/python-mac-1.png" style="width: 300px;" />
+</div>
+<p>La primera cosa que haremos será comprobar la versión de Python que tenemos por defecto. Para esto en el Terminal teclearemos:</p>
+<pre class="code bash literal-block">
+Tanias-MacBook-Pro:~ tania$ python --version
+</pre>
+<p>El símbolo $ y todo lo que le precede ya está en el Terminal y por supuesto no tienes que volver a teclearlo. Solo teclearás lo que viene después del $.</p>
+<p>Tras darle a Enter, obtendrás la respuesta:</p>
+<pre class="code bash literal-block">
+Python <span class="m">2</span>.7.5
+</pre>
+<p>El resultado es bastante previsible: tenemos Python 2 instalado en nuestro Mac, concretamente la versión 2.7.5.</p>
+</div>
+<div class="section" id="instalar-python-3-x-x">
+<h2>Instalar Python 3.x.x</h2>
+<p><strong>AVISO IMPORTANTE</strong>: bajo ningún concepto desinstales la versión de Python 2 preinstalada en tu Mac. A lo mejor nunca la vas a utilizar, pero tu sistema operativo sí que la necesita para funcionar con normalidad. Varias versiones de Python pueden coexistir perfectamente en el mismo Mac, así que dejaremos Python 2.x en paz y abriremos la <a class="reference external" href="https://www.python.org/downloads/">página de descargas de Python</a>.</p>
+<p>Ahí, tendremos la posibilidad de elegir entre la última versión de Python 3 y la última versión de Python 2 para Mac OS X (en el momento de escribir este post, 3.5.1 y 2.7.11 respectivamente). Por supuesto, elegiremos la primera opción. Una vez terminada la descarga, pincharemos en el archivo <em>.pkg</em> descargado y seguiremos los pasos habituales de instalación.</p>
+<p>Cuando termine la instalación podemos volver al Terminal para comprobar que todo ha ido bien. Volveremos a teclear <code class="bash">python -- version</code> y veremos que ... no ha cambiado nada: el Terminal nos sigue diciendo que tenemos Python 2. ¿Qué hemos hecho mal? Nada. Simplemente ya tenemos dos versiones de Python pero dado que Python 2 sigue siendo la versión <em>por defecto</em>, al escribir <code class="bash">python</code> a secas estamos invocando Python 2. Si queremos invocar Python 3 tendremos que escribir <code class="bash">python3</code>:</p>
+<pre class="code bash literal-block">
+Tanias-MacBook-Pro:~ tania$ python3 --version
+Python <span class="m">3</span>.5.1
+</pre>
+<p>Ahora vemos que Python 3.5.1 se ha instalado correctamente. ¡Genial!</p>
+</div>
+<div class="section" id="entorno-virtual">
+<h2>Entorno virtual</h2>
+<p>Imagínate que estás trabajando en tres proyectos escritos en Python. Cada uno de tus proyectos tiene sus propios requisitos en cuanto a las versiones de las librerías de Python (una librería es una especie de paquete que amplía las funciones iniciales de Python). Tal vez la versión de la librería que tienes instalada te va a funcionar en uno de los proyectos pero no va a funcionar en los otros dos.</p>
+<p>La solución a este problema se llama <strong>entorno virtual</strong> (virtual environment). Un entorno virtual es como un espacio cerrado en el que puedes trabajar a tu gusto sin miedo a afectar al mundo exterior y verte afectado por éste. En el caso descrito más arriba simplemente crearíamos tres entornos virtuales, uno por proyecto.</p>
+<p>Para hacer tus primeros pasos con Python puedes perfectamente prescindir del entorno virtual. Por otro lado, no es mala idea  acostumbrarse a hacer las cosas bien desde el principio. Por eso, te enseñaremos cómo crear un entorno virtual. Afortunadamente, desde la versión 3.3, Python te lo pone muy fácil ya que viene con una herramienta de gestión de entornos virtuales llamada <strong>pyvenv</strong>.</p>
+<p>De este modo, la única cosa que tendrás que hacer es escoger un nombre para tu nuevo entorno virtual (por ejemplo <em>dataenv</em>, pero podría ser cualquier otro nombre) y escribir:</p>
+<pre class="code bash literal-block">
+Tanias-MacBook-Pro:~ tania$ pyvenv dataenv
+</pre>
+<p>Este simple comando creará un entorno virtual llamado <em>dataenv</em>. De hecho, lo podrás comprobar en el Finder, ya que verás que en el directorio con tu nombre de usuario (en mi caso <em>tania</em>) ha aparecido una nueva carpeta llamada <em>dataenv</em>. Así de simple.</p>
+<p>Para penetrar en este mundo hermético que te has creado, simplemente escribirás:</p>
+<pre class="code bash literal-block">
+Tanias-MacBook-Pro:~ tania$ <span class="nb">source</span> dataenv/bin/activate
+</pre>
+<p>Tras darle a Enter, verás que al comienzo de la línea ha aparecido el nombre de tu entorno entre paréntesis:</p>
+<pre class="code bash literal-block">
+<span class="o">(</span>dataenv<span class="o">)</span> Tanias-MacBook-Pro:~ tania$
+</pre>
+<p>Por otro lado, como ves no has tenido que precisar que querías crear el entorno con Python 3 en vez de con Python 2. La cosa se ha hecho sola porque pyvenv, como ya lo hemos dicho antes, solo existe a partir de la version 3.3. Si quisieras crear un entorno virtual en Python 2 o en una versión de Python 3 anterior a la 3.3, probablemente usarías <em>virtualenv</em>. No lo vamos a cubrir en este post, pero si te interesa puedes echar un vistazo a <a class="reference external" href="http://docs.python-guide.org/en/latest/dev/virtualenvs/">este tutorial</a>.</p>
+<p>Y, ¿qué piensas que va a pasar ahora si tecleas <code class="bash">python --version</code>? Efectivamente, si has creado tu entorno con Python 3.5.1 ya no tienes que escribir <code class="bash">python3</code>: un simple <code class="bash">python</code> ya invocará Python 3.5.1.</p>
+<p>Cuando quieras salir del entorno virtual, solo tendrás que hacer</p>
+<pre class="code bash literal-block">
+<span class="o">(</span>dataenv<span class="o">)</span> Tanias-MacBook-Pro:~ tania$ deactivate
+Tanias-MacBook-Pro:~ tania$
+</pre>
+<p>y verás que los paréntesis con el nombre del entorno habrán desaparecido.</p>
+<p>Si de momento no le ves mucha utilidad a los entornos virtuales, no te preocupes. Acabarás pillándoles el gusto cuando empieces a escribir tu primeros programas en Python. Y seguramente no tardarás mucho en hacerlo, ¿verdad?</p>
+<p>Esto era todo para hoy. En el próximo tutorial hablaremos un poco más del Terminal y te explicaremos cómo ejecutar un script de Python.</p>
+</div>
+<p>There are <a href="http://lingwars.github.io/blog/python-mac.html#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="http://lingwars.github.io/blog/favicon.ico" type="image/x-icon"/>
+
+        <title>Lingẅars - blog</title>
+        <link href="http://lingwars.github.io/blog/theme/css/jBox.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://lingwars.github.io/blog/theme/css/main.css" />
+        <link href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lingẅars Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://lingwars.github.io/blog/">Lingẅars </a></h1>
+                <nav><ul>
+                    <li><a href="http://lingwars.github.io/blog/category/encuentros.html">Encuentros</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/proyectos.html">Proyectos</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/talleres.html">Talleres</a></li>
+                    <li><a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a></li>
+                </ul>
+                        <a class="subscribe" id="subscribe" href="#"><img src="http://lingwars.github.io/blog/theme/images/email-icon-hi.png" alt="Apúntate"/></a>
+                </nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://lingwars.github.io/blog/crear-contenidos-en-el-blog.html">Crear contenidos en el blog</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-07-30T10:20:00+02:00">
+                Published: Thu 30 July 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://lingwars.github.io/blog/author/javier-g-sogo.html">Javier G. Sogo</a>
+        </address>
+<p>In <a href="http://lingwars.github.io/blog/category/tutoriales.html">Tutoriales</a>.</p>
+<p>tags: <a href="http://lingwars.github.io/blog/tag/blog.html">blog</a> </p>
+</footer><!-- /.post-info --><p>Voy a explicar cómo añadir contenidos a este blog, así ya nadie tendrá excusas. El blog está construido utilizando <a href="http://docs.getpelican.com/en/3.6.0/">Pelican</a> y alojado en <a href="https://github.com/Lingwars/blog">Github</a>, porque somos así de <em>techies</em>; de esta forma <strong>cualquiera que quiera contribuir puede enviar sus artículos</strong> a través de un pull-request y, después de pasar por nuestro exigente sistema de revisión y corrección, serán incorporados a la versión online.</p>
+<p>Si ya estás familiarizado con el funcionamiento de Github entonces este tutorial no va a dirigido a ti, aquí vamos a explicar este proceso sin necesidad de que salgas de tu navegador y sin que tengas que utilizar Git en ningún momento.</p>
+<p>Primero te indicamos cómo añadir un nuevo artículo y, después, está la explicación sobre cómo corregir un artículo existente.</p>
+<h1>Añadir un nuevo artículo</h1>
+<p>Para añadir un artículo nuevo debes seguir los siguientes pasos:</p>
+<ol>
+<li>
+<p><strong>Crear un usuario en Github:</strong> el usuario no es necesario para ver y navegar por la web, pero lo necesitarás para poder realizar las modificaciones.</p>
+</li>
+<li>
+<p><strong>Hacerte una copia del repositorio:</strong> para ello tienes que acceder a la web donde se encuentra este blog <a href="https://github.com/Lingwars/blog">https://github.com/Lingwars/blog</a> y hacer clic en el botón <code>Fork</code> que aparece en la zona superior derecha:</p>
+<p><img alt="Fork a repository" src="http://lingwars.github.io/blog/images/lw-1.png"></p>
+<p>el sistema creará una copia del repositorio y lo añadirá a los repositorios de tu usuario. Ahora deberías haber sido transportado a esta copia, en la parte superior aparecerá un texto indicando en qué repositorio estás y de dónde has hecho el <em>fork</em>.</p>
+</li>
+<li>
+<p><strong>Crear un nuevo archivo para escribir:</strong> cada publicación del blog está en un archivo diferente, así que para crear un nuevo artículo tendrás que ir al directorio <code>content</code>. Ahí encontrarás archivos y directorios; los directorios son las categorías del blog, así que elige aquella en la que mejor encaje lo que vas a escribir:</p>
+<p><img alt="Create new file" src="http://lingwars.github.io/blog/images/lw-3.png"></p>
+<p>ponle un buen nombre al archivo (siempre es mejor si no tiene espacios en blanco ni caracteres especiales como acentos, eñes... y mejor en minúsculas). Recuerda que el archivo debe tener la extensión <code>.md</code>. Pues ya sólo te queda ponerte a escribir:</p>
+<p><img alt="Write" src="http://lingwars.github.io/blog/images/lw-4.png"></p>
+</li>
+<li>
+<p><strong>Formato del texto:</strong> el contenido hay que escribirlo utilizando Markdown, para ello puedes ayudarte de algún editor online como <a href="http://dillinger.io/">este</a> o <a href="https://stackedit.io/editor">este</a>; aunque una vez que le cojas el truco, verás que es muy fácil.</p>
+</li>
+<li>
+<p><strong>Guardar:</strong> ten en cuenta que puedes guardar el archivo cuando quieras y seguir después. Si vas a la parte de abajo puedes ver el siguiente botón, pon unos buenos comentarios y pulsa en él:</p>
+<p><img alt="Save" src="http://lingwars.github.io/blog/images/lw-7.png"></p>
+<p>El archivo está guardado y a partir de ahora podremos ayudarte a escribirlo.</p>
+</li>
+<li>
+<p><strong>Continuar escribiendo:</strong> para añadir contenidos a un archivo existente tendrás que encontrarlo y navegar hasta él, una vez que lo tengas debes hacer clic en el lápiz, que indica <em>editar</em>:</p>
+<p><img alt="Edit" src="http://lingwars.github.io/blog/images/lw-8.png"></p>
+<p>añade lo que consideres oportuno y repite el ciclo "Guardar", "Continuar escribiendo" tantas veces como necesites.</p>
+<p>Una vez que estés satisfecho con el contenido del artículo, que consideres que lo has terminado, debes hacer un pull-request para pedirnos que lo incorporemos al blog.</p>
+</li>
+<li>
+<p><strong>Pedir un pull-request:</strong> para pedir un pull-request sólo tienes que darle al texto que está a la derecha y que dice <em>Pull request</em>:</p>
+<p><img alt="Pull request" src="http://lingwars.github.io/blog/images/lw-9.png"></p>
+<p>El sistema te muestra todos los cambios que has realizado y te pide que confirmes tu intención:</p>
+<p><img alt="Confirm pull request" src="http://lingwars.github.io/blog/images/lw-10.png"></p>
+<p>Una vez más te exigirá un mensaje y una descripción antes de poder darle finalmente al botón verde <code>Create pull request</code>.</p>
+</li>
+</ol>
+<p>¡Y ya está! Ahora puedes ver la lista de artículos pendientes de incorporación en esta
+URL (<a href="https://github.com/Lingwars/blog/pulls">https://github.com/Lingwars/blog/pulls</a>) y meternos prisa si se nos acumulan.</p>
+<h1>Corregir un artículo existente</h1>
+<p>Si lo que quieres es corregir un artículo o añadir más contenido a uno existente entonces tendrás que encontrarlo en el repositorio (<a href="https://github.com/Lingwars/blog">https://github.com/Lingwars/blog</a>), navegar hasta él dentro del directorio <code>content</code> y abrirlo haciendo clic. A continuación:</p>
+<ol>
+<li>
+<p><strong>Abrir para editar:</strong> en la parte de la derecha tienes el icono del lápiz que indica <em>editar</em>, al hacer clic en él se mostrará el contenido del archivo en texto plano.</p>
+<p><img alt="Edit" src="http://lingwars.github.io/blog/images/lw-8.png"></p>
+</li>
+<li>
+<p><strong>Editar el contenido</strong>: edita el contenido que consideres oportuno y, cuando hayas terminado, en la parte inferior de la página puedes proponer el cambio <em>Propose file change</em>:</p>
+<p><img alt="Propose changes" src="http://lingwars.github.io/blog/images/lw-11.png"></p>
+<p>El sistema te muestra todos los cambios que has realizado y te pide que confirmes tu intención:</p>
+<p><img alt="Confirm pull request" src="http://lingwars.github.io/blog/images/lw-10.png"></p>
+<p>Una vez más te exigirá un mensaje y una descripción antes de poder darle finalmente al botón verde <code>Create pull request</code>.</p>
+</li>
+</ol>
+<p>¡Y ya está! Ahora puedes ver la lista de artículos pendientes de incorporación en esta
+URL (<a href="https://github.com/Lingwars/blog/pulls">https://github.com/Lingwars/blog/pulls</a>) y meternos prisa si se nos acumulan.</p>
+<p>Muchas gracias por colaborar.</p>
+<p>PD.- Si no te aclaras con todo esto también puedes mandarnos el archivo escrito con tu editor de texto preferido y ya nos encargamos nosotros de incorporarlo al blog.</p><p>There are <a href="http://lingwars.github.io/blog/crear-contenidos-en-el-blog.html#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://lingwars.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/Lingwars">github</a></li>
+                            <li><a href="https://twitter.com/lingwars">twitter</a></li>
+                            <li><a href="http://lingwars.github.io/blog/authors.html">The team</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-65778835-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'lingwarsblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+    <!-- For mailchimp subscription: http://codepen.io/Palestinian/pen/mDKkG -->
+    <script src="http://lingwars.github.io/blog/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="http://lingwars.github.io/blog/theme/js/jBox.min.js"></script>
+
+    <script>
+        new jBox('Modal', {
+            //width: auto,
+            //height: auto,
+            attach: $('#subscribe'),
+            //title: 'My Modal Window',
+            content: `
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		color: #000;
+	}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//lenguando.us8.list-manage.com/subscribe/post?u=08b4bbc276fe5d9a9b89f7bed&amp;id=90dcb9a523" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Suscríbete a nuestro boletín y te avisaremos de próximas quedadas</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Dirección de correo electrónico  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellidos </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_08b4bbc276fe5d9a9b89f7bed_90dcb9a523" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->`
+        });
+    </script>
+
+</body>
+</html>
